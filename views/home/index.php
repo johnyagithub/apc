@@ -15,7 +15,7 @@
 
 	<!-- begin #content -->
 	<div id="content" class="content">
-		
+
 		<section class="banner">
 			<div class="gallery-wrap owl-carousel">
 
@@ -26,10 +26,10 @@
 						</picture>
 					</a>
 					<div class="text-box">
-						<h2 class="btmline">The Signature</h2>
+						<h1 class="btmline">Architectural</h1>
 						<div class="details">
-							<p>A collection of our all-time Signature colors of Red, Black, and White notebooks.</p>
-							<a href="https://www.zequenz.com/collections/signature/" class="btn"><button class="curvebtn white-btn">Shop now</button></a>
+							<h1>Lighting</h1>
+							<a href="../services/" class="mt-4 btn btn-outline-light">See more</a>
 						</div>
 					</div>
 				</div>
@@ -40,10 +40,10 @@
 						</picture>
 					</a>
 					<div class="text-box">
-						<h2 class="btmline">The Color</h2>
+						<h2 class="btmline">Facade</h2>
 						<div class="details">
-							<p>Color up your life with our 15 colorful notebooks and Fountain Pen friendly paper.</p>
-							<a href="https://www.zequenz.com/collections/the-color/" class="btn"><button class="curvebtn white-btn">Shop now</button></a>
+							<h1>Lighting</h1>
+							<a href="../services/" class="mt-4 btn btn-outline-light">See more</a>
 						</div>
 					</div>
 				</div>
@@ -54,10 +54,10 @@
 						</picture>
 					</a>
 					<div class="text-box">
-						<h2 class="btmline">Note</h2>
+						<h2 class="btmline">Decorative</h2>
 						<div class="details">
-							<p>Degrees of Evolution</p>
-							<a href="http://www.zequenz.com/collections/note/" class="btn"><button class="curvebtn white-btn">Shop now</button></a>
+							<h1>Lighting</h1>
+							<a href="../services/" class="mt-4 btn btn-outline-light">See more</a>
 						</div>
 					</div>
 				</div>
@@ -68,10 +68,10 @@
 						</picture>
 					</a>
 					<div class="text-box">
-						<h2 class="btmline">BASIC+</h2>
+						<h2 class="btmline">Furniture</h2>
 						<div class="details">
-							<p>Two matching colors, in a same piece of material. Simplicity and stability are achieved through our unique binding system.</p>
-							<a href="https://www.zequenz.com/collections/basic-plus/" class="btn"><button class="curvebtn white-btn">Shop now</button></a>
+							<h1>Lighting</h1>
+							<a href="../services/" class="mt-4 btn btn-outline-light">See more</a>
 						</div>
 					</div>
 				</div>
@@ -613,28 +613,24 @@
 			</div>
 		</section>
 
-		<section class="box-grid py-5">
+		<section class="box-grid py-4">
 			<div class="container">
 				<div class="grid-container py-3">
 					<a href="../product/" class="grid-item">
 						<img src="https://placehold.co/600/fff/fff" alt="">
-						<h3>UV-C Disinfection</h3>
+						<h4 class="mb-0 mt-auto mr-auto text-left">Lighting by room</h4>
 					</a>
 					<a href="../product/" class="grid-item">
 						<img src="https://placehold.co/600/fff/fff" alt="">
-						<h3>Professional Lightings</h3>
+						<h4 class="mb-0 mt-auto mr-auto text-left">Furniture</h4>
 					</a>
 					<a href="../product/" class="grid-item">
 						<img src="https://placehold.co/600/fff/fff" alt="">
-						<h3>Connected Lighting Controls</h3>
+						<h4 class="mb-0 mt-auto mr-auto text-left">Light Bulb</h4>
 					</a>
 					<a href="../product/" class="grid-item">
 						<img src="https://placehold.co/600/fff/fff" alt="">
-						<h3>IoT Lighting Management</h3>
-					</a>
-					<a href="../product/" class="grid-item">
-						<img src="https://placehold.co/600/fff/fff" alt="">
-						<h3>Architectural Lights</h3>
+						<h4 class="mb-0 mt-auto mr-auto text-left">Wall + Table<br>Light</h4>
 					</a>
 				</div>
 			</div>

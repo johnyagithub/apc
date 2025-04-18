@@ -1,5 +1,5 @@
 body{
-  font-family: 'Kanit', sans-serif !important;
+  font-family: 'Poppins', 'Kanit', sans-serif !important;
   font-weight: 100;
   font-size: 16px !important;
 }
@@ -9,18 +9,14 @@ body{
   }
 }
 :root{
-  --primary: #29c28e;
-  --hov-primary: #089fb9;
+  --primary: #B28E5E;
+  --hov-primary: #d3ab76;
   --soft-primary: #d4f6ea;
   --light: #f5fcff;
-  --dark: #231f20;
+  --dark: #000000;
   --secondary: #7f8080;
   --bgColorPrimaryr: #1e8e85;
   --border_radius: 10px;
-}
-body .btn-outline-light {
-  border-color: #a9a9a9;
-  color: #a9a9a9;
 }
 body .btn {
   font-size: 16px;
@@ -99,9 +95,7 @@ div+#empty {
   border: 0px !important;
 }
 .card ,
-.btn ,
 .list-group ,
-.form-control ,
 .input-group-text ,
 .modal-content {
   border-radius: var(--border_radius);
@@ -146,9 +140,20 @@ img {
   object-fit: cover;
 }
 body div#cart_items .badge {
-  width: 13px;
-  height: 13px;
+  font-size: 21px;
+  margin-left: 15px;
 }
+  body div#cart_items .badge::before ,
+  body div#cart_items .badge::after {
+    content: "\28";
+    font-family: monospace;
+    margin-right: -1px;
+  }
+  body div#cart_items .badge::after {
+    content: "\29";
+    margin-left: -1px;
+  }
+  
 select {
   padding-right: 30px !important;
   background: #fff url(../images/icon-select.png) no-repeat calc(100% - 10px) center;
@@ -355,7 +360,7 @@ input[type=radio] {
   .box-popover a {
     position: relative;
     margin: 0px 7px;
-    font-family: 'Kanit', sans-serif !important;
+    font-family: 'Poppins', 'Kanit', sans-serif !important;
   }
   .box-popover a::before {
     content: "";
@@ -479,11 +484,6 @@ body.menuShow footer * {
 #lang-change li.active::after {
   display: none;
 }
-#mail-offer {
-  font-family: 'Line Awesome Free','Kanit';
-  background-color: rgba(255, 255, 255, 0.12) !important;
-  border: 0;
-}
 header .dropdown-item {
   background-color: #f3f3f3;
   border-top: 1px solid #fff;
@@ -600,12 +600,12 @@ html body {
   }
   @media only screen and (min-width: 1300px) {
     html body {
-    --container: 1140px;
+    --container: 1300px;
     }
   }
   @media only screen and (min-width: 1550px) {
     html body {
-    --container: 1400px;
+    --container: 1500px;
     }
   }
 		
@@ -1160,7 +1160,7 @@ form.form-Search {
   
   .banner .text-box {
     position: absolute;
-    bottom: -110px;
+    bottom: -80px;
     left: 30px;
     width: 400px;
     transition: 1s;
@@ -1171,6 +1171,11 @@ form.form-Search {
     opacity: 1;
     bottom: 40px;
   }
+    .banner .item .text-box h1 {
+      font-size: 2em;
+      text-transform: capitalize;
+      line-height: 1;
+    }
     .banner .item .text-box .details {
       opacity: 0;
       transition: 1s;
@@ -1179,6 +1184,14 @@ form.form-Search {
     .banner .item:hover .text-box .details {
       opacity: 1;
     }
+      .banner .text-box .details h1::before {
+        content: "";
+        width: 37px;
+        display: inline-block;
+        border-bottom: 3px solid #fff;
+        vertical-align: middle;
+        margin-right: 10px;
+      }
       .banner .text-box .details p {
         height: 75px;
         overflow: hidden;
@@ -1369,7 +1382,7 @@ form.form-Search {
   z-index: 1;
   width: 100%;
   height: 100%;
-  top: 67px;
+  top: 70px;
   right: 0;
   left: 0;
   opacity: 0;
@@ -1964,7 +1977,7 @@ div#content section.box-grid {
   .box-grid .grid-container {
     display: grid;
     gap: 20px;
-    grid-template-columns: calc(100%/4 - 10px) calc(100%/2 - 20px) calc(100%/4 - 10px);
+    grid-template-columns: calc(100%/2 - 20px) calc(100%/4 - 10px) calc(100%/4 - 10px);
   }
    .box-grid .grid-item {
       text-align: center;
@@ -1982,13 +1995,13 @@ div#content section.box-grid {
       overflow: hidden;
       border-radius: var(--border_radius);
    }
+    .box-grid .grid-item:nth-child(1) ,
+    .box-grid .grid-item:nth-child(2) {
+      grid-row: 1 / span 2;
+      aspect-ratio: auto;
+    }
     .box-grid .grid-item:nth-child(2) {
       grid-column: 2;
-      grid-row: 1 / span 2;
-    }
-    .box-grid .grid-item:nth-child(2) ,
-    .box-grid .grid-item:nth-child(7) {
-      aspect-ratio: auto;
     }
       .box-grid .grid-item > img {
         position: absolute;
@@ -2007,8 +2020,12 @@ div#content section.box-grid {
       .box-grid .grid-item > *:not(img) {
         z-index: 1;
       }
-      .box-grid .grid-item > h2 {
-        margin: 0px;
+      .box-grid .grid-item:nth-child(1) > h4 ,
+      .box-grid .grid-item:nth-child(2) > h4 {
+        padding-bottom: 13px;
+      }
+      .box-grid .grid-item:nth-child(1) > h4 {
+        padding-left: 13px;
       }
      
   div#content section.box-newproduct {
@@ -2458,6 +2475,7 @@ div#content section.box-grid {
 .footer-widget.bg-dark ,
 footer.bg-dark {
   background-color: #000 !important;
+  color: #989898;
 }
 /* ---------------------------------------------------**** Mobile and Tablet ****--------------------------------------------------- */
 @media only screen and (min-width: 320px) and (max-width: 1024px) {
@@ -2495,7 +2513,6 @@ footer.bg-dark {
       margin-top: 67px;
       z-index: 98;
       transition: left 0.5s ease !important;
-      display: block !important;
       width: 350px;
       left: -350px;
     }
@@ -2504,9 +2521,11 @@ footer.bg-dark {
       left: 0px;
     }
     header .navbar-collapse .navbar-nav {
-      height: calc(100vh - 163px);
+      height: calc(100vh - 115px);
       overflow-y: auto;
       padding: 5vh 40px;
+      width: 100%;
+      order: 1;
     }
     header .navbar-collapse + .box-shadow {
       content: "";
@@ -2560,6 +2579,25 @@ footer.bg-dark {
       background: none;
       border: 0px;
     }
+    body div#cart_items .badge::before,body div#cart_items .badge::after {
+      display: none;
+    }
+    body div#cart_items .badge {
+      background: #8a5001;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      border-radius: 50%;
+      position: absolute;
+      top: 3px;
+      font-size: 14px;
+      right: -9px;
+    }
+    div#navbarMain .navbar-nav.box-menu+.d-flex {
+      background-color: var(--primary);
+      padding: .25rem;
+      width: 100%;
+    }
     .box-absolute-right {
       justify-content: center;
       bottom: 45px;
@@ -2588,11 +2626,7 @@ footer.bg-dark {
     .box-grid .grid-item {
       grid-column: auto !important;
       grid-row: auto !important;
-      aspect-ratio: 3/2 !important;
-    }
-    .box-grid .grid-item:first-child {
-      grid-column: 1 / span 2 !important;
-      aspect-ratio: 9 / 3 !important;
+      aspect-ratio: 1 !important;
     }
     .box-news .grid-container:has(.grid-item:nth-child(3)) {
       grid-template-columns: 100% !important;
@@ -2646,7 +2680,6 @@ footer.bg-dark {
     margin-top: 65px;
     z-index: 98;
     transition: left 0.5s ease !important;
-    display: block !important;
     width: 350px;
     left: -350px;
   }
@@ -2655,9 +2688,11 @@ footer.bg-dark {
     left: 0px;
   }
   header .navbar-collapse .navbar-nav {
-    height: calc(100vh - 152px);
+    height: calc(100vh - 115px);
     overflow-y: auto;
     padding: 5vh 40px;
+    width: 100%;
+    order: 1;
   }
   header .navbar-collapse + .box-shadow {
     content: "";
@@ -2674,7 +2709,25 @@ footer.bg-dark {
   header .navbar-collapse.collapsing[style*="height"] + .box-shadow {
     display: block;
   }
-
+  body div#cart_items .badge::before,body div#cart_items .badge::after {
+    display: none;
+  }
+  body div#cart_items .badge {
+    background: #8a5001;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    font-size: 14px;
+    right: -9px;
+  }
+  div#navbarMain .navbar-nav.box-menu+.d-flex {
+    background-color: var(--primary);
+    padding: .25rem;
+    width: 100%;
+  }
   .box-products .card .card-footer .btn-group.quantity {
     width: 80px;
   }
@@ -2837,7 +2890,7 @@ footer.bg-dark {
   .box-grid .grid-item {
     grid-column: auto !important;
     grid-row: auto !important;
-    aspect-ratio: 3/2 !important;
+    aspect-ratio: 1 !important;
   }
   .box-news .grid-container .grid-item .text .btn-view_more {
     display: none;
@@ -2972,10 +3025,6 @@ footer.bg-dark {
     }
     .box-grid .grid-item > h2 {
       font-size: 23px;
-    }
-    .box-grid .grid-item:first-child {
-      grid-column: 1 / span 2 !important;
-      aspect-ratio: 9 / 3 !important;
     }
   }
 }

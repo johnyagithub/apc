@@ -270,8 +270,7 @@
       if (count == 0) {
         count = "";
       }
-      $('.la-shopping-cart span.cart-count').html(count);
-      $('#cart_items').attr('data-cart', count);
+      $('#cart_items .badge').text(count);
       $('#boxOfProduct').closest(".boxOfProduct").find('span.cart-count').html(count);
     }
   </script>

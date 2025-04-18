@@ -1,102 +1,64 @@
-<section class="py-5 footer-widget bg-dark text-light">
+<section class="py-5 footer-widget bg-dark">
   <div class="container">
     <div class="row">
       <div class="col-lg-3 col-xl-3 text-center text-md-left">
         <div class="mt-4">
           <a href="../home" class="d-block mb-4">
-            <img src="../../public/images/logo.png" class="h-100px" alt="">
+            <img src="../../public/images/logo.png" class="h-80px" alt="">
           </a>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
-          <div class="d-flex align-items-center justify-content-center justify-content-md-start">
-            <a href="#" target="_blank" class="text-white">
-              <img src="../../public/images/icon-fb.png" class="d-block img-fit-contain w-30px h-30px mr-2 p-1">
-            </a>
-            <a href="#" target="_blank" class="text-white">
-              <img src="../../public/images/icon-line.png" class="d-block img-fit-contain w-30px h-30px mr-2 p-1">
-            </a>
-            <a href="#" target="_blank" class="text-white">
-              <img src="../../public/images/icon-youtube.png" class="d-block img-fit-contain w-30px h-30px mr-2 p-1">
-            </a>
-            <a href="#" target="_blank" class="text-white">
-              <i class="lab la-instagram la-2x mr-2"></i>
-            </a>
-            <a href="#" target="_blank" class="text-white">
-              <i class="lab la-linkedin-in la-2x mr-2"></i>
-            </a>
-          </div>
+          <p>38 Moo 6 Bang Na-Trat Frontage Rd, Bang Kaeo, Bang Phli District, Samut Prakan 10540</p>
+          <p class="mb-0">Email : <a href="mailto:xxxx@gmail.com">xxxx@gmail.com</a><br>Tel : <a href="tel:02xxxxxxx">02-xxx-xxxx</a></p>
         </div>
       </div>
       <div class="col-lg-4 col-xl-5 col-sm-5">
         <div class="text-center text-md-left mt-4">
-          <h3 class="fs-18 text-primary text-uppercase fw-500 border-gray-900 pb-2 mb-3">
-            เมนู
-          </h3>
-          <div class="row ml-auto">
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-6 mb-3 px-1">
-              <a href="../product/" class="hov-opacity-70 text-reset">
-                สินค้าทั้งหมด
-              </a>
+          <div class="row">
+            <div class="col-6 mb-3">
+              <a href="../product/" class="d-block fs-18 text-white fw-500 border-gray-900">Product</a>
+              <a href="../product/" class="d-block hov-opacity-70 text-reset">Architectural Lightings</a>
+              <a href="../product/" class="d-block hov-opacity-70 text-reset">Façade Lightings</a>
+              <a href="../product/" class="d-block hov-opacity-70 text-reset">Decorative Lightings</a>
+              <a href="../product/" class="d-block hov-opacity-70 text-reset">Furniture</a>
             </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-6 mb-3 px-1">
-              <a href="../catalog/" class="hov-opacity-70 text-reset">
-                แคตตาล็อค
-              </a>
+            <div class="col-6 mb-3">
+              <a href="../catalog/" class="d-block fs-18 text-white fw-500 border-gray-900">Catalog</a>
+              <a href="../catalog/" class="d-block hov-opacity-70 text-reset">LED light</a>
+              <a href="../catalog/" class="d-block hov-opacity-70 text-reset">Fluorescent light</a>
+              <a href="../catalog/" class="d-block hov-opacity-70 text-reset">Halo light</a>
+              <a href="../catalog/" class="d-block hov-opacity-70 text-reset">Table + Floor lamb</a>
             </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-6 mb-3 px-1">
-              <a href="../ourservice/" class="hov-opacity-70 text-reset">
-                บริการของเรา
-              </a>
+            <div class="col-6 mb-3">
+              <a href="../portfolio/" class="d-block fs-18 text-white fw-500 border-gray-900">Portfolio</a>
             </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-6 mb-3 px-1">
-              <a href="../promotion/" class="hov-opacity-70 text-reset">
-                โปรโมชั่น
-              </a>
+            <div class="col-6 mb-3">
+              <a href="../privacy/" class="d-block fs-18 text-white fw-500 border-gray-900">PrivacyPolicy</a>
             </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-6 mb-3 px-1">
-              <a href="../news/" class="hov-opacity-70 text-reset">
-                กิจกรรมและข่าวสาร
-              </a>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-6 mb-3 px-1">
-              <a href="../contactus/" class="hov-opacity-70 text-reset">
-                ติดต่อเรา
-              </a>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-6 mb-3 px-1">
-              <a href="../ourwork/" class="hov-opacity-70 text-reset">
-                ผลงานของเรา
-              </a>
-            </div>
-            <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12 col-6 mb-3 px-1">
-              <a href="../aboutus/" class="hov-opacity-70 text-reset">
-                เกี่ยวกับเรา
-              </a>
+            <div class="col-6 mb-3">
+              <a href="../contact/" class="d-block fs-18 text-white fw-500 border-gray-900">Contact us</a>
             </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-5 col-xl-4 col-sm-7 mr-0">
+      <div class="col-lg-5 col-xl-4 col-sm-7 mr-0 d-flex flex-column">
         <div class="text-center text-md-left mt-4">
-          <h3 class="fs-18 text-primary text-uppercase fw-500 border-gray-900 pb-2 mb-3">
-            รับข่าวสาร
+          <h3 class="fs-18 text-white fw-500 border-gray-900 pb-2 mb-3">
+            Subscribe for newlettes
           </h3>
-          <div class="my-3">
-            <span>รับข้อเสนอสุดพิเศษของเราทุกสัปดาห์</span>
-          </div>
           <div class="d-inline-block d-md-block">
-            <form class="form-inline" method="POST" action="#">
-              <div class="input-group mb-3 w-100">
-                <input type="email" id="mail-offer" class="form-control px-sm-2 rounded text-white" placeholder="อีเมลของคุณ" name="email" required>
-                <div class="input-group-append">
-                  <button type="submit" class="btn btn-primary px-4 py-2 ml-1 rounded">ลงทะเบียน</button>
-                </div>
+            <form method="POST" action="#">
+              <div class="mb-3 w-100 input-group">
+                <input type="email" id="mail-offer" class="form-control px-sm-2" style="border-radius: .25rem;" placeholder="Enter your email to get the latest news..." name="email" required>
+                <button type="submit" class="btn btn-outline-light text-white px-4 py-2 ml-1">Subscrise</button>
               </div>
             </form>
           </div>
-          <div class="d-flex align-items-center justify-content-center justify-content-sm-start">
-            <img src="../../public/images/omise.jpg" class="mr-2 h-30px">
-            <img src="../../public/images/visa.jpg" class="mr-2 h-30px">
-            <img src="../../public/images/master.jpg" class="mr-2 h-30px">
+        </div>
+        <div class="text-center text-md-left mt-auto">
+          <h3 class="fs-18 text-white fw-500 border-gray-900 pb-2 mb-3">
+            Request a Quote & Plan Your Budget!
+          </h3>
+          <div class="d-inline-block d-md-block">
+            <a href="../quotation/" class="text-white w-100 btn btn-outline-light">Get Quotation</a>
           </div>
         </div>
       </div>
@@ -107,10 +69,8 @@
 
 <!-- FOOTER -->
 <footer class="py-3 pb-xl-3 bg-dark text-light fs-14">
-  <div class="container">
-    <div class="text-center text-lg-left" current-verison="5.2">
-      © Copyright 2022 by LIGHTING TODAY CO,. LTD. All rights reserved.
-    </div>
+  <div class="container" style="color:#667085;">
+    <div class="text-center">© 2077 Untitled UI. All riopyright © 2025 APC Architectural Products Co., Ltd.. | All Rights Reservedghts reserved.</div>
   </div>
 </footer>
 
@@ -119,7 +79,7 @@
   <div class="clostcookie" onClick="setcookieuser()"><i class="fa fa-times" aria-hidden="true"></i></div>
   <div class="inner-cookie">
     เราใช้คุกกี้เพื่อปรับปรุงประสบการณ์ในการเข้าใช้งานเว็บไซต์ของเราให้ดียิ่งขึ้น
-    <a href="../privacy" class="text-primary">อ่านนโยบายคุ้มครองข้อมูลส่วนบุคคล</a>
+    <a href="../privacy" class="text-white">อ่านนโยบายคุ้มครองข้อมูลส่วนบุคคล</a>
 
     <div class="button-submit btn btn-primary" onClick="setcookieuser('Allow')">Allow Cookie</div>
   </div>

@@ -7,7 +7,6 @@ $(function () {
 	myQuantity();
 	slidershowImg();
 	sliderBanner();
-	sliderBanner2();
 	sliderNewproduct();
 
 	$('#menuMobile').click(function () {
@@ -46,7 +45,7 @@ let setcookieuser = (x) => {
 		localStorage.setItem('cookie', 'allow');
 	}
 }
-let sliderBanner2 = () => {
+let sliderBanner = () => {
 	if ($(window).width() < 768) {
 		$(".banner .owl-carousel").owlCarousel({
 			loop: true,
