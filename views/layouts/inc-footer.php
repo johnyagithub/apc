@@ -1,3 +1,15 @@
+<section class="py-4">
+  <div class="container">
+    <div class="rounded p-4" style="background: url(../../public/images/bg-quotation.jpg) no-repeat center;background-size: cover;">
+      <div class="text-center p-sm-3 text-white">
+        <h1>Request Request a Quote & Plan Your Budget!</h1>
+        <p>Looking for a customized solution? Request a free, no-obligation quotation today!</p>
+        <a href="../quotation/" class="btn btn-primary px-4 rounded mt-3 mt-md-5">Request Your Free Quote</a>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="py-5 footer-widget bg-dark">
   <div class="container">
     <div class="row">
@@ -10,7 +22,7 @@
           <p class="mb-0">Email : <a href="mailto:xxxx@gmail.com">xxxx@gmail.com</a><br>Tel : <a href="tel:02xxxxxxx">02-xxx-xxxx</a></p>
         </div>
       </div>
-      <div class="col-lg-4 col-xl-5 col-sm-5">
+      <div class="col-lg-5 col-xl-5 col-md-6">
         <div class="text-center text-md-left mt-4">
           <div class="row">
             <div class="col-6 mb-3">
@@ -42,7 +54,7 @@
           </div>
         </div>
       </div>
-      <div class="col-lg-5 col-xl-4 col-sm-7 mr-0 d-flex flex-column">
+      <div class="col-lg-4 col-xl-4 col-md-6 mr-0 d-flex flex-column">
         <div class="text-center text-md-left mt-4">
           <h3 class="fs-18 text-white fw-500 border-gray-900 pb-2 mb-3">
             Subscribe for newlettes
@@ -51,7 +63,7 @@
             <form method="POST" action="#">
               <div class="mb-3 w-100 input-group">
                 <input type="email" id="mail-offer" class="form-control px-sm-2" style="border-radius: .25rem;" placeholder="Enter your email to get the latest news..." name="email" required>
-                <button type="submit" class="btn btn-outline-light text-white px-4 py-2 ml-1">Subscrise</button>
+                <button type="submit" class="btn btn-outline-light text-white px-1 px-xl-4 py-2 ml-1">Subscrise</button>
               </div>
             </form>
           </div>

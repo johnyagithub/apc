@@ -683,32 +683,6 @@ li.list-group-item {
     margin-top: -4px;
   }
 	
-.box-absolute-right {
-  position: absolute;
-  right: 15px;
-  top: 50%;
-  transform: translateY(-50%);
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-}
- .box-absolute-right > a > u {
-    text-decoration: none;
-    position: relative;
- }
-  .box-absolute-right > a > u::after {
-    content: "";
-    border-bottom: 1px solid var(--primary);
-    width: 100%;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-  }
-  .box-absolute-right > a.text-dark > u::after {
-    border-color: #000;
-  }
-	
 .text-line1 {
   white-space: nowrap;
   overflow: hidden;
@@ -984,11 +958,11 @@ section.box-products {
   padding-bottom: 30px;
   margin: 0px !important;
 }
-.box-news-index+.box-products {
-  box-shadow: 0px 0px 20px 5px rgb(0 0 0 / 8%);
-}
   .box-products .btn-style {
     background-color: transparent;
+  }
+  .box-products .owl-carousel.box-List {
+    width: calc(100% + calc(calc(100vw - var(--container)) / 2) - 40px);
   }
     .box-products .box-List .owl-stage-outer {
       padding: 10px 0px;
@@ -1009,43 +983,6 @@ section.box-products {
         }
           .box-products .box-List a {
             color: #000;
-          }
-          .box-products .box-List .reduce {
-            background-image: linear-gradient(to right top, #00a1ba, #00BF98, #36C486);
-            color: #fff;
-            min-width: 50px;
-            padding: 6px;
-            position: absolute;
-            right: 0px;
-            top: 0px;
-            z-index: 1;
-            aspect-ratio: 1;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-bottom-left-radius: 12px;
-            font-weight: bold;
-          }
-          .box-products .box-List .basket {
-            background-color: rgba(0, 0, 0, 0.2);
-            color: #fff;
-            padding: 3px 10px;
-            position: absolute;
-            right: 0px;
-            top: 11px;
-            z-index: 1;
-            border-radius: var(--border_radius) 0px 0px var(--border_radius);
-          }
-          .box-products .box-List .basket:empty {
-            display: none;
-          }
-          .box-products .box-List .basket:before {
-            content: "\f07a";
-            font-family: 'Line Awesome Free';
-            font-weight: 900;
-            font-size: 19px;
-            margin-right: 3px;
-            line-height: normal;
           }
           .box-products .card .card-body .img img {
             aspect-ratio: 1;
@@ -1219,7 +1156,12 @@ section.box-products {
   }
  
 div#content section.box-grid {
-
+  background-color: #454545;
+  background-image: url(../images/bg-grid-l.png), url(../images/bg-grid-r.png);
+  background-position-x: left, right;
+  background-position-y: bottom, top;
+  background-size: auto 400px;
+  background-repeat: no-repeat;
 }
 @media only screen and (min-width: 1000px) {
   .box-grid .col-lg-9 {
@@ -1256,6 +1198,9 @@ div#content section.box-grid {
       position: relative;
       overflow: hidden;
       border-radius: var(--border_radius);
+   }
+   .box-grid .grid-item:not(:nth-child(-n+4)) {
+      display: none;
    }
     .box-grid .grid-item:nth-child(1) ,
     .box-grid .grid-item:nth-child(2) {
@@ -1521,20 +1466,6 @@ footer.bg-dark {
       padding: .25rem;
       width: 100%;
     }
-    .box-absolute-right {
-      justify-content: center;
-      bottom: 45px;
-      left: 50%;
-      transform: translateX(-50%);
-      top: auto;
-    }
-    .box-absolute-right a {
-      margin-left: auto !important;
-      margin-right: auto !important;
-    }
-    .box-absolute-right .arrow-default {
-      display: none;
-    }
     section.box-slide{
       padding-bottom: 90px !important;
     }
@@ -1662,10 +1593,6 @@ footer.bg-dark {
   html[lang="en"] a[data-flag="en"] {
     opacity: 1 !important;
   }
-  .box-products .box-List .reduce {
-    font-size: 13px;
-    min-width: 30px;
-  }
   .box-promotion img.img-banner {
     height: calc(100vh - 173px);
     object-fit: cover;
@@ -1684,20 +1611,6 @@ footer.bg-dark {
   .owl-item:not(.active) .item {
     transform: translateX(-20px);
     width: calc(100% + 20px);
-  }
-  .box-absolute-right {
-    justify-content: center;
-    bottom: 45px;
-    left: 50%;
-    transform: translateX(-50%);
-    top: auto;
-  }
-  .box-absolute-right a {
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-  .box-absolute-right .arrow-default {
-    display: none;
   }
   section.box-slide {
     padding-bottom: 90px !important;
