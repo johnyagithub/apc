@@ -1,21 +1,9 @@
 $(function () {
 
-	boxCatalog();
-	boxCategory();
-	boxSupplier();
 	sliderItem();
 	myQuantity();
 	slidershowImg();
 	sliderBanner();
-	sliderNewproduct();
-
-	$('#menuMobile').click(function () {
-		$('body').toggleClass('menuShow');
-	});
-	$(document).on("click", "body.menuShow header,body.menuShow #content,body.menuShow section,body.menuShow footer", function () {
-		$('#navbarNav').collapse('hide');
-		$('body').removeClass('menuShow');
-	});
 
 	if (localStorage.getItem('cookie') != 'allow') {
 		setTimeout(function () { $('#cookie-con-head').addClass('show'); }, 5000);
@@ -46,7 +34,7 @@ let setcookieuser = (x) => {
 	}
 }
 let sliderBanner = () => {
-	if ($(window).width() < 768) {
+	if ($(window).width() <= 1024) {
 		$(".banner .owl-carousel").owlCarousel({
 			loop: true,
 			margin: 0,
@@ -58,64 +46,6 @@ let sliderBanner = () => {
 	} else {
 		$(".banner .owl-carousel").removeClass('.owl-carousel');
 	}
-}
-let boxCatalog = () => {
-	$(".box-catalog .owl-carousel").owlCarousel({
-		margin: 10,
-		nav: false,
-		dots: false,
-		lazyLoad: true,
-		responsiveClass: true,
-		responsive: {
-			0: {
-				items: 3
-			},
-			600: {
-				items: 4
-			},
-			769: {
-				items: 6
-			},
-			1025: {
-				items: 8
-			},
-		}
-	});
-	$('.box-catalog .o-prev').click(function () {
-		$(this).closest(".box-catalog").find(".owl-prev").click();
-	});
-	$('.box-catalog .o-next').click(function () {
-		$(this).closest(".box-catalog").find(".owl-next").click();
-	});
-}
-let boxCategory = () => {
-	$(".box-Category .owl-carousel").owlCarousel({
-		margin: 15,
-		nav: false,
-		dots: false,
-		lazyLoad: true,
-		responsiveClass: true,
-		responsive: {
-			0: {
-				items: 3
-			},
-			600: {
-				items: 4
-			},
-			769: {
-				items: 6
-			},
-			1025: {
-				items: 8
-			},
-		}
-	});
-	$('.box-Category .o-prev').click(function () {
-		$(this).closest(".box-Category").find(".owl-prev").click();
-	});
-	$('.box-Category .o-next').click(function () {
-		$(this).closest(".box-Category").find(".owl-next").click();
-	});
 }
 let sliderItem = () => {
 	$(".box-slide .owl-carousel").each(function () {
@@ -145,45 +75,6 @@ let sliderItem = () => {
 		$(this).closest(".box-slide").find(".owl-next").click();
 	});
 }
-let boxSupplier = () => {
-	$(".box-supplier-brand .owl-carousel").owlCarousel({
-		dots: false,
-		// 		autoWidth:true,
-		lazyLoad: true,
-		nav: true,
-		lazyLoad: true,
-		navText: ["<i class='las la-angle-left fs-20 align-middle'></i>", "<i class='las la-angle-right fs-20 align-middle'></i>"],
-		responsiveClass: true,
-		responsive: {
-			0: {
-				margin: 15,
-				items: 2
-			},
-			600: {
-				margin: 30,
-				items: 3
-			},
-			769: {
-				margin: 45,
-				items: 3
-			},
-			1025: {
-				margin: 60,
-				items: 4
-			},
-			1441: {
-				margin: 60,
-				items: 5
-			}
-		}
-	});
-	$('.box-supplier-brand .o-prev').click(function () {
-		$(this).closest(".box-supplier-brand").find(".owl-prev").click();
-	});
-	$('.box-supplier-brand .o-next').click(function () {
-		$(this).closest(".box-supplier-brand").find(".owl-next").click();
-	});
-}
 let slidershowImg = () => {
 	$(".box-showImg .owl-carousel").owlCarousel({
 		margin: 0,
@@ -191,7 +82,7 @@ let slidershowImg = () => {
 		items: 1,
 		dots: true,
 		lazyLoad: true,
-		navText: ["<i class='las la-angle-left fs-20 align-middle'></i>", "<i class='las la-angle-right fs-20 align-middle'></i>"]
+		navText: ["<i class='fa fa-angle-left fs-20 align-middle'></i>", "<i class='fa fa-angle-right fs-20 align-middle'></i>"]
 	});
 }
 
@@ -229,33 +120,3 @@ let myQuantity = () => {
 		}
 	});
 }
-let sliderNewproduct = () => {
-	$(".box-newproduct .owl-carousel").owlCarousel({
-		loop: true,
-		nav: true,
-		dots: true,
-		lazyLoad: true,
-		// 		autoplay:true,
-		autoplayTimeout: 5000,
-		autoplayHoverPause: false,
-		navText: [
-			"<div class='b-arrow'><i class='fa fa-angle-left' aria-hidden='true'></i></div>",
-			"<div class='b-arrow'><i class='fa fa-angle-right' aria-hidden='true'></i></div>",
-		],
-		responsiveClass: true,
-		responsive: {
-			0: {
-				items: 1,
-			},
-		},
-		afterAction: function (current) {
-			current.find("video").get(0).play();
-		},
-	});
-	$(".box-newproduct .owl-carousel .owl-item").on("mouseenter", function (e) {
-		$(this).closest(".owl-carousel").trigger("stop.owl.autoplay");
-	});
-	$(".box-newproduct .owl-carousel .owl-item").on("mouseleave", function (e) {
-		$(this).closest(".owl-carousel").trigger("play.owl.autoplay", [3000]);
-	});
-};

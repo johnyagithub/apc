@@ -4,7 +4,7 @@
 
       <div class="col-auto px-0 d-flex align-items-center mr-md-auto">
         <a class="d-block py-5px" href="../home">
-          <img src="../../public/images/logo.png" alt="" class="mw-100 h-60px">
+          <img src="../../public/images/logo.png" alt="" class="mw-100 h-50px h-lg-60px">
         </a>
         <button class="navbar-toggler ml-auto px-0" type="button" data-toggle="collapse" data-target="#navbarMain" aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -26,6 +26,9 @@
           </li>
           <li class="nav-item position-relative">
             <a class="nav-link opacity-80 hov-opacity-100" href="../news/">Newsletter</a>
+          </li>
+          <li class="nav-item position-relative">
+            <a class="nav-link opacity-80 hov-opacity-100" href="../aboutus/">About us</a>
           </li>
           <li class="nav-item position-relative">
             <a class="nav-link opacity-80 hov-opacity-100" href="../contactus/">Contact us</a>
@@ -116,7 +119,7 @@
                 <!-- ไม่มีสินค้าในตะกร้า -->
                 <div>
                   <div class="text-center p-3">
-                    <i class="las la-frown la-3x opacity-60 mb-3"></i>
+                    <i class="fa fa-frown-o fa-3x opacity-60 mb-3"></i>
                     <h3 class="h6 fw-700">Your Cart is empty</h3>
                   </div>
                 </div>
@@ -126,15 +129,15 @@
           </div>
 
           <a href="javascript:void(0);" class="text-reset d-none d-lg-block text-center text-white px-2" data-toggle="class-toggle-custom" data-target=".front-header-search">
-            <i class="la la-search la-flip-horizontal la-2x"></i>
+            <i class="fa fa-search"></i>
           </a>
           <!-- search mobile -->
-          <div class="input-group d-lg-none ml-2">
+          <form action="../search" method="GET" class="input-group d-lg-none ml-2">
             <input type="text" class="form-control" placeholder="ค้นหาสินค้า หมวดหมู่ หรือรหัสสินค้า" aria-label="Recipient's username" aria-describedby="basic-addon2">
             <div class="input-group-append">
-              <button class="btn btn-dark py-1 px-2" type="button"><i class="la la-search la-flip-horizontal la-2x text-white"></i></button>
+              <button class="btn btn-dark py-1 px-2" type="submit"><i class="fa fa-search text-white"></i></button>
             </div>
-          </div>
+          </form>
         </div>
 
       </div>
@@ -148,12 +151,12 @@
           <input type="text" class="border-0 bg-light form-control pr-0" id="search" name="keyword" placeholder="ค้นหาสินค้า หมวดหมู่ หรือรหัสสินค้า" autocomplete="off">
           <div class="input-group-append d-none d-lg-block">
             <button class="btn btn-primary px-3 py-2" type="submit">
-              <i class="la la-search la-flip-horizontal fs-20"></i>
+              <i class="fa fa-search"></i>
             </button>
           </div>
         </div>
         <div data-toggle="class-toggle-custom" data-target=".front-header-search">
-          <button class="btn px-2" type="button"><i class="la la-2x la-times"></i></button>
+          <button class="btn p-0" type="button"><img src="../../public/images/icon-close.png" alt="" class="h-50px"></button>
         </div>
       </form>
       <div class="box-shadow"></div>

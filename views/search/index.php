@@ -16,17 +16,6 @@
   <!-- begin #content -->
   <div id="content" class="content">
 
-    <section class="bg-white">
-      <div class="container">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb bg-white px-0 m-0">
-            <li class="breadcrumb-item"><a href="../home">หน้าแรก</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Privacy Policy</li>
-          </ol>
-        </nav>
-      </div>
-    </section>
-
     <section class="py-3">
       <div class="container">
         <div class="row pb-1">

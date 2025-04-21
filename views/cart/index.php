@@ -16,17 +16,6 @@
   <!-- begin #content -->
   <div id="content" class="content">
 
-    <section class="bg-white">
-      <div class="container">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb bg-white px-0 m-0">
-            <li class="breadcrumb-item"><a href="../home">หน้าแรก</a></li>
-            <li class="breadcrumb-item active" aria-current="page">รถเข็นของฉัน</li>
-          </ol>
-        </nav>
-      </div>
-    </section>
-
     <section class="py-4">
       <div class="container">
         <div class="row box-cart">
@@ -182,7 +171,7 @@
           <div class="col-xl-8 mx-auto mb-4" id="empty">
             <div class="shadow-sm p-4 rounded bg-white">
               <div class="text-center p-3">
-                <i class="las la-frown la-3x opacity-60 mb-3"></i>
+                <i class="fa fa-frown-o fa-3x opacity-60 mb-3"></i>
                 <h3 class="h4 fw-700">Your Cart is empty</h3>
               </div>
             </div>
@@ -271,7 +260,6 @@
         count = "";
       }
       $('#cart_items .badge').text(count);
-      $('#boxOfProduct').closest(".boxOfProduct").find('span.cart-count').html(count);
     }
   </script>
 </body>

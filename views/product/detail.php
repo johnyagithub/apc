@@ -16,19 +16,6 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="bg-white">
-			<div class="container">
-				<nav aria-label="breadcrumb">
-					<ol class="breadcrumb bg-white px-0 m-0">
-						<li class="breadcrumb-item"><a href="../home">หน้าแรก</a></li>
-						<li class="breadcrumb-item"><a href="../product">สินค้าทั้งหมด</a></li>
-						<li class="breadcrumb-item active" aria-current="page">2325 LED downlight</li>
-					</ol>
-				</nav>
-			</div>
-		</section>
-
-
 		<section class="pt-3 pb-5">
 			<div class="container">
 
@@ -62,12 +49,7 @@
 					</div>
 					<div class="col-lg-6 col-md-7">
 						<div class="box-text">
-							<h3 class="text-head">
-								Mussle Whole Blue Chile
-								<a href="javascript:void(0)" class="float-right ml-2 a-wishlist active">
-									<i class="fa fa-heart"></i>
-								</a>
-							</h3>
+							<h3 class="text-head">Mussle Whole Blue Chile</h3>
 						</div>
 						<div class="product_brief">
 
@@ -160,8 +142,8 @@
 
 						<div class="box-absolute-right position-absolute justify-content-between" style="transform: translateY(-50%);">
 							<div class="arrow-default">
-								<div class="o-prev btn btn-outline-light"><i class="las la-angle-left fs-20 align-middle"></i></div>
-								<div class="o-next btn btn-primary"><i class="las la-angle-right fs-20 align-middle"></i></div>
+								<div class="o-prev btn btn-outline-light"><i class="fa fa-angle-left fs-20 align-middle w-20px"></i></div>
+								<div class="o-next btn btn-primary"><i class="fa fa-angle-right fs-20 align-middle w-20px"></i></div>
 							</div>
 						</div>
 					</div>
@@ -171,9 +153,6 @@
 
 					<div class="card item col-12">
 						<div class="card-body">
-							<a href="javascript:void(0)" class="a-wishlist">
-								<i class="fa fa-heart"></i>
-							</a>
 							<a href="../product/detail.php">
 								<div class="img">
 									<img src="../../public/images/demo-img1.jpg" alt="">
@@ -192,9 +171,6 @@
 
 					<div class="card item col-12">
 						<div class="card-body">
-							<a href="javascript:void(0)" class="a-wishlist">
-								<i class="fa fa-heart"></i>
-							</a>
 							<a href="../product/detail.php">
 								<div class="img">
 									<img src="../../public/images/demo-img2.jpg" alt="">
@@ -213,9 +189,6 @@
 
 					<div class="card item col-12">
 						<div class="card-body">
-							<a href="javascript:void(0)" class="a-wishlist">
-								<i class="fa fa-heart"></i>
-							</a>
 							<a href="../product/detail.php">
 								<div class="img">
 									<img src="../../public/images/demo-img3.jpg" alt="">
@@ -234,9 +207,6 @@
 
 					<div class="card item col-12">
 						<div class="card-body">
-							<a href="javascript:void(0)" class="a-wishlist">
-								<i class="fa fa-heart"></i>
-							</a>
 							<a href="../product/detail.php">
 								<div class="img">
 									<img src="../../public/images/demo-img4.jpg" alt="">
@@ -254,9 +224,6 @@
 
 					<div class="card item col-12">
 						<div class="card-body">
-							<a href="javascript:void(0)" class="a-wishlist">
-								<i class="fa fa-heart"></i>
-							</a>
 							<a href="../product/detail.php">
 								<div class="img">
 									<img src="../../public/images/demo-img1.jpg" alt="">
@@ -274,9 +241,6 @@
 
 					<div class="card item col-12">
 						<div class="card-body">
-							<a href="javascript:void(0)" class="a-wishlist">
-								<i class="fa fa-heart"></i>
-							</a>
 							<a href="../product/detail.php">
 								<div class="img">
 									<img src="../../public/images/demo-img2.jpg" alt="">

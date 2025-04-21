@@ -16,119 +16,6 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="bg-white">
-			<div class="container">
-				<nav aria-label="breadcrumb">
-					<ol class="breadcrumb bg-white px-0 m-0">
-						<li class="breadcrumb-item"><a href="../home">หน้าแรก</a></li>
-						<li class="breadcrumb-item active" aria-current="page">สินค้าทั้งหมด</li>
-					</ol>
-				</nav>
-			</div>
-		</section>
-
-		<section class="box-supplier-brand bg-primary py-5">
-			<div class="container">
-				<div class="owl-carousel">
-
-					<div class="item">
-						<a href="#">
-							<img src="../../public/images/img-supplier1.png" onerror="this.onerror=null;this.src='../../public/images/noimage.jpg';">
-						</a>
-					</div>
-					<div class="item">
-						<a href="#">
-							<img src="../../public/images/img-supplier2.png" onerror="this.onerror=null;this.src='../../public/images/noimage.jpg';">
-						</a>
-					</div>
-					<div class="item">
-						<a href="#">
-							<img src="../../public/images/img-supplier3.png" onerror="this.onerror=null;this.src='../../public/images/noimage.jpg';">
-						</a>
-					</div>
-					<div class="item">
-						<a href="#">
-							<img src="../../public/images/img-supplier4.png" onerror="this.onerror=null;this.src='../../public/images/noimage.jpg';">
-						</a>
-					</div>
-					<div class="item">
-						<a href="#">
-							<img src="../../public/images/img-supplier1.png" onerror="this.onerror=null;this.src='../../public/images/noimage.jpg';">
-						</a>
-					</div>
-					<div class="item">
-						<a href="#">
-							<img src="../../public/images/img-supplier2.png" onerror="this.onerror=null;this.src='../../public/images/noimage.jpg';">
-						</a>
-					</div>
-					<div class="item">
-						<a href="#">
-							<img src="../../public/images/img-supplier3.png" onerror="this.onerror=null;this.src='../../public/images/noimage.jpg';">
-						</a>
-					</div>
-					<div class="item">
-						<a href="#">
-							<img src="../../public/images/img-supplier4.png" onerror="this.onerror=null;this.src='../../public/images/noimage.jpg';">
-						</a>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
-		<section class="box-supplier-brand bg-dark py-3">
-			<div class="container">
-				<div class="owl-carousel">
-
-					<div class="item">
-						<a href="#">
-							<div class="d-flex align-items-center justify-content-center">
-								<img src="../../public/images/icon-Producttype1.png" alt="" class="w-auto h-40px mr-3">
-								<div class="text-truncate">
-									<h5 class="font-weight-light m-0 text-truncate">LED</h5>
-									<h5 class="font-weight-light m-0 text-primary text-truncate">Tubes</h5>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="item">
-						<a href="#">
-							<div class="d-flex align-items-center justify-content-center">
-								<img src="../../public/images/icon-Producttype2.png" alt="" class="w-auto h-40px mr-3">
-								<div class="text-truncate">
-									<h5 class="font-weight-light m-0 text-truncate">LED</h5>
-									<h5 class="font-weight-light m-0 text-primary text-truncate">Flood-Lights</h5>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="item">
-						<a href="#">
-							<div class="d-flex align-items-center justify-content-center">
-								<img src="../../public/images/icon-Producttype3.png" alt="" class="w-auto h-40px mr-3">
-								<div class="text-truncate">
-									<h5 class="font-weight-light m-0 text-truncate">LED</h5>
-									<h5 class="font-weight-light m-0 text-primary text-truncate">High-Bay</h5>
-								</div>
-							</div>
-						</a>
-					</div>
-					<div class="item">
-						<a href="#">
-							<div class="d-flex align-items-center justify-content-center">
-								<img src="../../public/images/icon-Producttype4.png" alt="" class="w-auto h-40px mr-3">
-								<div class="text-truncate">
-									<h5 class="font-weight-light m-0 text-truncate">LED</h5>
-									<h5 class="font-weight-light m-0 text-primary text-truncate">Street-Lights</h5>
-								</div>
-							</div>
-						</a>
-					</div>
-
-				</div>
-			</div>
-		</section>
-
 		<section class="box-products pt-4">
 			<div class="container">
 				<div class="row">
@@ -142,7 +29,7 @@
 										<input type="text" class="border-0 bg-white form-control pr-0" id="search" name="keyword" placeholder="ค้นหาสินค้าที่ต้องการ" autocomplete="off">
 										<div class="input-group-append">
 											<button class="btn px-3" type="submit">
-												<i class="la la-search la-flip-horizontal fs-20"></i>
+												<i class="fa fa-search"></i>
 											</button>
 										</div>
 									</div>
@@ -267,9 +154,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img1.jpg" alt="">
@@ -290,9 +174,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img2.jpg" alt="">
@@ -313,9 +194,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img3.jpg" alt="">
@@ -335,9 +213,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img4.jpg" alt="">
@@ -357,9 +232,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img1.jpg" alt="">
@@ -380,9 +252,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img2.jpg" alt="">
@@ -403,9 +272,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img1.jpg" alt="">
@@ -425,9 +291,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img2.jpg" alt="">
@@ -447,9 +310,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img1.jpg" alt="">
@@ -470,9 +330,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img2.jpg" alt="">
@@ -493,9 +350,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img1.jpg" alt="">
@@ -515,9 +369,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img2.jpg" alt="">
@@ -537,9 +388,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img1.jpg" alt="">
@@ -560,9 +408,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img2.jpg" alt="">
@@ -583,9 +428,6 @@
 							<div class="col-md-4 col-6 p-2">
 								<div class="card">
 									<div class="card-body">
-										<a href="javascript:void(0)" class="a-wishlist">
-											<i class="fa fa-heart"></i>
-										</a>
 										<a href="../product/detail.php">
 											<div class="img">
 												<img src="../../public/images/demo-img1.jpg" alt="">

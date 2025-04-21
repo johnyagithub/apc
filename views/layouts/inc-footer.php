@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-3 col-xl-3 text-center text-md-left">
-        <div class="mt-4">
+        <div>
           <a href="../home" class="d-block mb-4">
             <img src="../../public/images/logo.png" class="h-80px" alt="">
           </a>
@@ -32,6 +32,9 @@
             </div>
             <div class="col-6 mb-3">
               <a href="../privacy/" class="d-block fs-18 text-white fw-500 border-gray-900">PrivacyPolicy</a>
+            </div>
+            <div class="col-6 mb-3">
+              <a href="../aboutus/" class="d-block fs-18 text-white fw-500 border-gray-900">About us</a>
             </div>
             <div class="col-6 mb-3">
               <a href="../contact/" class="d-block fs-18 text-white fw-500 border-gray-900">Contact us</a>

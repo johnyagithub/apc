@@ -16,17 +16,6 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="bg-white">
-			<div class="container">
-				<nav aria-label="breadcrumb">
-					<ol class="breadcrumb bg-white px-0 m-0">
-						<li class="breadcrumb-item"><a href="../home">หน้าแรก</a></li>
-						<li class="breadcrumb-item active" aria-current="page">เกี่ยวกับเรา</li>
-					</ol>
-				</nav>
-			</div>
-		</section>
-
 		<section>
 			<a href="https://placehold.co/700x450.jpg" data-fancybox="aboutus_banner">
 				<img src="https://placehold.co/700x450.jpg" class="float-md-right d-block pl-md-5 pb-md-5 w-100 w-md-50">

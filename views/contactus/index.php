@@ -16,17 +16,6 @@
   <!-- begin #content -->
   <div id="content" class="content">
 
-    <section class="bg-white">
-      <div class="container">
-        <nav aria-label="breadcrumb">
-          <ol class="breadcrumb bg-white px-0 m-0">
-            <li class="breadcrumb-item"><a href="../home">หน้าแรก</a></li>
-            <li class="breadcrumb-item active" aria-current="page">ติดต่อเรา</li>
-          </ol>
-        </nav>
-      </div>
-    </section>
-
     <section>
       <div class="container py-5">
         <div class="box-map">

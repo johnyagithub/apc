@@ -30,7 +30,6 @@
 <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&family=Poppins:wght@200;300;500&display=swap" rel="stylesheet">
 <link href="../../plugins/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" type="text/css" href="../../public/css/vendors.css">
 <link rel="stylesheet" type="text/css" href="../../public/css/aiz-core.css">
 <link rel="stylesheet" type="text/css" href="../../public/css/custom_style.css">
 <!-- ================== END BASE CSS STYLE ================== -->

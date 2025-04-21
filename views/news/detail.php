@@ -16,17 +16,6 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="bg-white">
-			<div class="container">
-				<nav aria-label="breadcrumb">
-					<ol class="breadcrumb bg-white px-0 m-0">
-						<li class="breadcrumb-item"><a href="../home">หน้าแรก</a></li>
-						<li class="breadcrumb-item active" aria-current="page">กิจกรรมและข่าวสาร</li>
-					</ol>
-				</nav>
-			</div>
-		</section>
-
 		<section>
 			<img src="https://placehold.co/1500x500" class="w-100 aspect-ratio-mobile-1" alt="">
 		</section>
@@ -62,8 +51,8 @@
 
 						<div class="box-absolute-right position-absolute justify-content-between" style="transform: translateY(-50%);">
 							<div class="arrow-default">
-								<div class="o-prev btn btn-outline-light"><i class="las la-angle-left fs-20 align-middle"></i></div>
-								<div class="o-next btn btn-primary"><i class="las la-angle-right fs-20 align-middle"></i></div>
+								<div class="o-prev btn btn-outline-light"><i class="fa fa-angle-left fs-20 align-middle w-20px"></i></div>
+								<div class="o-next btn btn-primary"><i class="fa fa-angle-right fs-20 align-middle w-20px"></i></div>
 							</div>
 						</div>
 					</div>
