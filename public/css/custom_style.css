@@ -3,6 +3,9 @@ body{
   font-weight: 100;
   font-size: 16px !important;
 }
+.font-Inter {
+  font-family: 'Inter', 'Kanit', sans-serif !important;
+}
 @media (min-width: 1500px) {
   body{
     font-size: 18px !important;
@@ -256,7 +259,7 @@ header .dropdown-item {
 div#navbarMain li.nav-item.active::after {
   content: "";
   width: 100%;
-  border-bottom: 4px solid #B28E5E;
+  border-bottom: 4px solid var(--primary);
   position: absolute;
   bottom: -15px;
 }
@@ -666,22 +669,20 @@ li.list-group-item {
 	.arrow-default .o-prev {
 		position: initial;
     margin-right: 6px;
-    background-color: #f4f3ee;
-    color: #a8a6a4;
+    background-color: #D9D9D9;
+    color: #9F9F9F;
     padding: 5px 7px;
     border: 0px;
+    border-radius: 50%;
 	}
 	.arrow-default .o-next {
-		transform: none;
-		position: initial;
-		color: #241e04;
+    transform: none;
+    position: initial;
+    color: #ffffff;
     padding: 5px 7px;
     border: 0;
+    border-radius: 50%;
 	}
- 	.arrow-default .o-next i ,
- 	.arrow-default .o-prev i {
-    margin-top: -4px;
-  }
 	
 .text-line1 {
   white-space: nowrap;
@@ -954,15 +955,55 @@ form.form-Search {
   }
 }
 
+.number-outline {
+  font-family: 'Inter', 'Kanit', sans-serif !important;
+  font-size: 80px;
+  font-weight: bold;
+  color: transparent;
+  -webkit-text-stroke: 1px var(--primary);
+  text-stroke: 1px var(--primary);
+  letter-spacing: 3px;
+  color: var(--bgColor);
+}
+  .number-outline::after {
+    content: "+";
+    font-family: monospace;
+  }
+
+section.box-Whatwedo {
+  --bgColor: #F2F2F2;
+  margin: 0px !important;
+  background: var(--bgColor) url(../images/bg-Whatwedo.png) no-repeat 9vw bottom;
+  background-size: 700px;
+}
+  .box-Whatwedo .Whatwedo-text {
+    z-index: 2;
+  }
+    .box-Whatwedo .Whatwedo-text::after {
+      content: "";
+      position: absolute;
+      right: 0px;
+      top: 0px;
+      height: 100%;
+      width: calc(100% + calc(100vw - var(--container)) / 2);
+      z-index: -1;
+      background: var(--bgColor) url(../images/bg-Whatwedo.png) no-repeat 9vw calc(100% + 3rem);
+      background-size: 700px;
+    }
+
+  .box-Whatwedo .owl-carousel.box-List {
+    width: calc(100% + calc(calc(100vw - var(--container)) / 2) - 10%);
+  }
+  .box-Whatwedo .owl-carousel .owl-stage-outer {
+    overflow: visible;
+  }
+  
 section.box-products {
   padding-bottom: 30px;
   margin: 0px !important;
 }
   .box-products .btn-style {
     background-color: transparent;
-  }
-  .box-products .owl-carousel.box-List {
-    width: calc(100% + calc(calc(100vw - var(--container)) / 2) - 40px);
   }
     .box-products .box-List .owl-stage-outer {
       padding: 10px 0px;
@@ -1441,7 +1482,7 @@ footer.bg-dark {
     }
     div#navbarMain li.nav-item.active::after {
       border-bottom: none;
-      border-left: 4px solid #B28E5E;
+      border-left: 4px solid var(--primary);
       height: 100%;
       width: auto;
       top: 0px;
@@ -1551,7 +1592,7 @@ footer.bg-dark {
   }
   div#navbarMain li.nav-item.active::after {
     border-bottom: none;
-    border-left: 4px solid #B28E5E;
+    border-left: 4px solid var(--primary);
     height: 100%;
     width: auto;
     top: 0px;

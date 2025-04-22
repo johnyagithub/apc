@@ -79,20 +79,20 @@
 			</div>
 		</section>
 
-		<section class="box-slide box-products py-5">
+		<section class="box-slide box-Whatwedo py-5">
 			<div class="container">
 				<div class="row">
-					<div class="col-lg-3">
-						<h4 class="my-1 d-inline-block w-100">What we do</h4>
+					<div class="col-lg-3 Whatwedo-text">
+						<h4 class="my-1 d-inline-block w-100 text-primary">What we do</h4>
 						<div class="arrow-default">
 							<div class="o-prev btn btn-outline-light"><i class="fa fa-angle-left fs-20 align-middle w-20px"></i></div>
 							<div class="o-next btn btn-primary"><i class="fa fa-angle-right fs-20 align-middle w-20px"></i></div>
 						</div>
-						<div>100+</div>
+						<div class="number-outline">100</div>
 						<p class="text-muted">Guarantee our experiencedStaff ready to help you</p>
 					</div>
 					<div class="col-lg-9">
-						<div class="owl-carousel box-List py-3">
+						<div class="owl-carousel box-List py-3" data-itemSlide-pc="3">
 
 							<div class="item">
 								<a href="../product/detail.php">
@@ -100,8 +100,8 @@
 										<img src="https://placehold.co/400" alt="">
 									</div>
 									<div class="box-text">
-										<h6>2310 LED weatherproof</h6>
-										<span>Wide distribution optic, Adjustable luminaire luminous flux, Refurbishment.</span>
+										<h6>Architecture Lighting</h6>
+										<span>serves and enhances certain architectural elements to foster, establish or emphasize a building’s aesthetic</span>
 									</div>
 								</a>
 							</div>
@@ -111,8 +111,8 @@
 										<img src="https://placehold.co/400" alt="">
 									</div>
 									<div class="box-text">
-										<h6>2310 LED weatherproof</h6>
-										<span>Wide distribution optic, Adjustable luminaire luminous flux, Refurbishment.</span>
+										<h6>Facade Lighting</h6>
+										<span>serves and enhances certain architectural elements to foster, establish or emphasize a building’s aesthetic</span>
 									</div>
 								</a>
 							</div>
@@ -122,8 +122,8 @@
 										<img src="https://placehold.co/400" alt="">
 									</div>
 									<div class="box-text">
-										<h6>2310 LED weatherproof</h6>
-										<span>Wide distribution optic, Adjustable luminaire luminous flux, Refurbishment.</span>
+										<h6>Decorative Lighting</h6>
+										<span>serves and enhances certain architectural elements to foster, establish or emphasize a building’s aesthetic</span>
 									</div>
 								</a>
 							</div>
@@ -133,8 +133,8 @@
 										<img src="https://placehold.co/400" alt="">
 									</div>
 									<div class="box-text">
-										<h6>2310 LED weatherproof</h6>
-										<span>Wide distribution optic, Adjustable luminaire luminous flux, Refurbishment.</span>
+										<h6>Architecture Lighting</h6>
+										<span>serves and enhances certain architectural elements to foster, establish or emphasize a building’s aesthetic</span>
 									</div>
 								</a>
 							</div>
@@ -144,8 +144,8 @@
 										<img src="https://placehold.co/400" alt="">
 									</div>
 									<div class="box-text">
-										<h6>2310 LED weatherproof</h6>
-										<span>Wide distribution optic, Adjustable luminaire luminous flux, Refurbishment.</span>
+										<h6>Facade Lighting</h6>
+										<span>serves and enhances certain architectural elements to foster, establish or emphasize a building’s aesthetic</span>
 									</div>
 								</a>
 							</div>
@@ -155,8 +155,8 @@
 										<img src="https://placehold.co/400" alt="">
 									</div>
 									<div class="box-text">
-										<h6>2310 LED weatherproof</h6>
-										<span>Wide distribution optic, Adjustable luminaire luminous flux, Refurbishment.</span>
+										<h6>Decorative Lighting</h6>
+										<span>serves and enhances certain architectural elements to foster, establish or emphasize a building’s aesthetic</span>
 									</div>
 								</a>
 							</div>
