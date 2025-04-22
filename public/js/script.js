@@ -5,6 +5,7 @@ $(function () {
 	slidershowImg();
 	sliderBanner();
 	sliderWhatwedo();
+	sliderRecommend();
 
 	if (localStorage.getItem('cookie') != 'allow') {
 		setTimeout(function () { $('#cookie-con-head').addClass('show'); }, 5000);
@@ -97,6 +98,26 @@ let sliderWhatwedo = () => {
 	});
 	$('.box-Whatwedo .o-next').click(function () {
 		$(this).closest(".box-Whatwedo").find(".owl-next").click();
+	});
+}
+let sliderRecommend = () => {
+	$(".box-Recommend .owl-carousel").owlCarousel({
+		margin: 30,
+		nav: false,
+		dots: false,
+		lazyLoad: true,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1
+			},
+			667: {
+				items: 3
+			},
+			900: {
+				items: 4
+			}
+		}
 	});
 }
 let slidershowImg = () => {

@@ -1045,6 +1045,43 @@ section.box-Whatwedo {
         border-radius: var(--border_radius);
         margin-bottom: 15px;
       }
+
+section.box-Recommend {
+  overflow: hidden;
+}
+  .box-Recommend .owl-carousel .owl-stage-outer {
+    overflow: visible;
+  }
+  .box-Recommend .item {
+    text-align: center;
+  }
+    .box-Recommend .item .img {
+
+    }
+      .box-Recommend .item .img img {
+        aspect-ratio: 400 / 600;
+        object-fit: contain;
+        padding: 7%;
+        max-width: 200px;
+        margin: auto;
+      }
+      .box-Recommend .item .img::before {
+        content: "";
+        width: 200px;
+        max-width: 100%;
+        aspect-ratio: 1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50%;
+        border: 40px solid #CFCFCF;
+        z-index: -1;
+      }
+
+    .box-Recommend .item .box-text {
+
+    }
   
 section.box-products {
   padding-bottom: 30px;

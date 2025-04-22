@@ -79,11 +79,98 @@
 			</div>
 		</section>
 
+		<section class="box-Recommend py-5">
+			<div class="container">
+				<h2 class="text-center text-primary w-100">Recommend Product</h2>
+				<div class="owl-carousel py-3">
+
+					<div class="item">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="../../public/images/img-Product1.png" alt="">
+							</div>
+							<div class="box-text">
+								<h6>Arco Floor Lamp</h6>
+								<span class="">$20</span>
+							</div>
+						</a>
+					</div>
+					<div class="item">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400x600" alt="">
+							</div>
+							<div class="box-text">
+								<h6>Arco Floor Lamp</h6>
+								<span class="">$20</span>
+							</div>
+						</a>
+					</div>
+					<div class="item">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400x600" alt="">
+							</div>
+							<div class="box-text">
+								<h6>Arco Floor Lamp</h6>
+								<span class="">$20</span>
+							</div>
+						</a>
+					</div>
+					<div class="item">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400x600" alt="">
+							</div>
+							<div class="box-text">
+								<h6>Arco Floor Lamp</h6>
+								<span class="">$20</span>
+							</div>
+						</a>
+					</div>
+					<div class="item">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400x600" alt="">
+							</div>
+							<div class="box-text">
+								<h6>Arco Floor Lamp</h6>
+								<span class="">$20</span>
+							</div>
+						</a>
+					</div>
+					<div class="item">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400x600" alt="">
+							</div>
+							<div class="box-text">
+								<h6>Arco Floor Lamp</h6>
+								<span class="">$20</span>
+							</div>
+						</a>
+					</div>
+					<div class="item">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400x600" alt="">
+							</div>
+							<div class="box-text">
+								<h6>Arco Floor Lamp</h6>
+								<span class="">$20</span>
+							</div>
+						</a>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
 		<section class="box-Whatwedo py-5">
 			<div class="container">
 				<div class="row">
 					<div class="offset-sm-1 col-sm-5 offset-lg-0 col-lg-3 Whatwedo-text">
-						<h4 class="text-head">What we do</h4>
+						<h4 class="text-head mb-3">What we do</h4>
 						<div class="arrow-default">
 							<div class="o-prev btn btn-outline-light"><i class="fa fa-angle-left fs-20 align-middle w-20px"></i></div>
 							<div class="o-next btn btn-primary"><i class="fa fa-angle-right fs-20 align-middle w-20px"></i></div>
