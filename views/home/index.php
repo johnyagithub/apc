@@ -270,19 +270,19 @@
 			<div class="container">
 				<div class="grid-container py-3">
 					<a href="../product/" class="grid-item">
-						<img src="https://placehold.co/600/fff/fff" alt="">
+						<img src="../../public/images/img1.jpg" alt="">
 						<h4 class="mb-0 mt-auto mr-auto text-left">Lighting by room</h4>
 					</a>
 					<a href="../product/" class="grid-item">
-						<img src="https://placehold.co/600/fff/fff" alt="">
+						<img src="../../public/images/img2.jpg" alt="">
 						<h4 class="mb-0 mt-auto mr-auto text-left">Furniture</h4>
 					</a>
 					<a href="../product/" class="grid-item">
-						<img src="https://placehold.co/600/fff/fff" alt="">
+						<img src="../../public/images/img3.jpg" alt="">
 						<h4 class="mb-0 mt-auto mr-auto text-left">Light Bulb</h4>
 					</a>
 					<a href="../product/" class="grid-item">
-						<img src="https://placehold.co/600/fff/fff" alt="">
+						<img src="../../public/images/img4.jpg" alt="">
 						<h4 class="mb-0 mt-auto mr-auto text-left">Wall + Table<br>Light</h4>
 					</a>
 				</div>
