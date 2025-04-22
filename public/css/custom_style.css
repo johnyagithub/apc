@@ -1068,12 +1068,12 @@ section.box-Recommend {
             aspect-ratio: 400 / 600;
             object-fit: contain;
             padding: 7%;
-            max-width: 175px;
+            max-width: 160px;
             margin: auto;
           }
           .box-Recommend .item .img::before {
             content: "";
-            width: 175px;
+            width: 160px;
             max-width: 100%;
             aspect-ratio: 1;
             position: absolute;
@@ -1081,7 +1081,7 @@ section.box-Recommend {
             left: 50%;
             transform: translate(-50%, -50%);
             border-radius: 50%;
-            border: 40px solid #CFCFCF;
+            border: 30px solid #CFCFCF;
             z-index: -1;
           }
 
@@ -1322,7 +1322,6 @@ div#content section.box-grid {
       align-items: center;
       justify-content: center;
       aspect-ratio: 1;
-      text-transform: uppercase;
       font-weight: bold;
       color: #fff;
       text-shadow: 0 0 4px rgb(0 0 0 / 40%);
@@ -1535,6 +1534,10 @@ footer.bg-dark {
   }
   .box-Whatwedo .Whatwedo-text::after {
     display: none;
+  }
+  .box-Recommend .owl-carousel {
+    max-width: 400px;
+    margin: auto;
   }
 }
 
@@ -1831,6 +1834,9 @@ footer.bg-dark {
     }
     .box-Whatwedo .Whatwedo-text {
       padding-bottom: 5%;
+    }
+    .box-Recommend .owl-carousel {
+      max-width: 190px;
     }
   }
   /* แนวนอน */

@@ -116,7 +116,7 @@ let sliderRecommend = () => {
 				items: 1
 			},
 			667: {
-				items: 3
+				items: 2
 			},
 			900: {
 				items: 4
