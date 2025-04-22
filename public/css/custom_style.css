@@ -666,23 +666,34 @@ li.list-group-item {
 .arrow-default {
 
 }
+  .arrow-default .o-next ,
 	.arrow-default .o-prev {
 		position: initial;
-    margin-right: 6px;
+		border: 0px;
+		border-radius: 50%;
+		aspect-ratio: 1;
+		width: 30px;
+		}
+  .arrow-default .o-prev {
     background-color: #D9D9D9;
     color: #9F9F9F;
-    padding: 5px 7px;
-    border: 0px;
-    border-radius: 50%;
 	}
 	.arrow-default .o-next {
+    margin-left: 20px;
     transform: none;
-    position: initial;
     color: #ffffff;
-    padding: 5px 7px;
-    border: 0;
-    border-radius: 50%;
 	}
+    .arrow-default .o-next i ,
+    .arrow-default .o-prev i {
+      font-size: 28px;
+      line-height: 5px;
+      vertical-align: middle;
+      text-align: center;
+      margin-left: 4px;
+    }
+    .arrow-default .o-prev i {
+      margin-right: 4px;
+    }
 	
 .text-line1 {
   white-space: nowrap;
@@ -929,10 +940,11 @@ form.form-Search {
 }
   .front-header-search form {
     padding: 17px;
-    background-color: #fff;
+    background-color: rgb(255 255 255 / 40%);
     margin-left: auto;
     margin-right: auto;
     width: 100%;
+    backdrop-filter: blur(5px);
   }
   .front-header-search .box-shadow {
     position: absolute;
@@ -986,6 +998,42 @@ form.form-Search {
     margin-right: -4px;
   }
 
+.box-List .item {
+  padding: 20px;
+  background: #fff;
+  border-radius: var(--border_radius);
+  border-bottom-right-radius: 85px;
+  position: relative;
+}
+  .box-List .item > a {
+    position: relative;
+    color: #000;
+  }
+    .box-List .item:has( > a)::after {
+      content: "";
+      background: var(--primary) url(../images/icon-more.png) no-repeat center center;
+      background-size: 40%;
+      width: 60px;
+      position: absolute;
+      aspect-ratio: 1;
+      border-radius: 50%;
+      right: -14px;
+      bottom: 0px;
+      transition: .5s;
+    }
+    .box-List .item:hover:has( > a)::after {
+      transform: rotate(45deg);
+      filter: grayscale(1);
+    }
+    .box-List .item > a .box-text {
+      padding-right: 28px;
+    }
+
+  .box-List .item .img {
+    border-radius: var(--border_radius);
+    margin-bottom: 15px;
+  }
+
 section.box-Whatwedo {
   --bgColor: #F2F2F2;
   margin: 0px !important;
@@ -1016,35 +1064,6 @@ section.box-Whatwedo {
   .box-Whatwedo .owl-carousel .owl-stage-outer {
     overflow: visible;
   }
-    .box-Whatwedo .item {
-      padding: 20px;
-      background: #fff;
-      border-radius: var(--border_radius);
-      border-bottom-right-radius: 85px;
-    }
-      .box-Whatwedo .item > a {
-        position: relative;
-        color: #000;
-      }
-        .box-Whatwedo .item > a::after {
-          content: "";
-          background: var(--primary) url(../images/icon-more.png) no-repeat center center;
-          background-size: 40%;
-          width: 60px;
-          position: absolute;
-          aspect-ratio: 1;
-          border-radius: 50%;
-          right: -33px;
-          bottom: -20px;
-        }
-        .box-Whatwedo .item > a .box-text {
-          padding-right: 28px;
-        }
-
-      .box-Whatwedo .item .img {
-        border-radius: var(--border_radius);
-        margin-bottom: 15px;
-      }
 
 section.box-Recommend {
   overflow: hidden;
@@ -1088,6 +1107,26 @@ section.box-Recommend {
         .box-Recommend .item .box-text {
           margin-top: 20px;
         }
+
+section.box-Portfolio {
+  background-color: #F0F0F0;
+  background-image: url(../images/bg-grid-l.png), url(../images/bg-grid-r.png), url(../images/bg-grid-r.png);
+  background-position-x: right , left, right;
+  background-position-y: top , center, bottom;
+  background-size: auto 400px;
+  background-repeat: no-repeat;
+}
+  .box-Portfolio .card {
+    background-color: transparent;
+    border: none !important;
+  }
+    .box-Portfolio .item {
+      background: #E1E1E1;
+      height: 100%;
+    }
+      .box-Portfolio .item .img img {
+        aspect-ratio: 800/425;
+      }
   
 section.box-products {
   padding-bottom: 30px;
@@ -1343,7 +1382,7 @@ div#content section.box-grid {
     }
       .box-grid .grid-item > img {
         position: absolute;
-        opacity: .8;
+        opacity: 1;
         width: 100%;
         height: 100%;
         object-fit: cover;
@@ -1352,7 +1391,7 @@ div#content section.box-grid {
         aspect-ratio: 1;
       }
       .box-grid .grid-item:hover > img {
-        opacity: .5;
+        opacity: .7;
         transform: scale(1.1);
       }
       .box-grid .grid-item > *:not(img) {
@@ -1528,7 +1567,7 @@ footer.bg-dark {
   .box-Whatwedo .owl-carousel .owl-stage-outer {
     overflow: hidden;
   }
-  .box-Whatwedo .item > a::after {
+  .box-List .item > a::after {
     right: -20px;
     width: 50px;
   }
@@ -1538,6 +1577,15 @@ footer.bg-dark {
   .box-Recommend .owl-carousel {
     max-width: 400px;
     margin: auto;
+  }
+  .box-List .item {
+    padding: 15px;
+  }
+  .box-List .item:has( > a)::after {
+    right: 0px;
+  }
+  .box-List .item:has( > a)::after {
+    width: 45px;
   }
 }
 

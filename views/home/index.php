@@ -183,8 +183,8 @@
 					<div class="offset-sm-1 col-sm-5 offset-lg-0 col-lg-3 Whatwedo-text">
 						<h4 class="text-head mb-3">What we do</h4>
 						<div class="arrow-default">
-							<div class="o-prev btn btn-outline-light"><i class="fa fa-angle-left fs-20 align-middle w-20px"></i></div>
-							<div class="o-next btn btn-primary"><i class="fa fa-angle-right fs-20 align-middle w-20px"></i></div>
+							<div class="o-prev btn btn-outline-light"><i class="fa fa-angle-left"></i></div>
+							<div class="o-next btn btn-primary"><i class="fa fa-angle-right"></i></div>
 						</div>
 						<div class="number-outline">100</div>
 						<p class="text-muted">Guarantee our experiencedStaff ready to help you</p>
@@ -286,6 +286,159 @@
 						<h4 class="mb-0 mt-auto mr-auto text-left">Wall + Table<br>Light</h4>
 					</a>
 				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container-fluid">
+				<div class="owl-carousel">
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+					<div class="item">
+						<img src="../../public/images/img4.jpg" alt="">
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="box-Portfolio py-5">
+			<div class="container">
+				<h4 class="text-head mb-3">Portfolio</h4>
+				<h1 class="text-primary" style="font-size: 100px;">Show case</h1>
+
+				<div class="box-List row py-3">
+
+					<div class="col-md-6 card">
+						<div class="item">
+							<a href="../product/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400" alt="">
+								</div>
+								<div class="box-text">
+									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 card">
+						<div class="item">
+							<a href="../product/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400" alt="">
+								</div>
+								<div class="box-text">
+									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 card">
+						<div class="item">
+							<a href="../product/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400" alt="">
+								</div>
+								<div class="box-text">
+									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 card">
+						<div class="item">
+							<a href="../product/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400" alt="">
+								</div>
+								<div class="box-text">
+									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 card">
+						<div class="item">
+							<a href="../product/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400" alt="">
+								</div>
+								<div class="box-text">
+									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="col-md-6 card">
+						<div class="item">
+							<a href="../product/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400" alt="">
+								</div>
+								<div class="box-text">
+									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
+						</div>
+					</div>
+
+				</div>
+
+				<a href="../portfolio/" class="btn btn-primary px-4 mt-3 mt-md-5 d-table mx-auto">View our portfolio</a>
 			</div>
 		</section>
 	</div>
