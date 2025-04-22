@@ -105,6 +105,10 @@ let sliderRecommend = () => {
 		margin: 30,
 		nav: false,
 		dots: false,
+		loop: true,
+		autoplay:true,
+    autoplayTimeout:3000,
+    autoplayHoverPause:true,
 		lazyLoad: true,
 		responsiveClass: true,
 		responsive: {

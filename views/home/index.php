@@ -85,79 +85,90 @@
 				<div class="owl-carousel py-3">
 
 					<div class="item">
-						<a href="../product/detail.php">
+						<a href="../product/detail.php" class="text-secondary">
 							<div class="img">
 								<img src="../../public/images/img-Product1.png" alt="">
 							</div>
 							<div class="box-text">
-								<h6>Arco Floor Lamp</h6>
-								<span class="">$20</span>
+								<p class="m-0">Arco Floor Lamp</p>
+								<b class="text-primary">$20</b>
 							</div>
 						</a>
 					</div>
 					<div class="item">
-						<a href="../product/detail.php">
+						<a href="../product/detail.php" class="text-secondary">
 							<div class="img">
 								<img src="../../public/images/img-Product2.png" alt="">
 							</div>
 							<div class="box-text">
-								<h6>Arco Floor Lamp</h6>
-								<span class="">$20</span>
+								<p class="m-0">Jelly fish able Lamp</p>
+								<b class="text-primary">$180</b>
 							</div>
 						</a>
 					</div>
 					<div class="item">
-						<a href="../product/detail.php">
+						<a href="../product/detail.php" class="text-secondary">
 							<div class="img">
 								<img src="../../public/images/img-Product3.png" alt="">
 							</div>
 							<div class="box-text">
-								<h6>Arco Floor Lamp</h6>
-								<span class="">$20</span>
+								<p class="m-0">Vintage Floor Lamp</p>
+								<b class="text-primary">$120</b>
 							</div>
 						</a>
 					</div>
 					<div class="item">
-						<a href="../product/detail.php">
+						<a href="../product/detail.php" class="text-secondary">
 							<div class="img">
-								<img src="https://placehold.co/400x600" alt="">
+								<img src="../../public/images/img-Product4.png" alt="">
 							</div>
 							<div class="box-text">
-								<h6>Arco Floor Lamp</h6>
-								<span class="">$20</span>
+								<p class="m-0">Arco Floor Lamp</p>
+								<b class="text-primary">$20</b>
 							</div>
 						</a>
 					</div>
 					<div class="item">
-						<a href="../product/detail.php">
+						<a href="../product/detail.php" class="text-secondary">
 							<div class="img">
-								<img src="https://placehold.co/400x600" alt="">
+								<img src="../../public/images/img-Product1.png" alt="">
 							</div>
 							<div class="box-text">
-								<h6>Arco Floor Lamp</h6>
-								<span class="">$20</span>
+								<p class="m-0">doodle table Lamp</p>
+								<b class="text-primary">$120</b>
 							</div>
 						</a>
 					</div>
 					<div class="item">
-						<a href="../product/detail.php">
+						<a href="../product/detail.php" class="text-secondary">
 							<div class="img">
-								<img src="https://placehold.co/400x600" alt="">
+								<img src="../../public/images/img-Product2.png" alt="">
 							</div>
 							<div class="box-text">
-								<h6>Arco Floor Lamp</h6>
-								<span class="">$20</span>
+								<p class="m-0">Arco Floor Lamp</p>
+								<b class="text-primary">$20</b>
 							</div>
 						</a>
 					</div>
 					<div class="item">
-						<a href="../product/detail.php">
+						<a href="../product/detail.php" class="text-secondary">
 							<div class="img">
-								<img src="https://placehold.co/400x600" alt="">
+								<img src="../../public/images/img-Product3.png" alt="">
 							</div>
 							<div class="box-text">
-								<h6>Arco Floor Lamp</h6>
-								<span class="">$20</span>
+								<p class="m-0">Arco Floor Lamp</p>
+								<b class="text-primary">$20</b>
+							</div>
+						</a>
+					</div>
+					<div class="item">
+						<a href="../product/detail.php" class="text-secondary">
+							<div class="img">
+								<img src="../../public/images/img-Product4.png" alt="">
+							</div>
+							<div class="box-text">
+								<p class="m-0">Arco Floor Lamp</p>
+								<b class="text-primary">$20</b>
 							</div>
 						</a>
 					</div>
