@@ -1048,6 +1048,8 @@ section.box-Whatwedo {
 
 section.box-Recommend {
   overflow: hidden;
+  background: url(../images/bg-Recommend.png) no-repeat right bottom;
+  background-size: 700px;
 }
   .box-Recommend .owl-carousel {
     max-width: 1020px;
