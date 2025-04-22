@@ -1,4 +1,4 @@
-<section class="py-4">
+<section class="py-5">
   <div class="container">
     <div class="rounded p-4" style="background: url(../../public/images/bg-quotation.jpg) no-repeat center;background-size: cover;">
       <div class="text-center p-sm-3 text-white">

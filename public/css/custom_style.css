@@ -1113,7 +1113,7 @@ section.box-Portfolio {
   background-image: url(../images/bg-Portfolio1.png), url(../images/bg-Portfolio2.png), url(../images/bg-Portfolio3.png);
   background-position-x: right , left, right;
   background-position-y: top , center, bottom;
-  background-size: auto 400px;
+  background-size: 300px auto,400px auto,800px auto;
   background-repeat: no-repeat;
 }
   .box-Portfolio .card {
