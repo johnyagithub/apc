@@ -49,7 +49,7 @@
 					</div>
 					<div class="col-lg-6 col-md-7">
 						<div class="box-text">
-							<h3 class="text-head">Mussle Whole Blue Chile</h3>
+							<h3>Mussle Whole Blue Chile</h3>
 						</div>
 						<div class="product_brief">
 

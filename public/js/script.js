@@ -4,6 +4,7 @@ $(function () {
 	myQuantity();
 	slidershowImg();
 	sliderBanner();
+	sliderWhatwedo();
 
 	if (localStorage.getItem('cookie') != 'allow') {
 		setTimeout(function () { $('#cookie-con-head').addClass('show'); }, 5000);
@@ -73,6 +74,29 @@ let sliderItem = () => {
 	});
 	$('.box-slide .o-next').click(function () {
 		$(this).closest(".box-slide").find(".owl-next").click();
+	});
+}
+let sliderWhatwedo = () => {
+	$(".box-Whatwedo .owl-carousel").owlCarousel({
+		margin: 30,
+		nav: false,
+		dots: false,
+		lazyLoad: true,
+		responsiveClass: true,
+		responsive: {
+			0: {
+				items: 1
+			},
+			900: {
+				items: 3
+			}
+		}
+	});
+	$('.box-Whatwedo .o-prev').click(function () {
+		$(this).closest(".box-Whatwedo").find(".owl-prev").click();
+	});
+	$('.box-Whatwedo .o-next').click(function () {
+		$(this).closest(".box-Whatwedo").find(".owl-next").click();
 	});
 }
 let slidershowImg = () => {
