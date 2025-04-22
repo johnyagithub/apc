@@ -98,7 +98,7 @@
 					<div class="item">
 						<a href="../product/detail.php">
 							<div class="img">
-							<img src="../../public/images/img-Product2.png" alt="">
+								<img src="../../public/images/img-Product2.png" alt="">
 							</div>
 							<div class="box-text">
 								<h6>Arco Floor Lamp</h6>
@@ -109,7 +109,7 @@
 					<div class="item">
 						<a href="../product/detail.php">
 							<div class="img">
-								<img src="https://placehold.co/400x600" alt="">
+								<img src="../../public/images/img-Product3.png" alt="">
 							</div>
 							<div class="box-text">
 								<h6>Arco Floor Lamp</h6>
