@@ -361,7 +361,7 @@
 						<div class="item">
 							<a href="../product/detail.php">
 								<div class="img">
-									<img src="https://placehold.co/400" alt="">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
 								<div class="box-text">
 									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
@@ -374,7 +374,7 @@
 						<div class="item">
 							<a href="../product/detail.php">
 								<div class="img">
-									<img src="https://placehold.co/400" alt="">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
 								<div class="box-text">
 									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
@@ -387,7 +387,7 @@
 						<div class="item">
 							<a href="../product/detail.php">
 								<div class="img">
-									<img src="https://placehold.co/400" alt="">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
 								<div class="box-text">
 									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
@@ -400,7 +400,7 @@
 						<div class="item">
 							<a href="../product/detail.php">
 								<div class="img">
-									<img src="https://placehold.co/400" alt="">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
 								<div class="box-text">
 									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
@@ -413,7 +413,7 @@
 						<div class="item">
 							<a href="../product/detail.php">
 								<div class="img">
-									<img src="https://placehold.co/400" alt="">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
 								<div class="box-text">
 									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
@@ -426,7 +426,7 @@
 						<div class="item">
 							<a href="../product/detail.php">
 								<div class="img">
-									<img src="https://placehold.co/400" alt="">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
 								<div class="box-text">
 									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
