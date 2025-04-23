@@ -289,37 +289,37 @@
 			</div>
 		</section>
 
-		<section class="box-slide py-5">
+		<section class="box-Clients box-slide py-5" style="background-image: url(../../public/images/bg1.png);">
 			<div class="container-fluid">
-				<div class="owl-carousel" data-itemSlide-mobile="2" data-itemSlide-Tablet="4" data-itemSlide-pc="6">
+				<div class="owl-carousel" data-itemSlide-Tablet="4" data-itemSlide-pc="6">
 
 					<div class="item">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+1" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+2" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+3" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+4" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+5" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+6" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+7" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+8" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+9" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+10" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+11" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+12" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
-						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+13" alt="">
+						<img src="https://placehold.co/300x120/transparent/000?text=LOGO+14" alt="">
 					</div>
 
 				</div>

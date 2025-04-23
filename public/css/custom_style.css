@@ -1222,6 +1222,19 @@ section.box-products {
         width: 100%;
 			}
 
+  .box-Clients {
+    background: no-repeat left bottom;
+    background-size: auto calc(100% - 30px);
+  }
+    .box-Clients .item {
+
+    }
+      .box-Clients .item img {
+        aspect-ratio:300/120;
+        object-fit: contain;
+        margin: 15px auto;
+      }
+
 	.btn-group.quantity {
     border-radius: var(--border_radius);
     max-width: 142px;
