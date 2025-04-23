@@ -26,8 +26,6 @@ body .btn {
 }
 body .form-control {
   font-size: 16px;
-  background-color: #f2f2ef !important;
-  border: 0px;
 }
 body .btn.disabled ,
 body .btn:disabled {
@@ -1136,6 +1134,16 @@ section.box-banner-head {
       .box-list-nav .--list-nav a.active {
         color: #000;
       }
+      
+@media only screen and (min-width: 1000px) {
+  img.img-container2 {
+    position: absolute;
+    width: calc(100% + calc(calc(100vw - var(--container)) / 2));
+    max-width: 100vw;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+  }
+}
 
 section.box-Recommend {
   overflow: hidden;

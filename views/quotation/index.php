@@ -16,123 +16,63 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="box-banner-head" style="background-image: url(../../public/images/banner-head-porfolio.jpg);">
+		<section class="box-banner-head" style="background-image: url(../../public/images/banner-head-quotation.jpg);">
 			<div class="container">
 				<h1 class="text-line2 text-capitalize">Quotation</h1>
 			</div>
 		</section>
 
-		<section class="box-list-nav">
-			<div class="--list-nav">
-				<div class="d-flex">
-					<a class="nav-link" href="../porfolio/?m=Architecture">Architecture lighting</a>
-					<a class="nav-link active" href="../porfolio/?m=Facade">Facade lighting</a>
-					<a class="nav-link" href="../porfolio/?m=Decorate">Decorate lighting</a>
-					<a class="nav-link" href="../porfolio/?m=Funiture">Funiture</a>
+		<section class="py-5">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-lg-6 p-sm-0 order-lg-1">
+						<img src="https://placehold.co/800x500" class="rounded img-container2" alt="">
+					</div>
+					<div class="col-lg-6 pt-4 py-md-5">
+						<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
+						<p class="m-0">Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space. Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.Enhance architecture with the perfect balance of light and shadow.</p>
+					</div>
 				</div>
+
 			</div>
 		</section>
 
-		<section class="box-Portfolio bg-page py-5">
+		<section class="bg-page py-5">
 			<div class="container">
-				<div class="box-List row py-3">
 
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../porfolio/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+				<form action="#" class="mx-auto mt-5 mb-2 pt-5" style="max-width: 500px;">
+					<div class="form-group">
+						<label for="">First name - Last name</label>
+						<input type="text" class="form-control" id="" placeholder="name">
 					</div>
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../porfolio/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+					<div class="form-group">
+						<label for="">Email</label>
+						<input type="email" class="form-control" id="" aria-describedby="emailHelp" placeholder="you@company.com">
 					</div>
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../porfolio/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+					<div class="form-group">
+						<label for="">Phone number</label>
+						<input type="tel" class="form-control" id="" placeholder="xxx-xxx-xxxx">
 					</div>
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../porfolio/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+					<div class="form-group">
+						<label for="">Contact name</label>
+						<input type="text" class="form-control" id="" placeholder="name">
 					</div>
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../porfolio/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+					<div class="form-group">
+						<label for="">Company name</label>
+						<input type="text" class="form-control" id="" placeholder="name">
 					</div>
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../porfolio/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+					<div class="form-group">
+						<label for="Message">Message</label>
+						<textarea class="form-control" id="Message" rows="3"></textarea>
 					</div>
+					<div class="form-check mb-3">
+						<input type="checkbox" class="form-check-input" id="exampleCheck1">
+						<label class="form-check-label" for="exampleCheck1">You agree to our friendly privacy policy.</label>
+					</div>
+					<button type="submit" class="btn btn-dark w-100">Send </button>
+				</form>
 
-				</div>
-
-				<div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
-					<a href="#" type="button" rel="prev" class="btn btn-outline-primary px-3"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Previous</a>
-					<a href="#" type="button" rel="next" class="btn btn-outline-primary px-3 order-md-1">Next <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-					<ul class="pagination d-flex justify-content-center pt-3 w-100 w-md-auto">
-						<li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
-						<li class="page-item"><a class="page-link" href="#">2</a></li>
-						<li class="page-item"><a class="page-link" href="#">3</a></li>
-						<li class="page-item"><a class="page-link" href="#">4</a></li>
-						<li class="page-item"><a class="page-link" href="#">5</a></li>
-						<li class="page-item"><a class="page-link" href="#">6</a></li>
-						<li class="page-item w-30px text-center">...</li>
-						<li class="page-item"><a class="page-link" href="#">10</a></li>
-					</ul>
-				</div>
-				<!-- <button type="button" class="btn btn-outline-primary px-4 mt-3 mt-md-5 d-table mx-auto">Load more</button> -->
 			</div>
 		</section>
 
