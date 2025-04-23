@@ -16,8 +16,20 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
+	<section class="">
+		<h1>Portfolio</h1>
+	</section>
+
 		<section class="box-Portfolio bg-page py-5">
 			<div class="container">
+				<div style="max-width: 100%;overflow: auto;" class="mb-md-2 pb-3">
+					<div class="d-flex justify-content-center font-weight-normal" style="min-width: max-content;">
+						<a class="nav-link hov-opacity-70 text-dark" href="../porfolio/?m=Architecture">Architecture lighting</a>
+						<a class="nav-link hov-opacity-70 active" href="../porfolio/?m=Facade">Facade lighting</a>
+						<a class="nav-link hov-opacity-70 text-dark" href="../porfolio/?m=Decorate">Decorate lighting</a>
+						<a class="nav-link hov-opacity-70 text-dark" href="../porfolio/?m=Funiture">Funiture</a>
+					</div>
+				</div>
 				<div class="box-List row py-3">
 
 					<div class="col-md-6 card">
@@ -115,7 +127,7 @@
 						<li class="page-item"><a class="page-link" href="#">10</a></li>
 					</ul>
 				</div>
-				<!-- <button type="button" class="btn btn-primary px-4 mt-3 mt-md-5 d-table mx-auto">Load More</button> -->
+				<!-- <button type="button" class="btn btn-outline-primary px-4 mt-3 mt-md-5 d-table mx-auto">Load more</button> -->
 			</div>
 		</section>
 

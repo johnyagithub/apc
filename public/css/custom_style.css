@@ -1068,6 +1068,15 @@ section.box-Whatwedo {
     overflow: visible;
   }
 
+body section.bg-page {
+  background-color: #F5F5F5;
+  background-image: url(../images/bg-page-l.png), url(../images/bg-page-r.png);
+  background-position-x: left, right;
+  background-position-y: 20%, calc(100% - 20px);
+  background-size: 300px auto, 400px auto;
+  background-repeat: no-repeat;
+}
+
 section.box-Recommend {
   overflow: hidden;
   background: url(../images/bg-Recommend.png) no-repeat right bottom;
@@ -1535,15 +1544,6 @@ div#content section.box-grid {
   min-height: 27vw;
   display: flex;
   align-items: center;
-}
-
-.bg-page {
-  background-color: #F5F5F5;
-  background-image: url(../images/bg-page-l.png), url(../images/bg-page-r.png);
-  background-position-x: left, right;
-  background-position-y: 20%, bottom;
-  background-size: 300px auto, 400px auto;
-  background-repeat: no-repeat;
 }
 
 .box-detail {

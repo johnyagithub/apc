@@ -191,20 +191,6 @@
 					</div>
 
 				</div>
-				<ul class="pagination d-flex justify-content-end pt-3">
-					<li class="page-item">
-						<a class="page-link" href="#" rel="prev" aria-label="« Previous">‹</a>
-					</li>
-					<li class="page-item"><a class="page-link" href="#">1</a></li>
-					<li class="page-item active" aria-current="page"><span class="page-link">2</span></li>
-					<li class="page-item"><a class="page-link" href="#">3</a></li>
-					<li class="page-item"><a class="page-link" href="#">4</a></li>
-					<li class="page-item"><a class="page-link" href="#">5</a></li>
-					<li class="page-item"><a class="page-link" href="#">6</a></li>
-					<li class="page-item">
-						<a class="page-link" href="#" rel="next" aria-label="Next »">›</a>
-					</li>
-				</ul>
 
 			</div>
 		</section>
