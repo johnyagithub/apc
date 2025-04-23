@@ -289,63 +289,39 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="box-slide py-5">
 			<div class="container-fluid">
-				<div class="owl-carousel">
+				<div class="owl-carousel" data-itemSlide-mobile="2" data-itemSlide-Tablet="4" data-itemSlide-pc="6">
+
 					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
 					</div>
 					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
+						<img src="../../public/images/img4.jpg" class="my-3" style="aspect-ratio:300/150;object-fit: contain;" alt="">
 					</div>
-					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
-					</div>
-					<div class="item">
-						<img src="../../public/images/img4.jpg" alt="">
-					</div>
+
 				</div>
 			</div>
 		</section>
