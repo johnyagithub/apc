@@ -1077,6 +1077,49 @@ body section.bg-page {
   background-repeat: no-repeat;
 }
 
+section.box-banner-head {
+  height: 450px;
+  max-height: 39vh;
+  background: no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  padding: 5vw 0px;
+  box-sizing: border-box;
+  justify-content: end;
+}
+  section.box-banner-head h1 {
+    color: #fff;
+    font-size: 90px;
+  }
+
+.box-list-nav {
+  position: sticky;
+  top: 45px;
+  z-index: 9;
+  background: #f5f5f5;
+  margin-bottom: -22px;
+  padding-top: 25px;
+}
+  .box-list-nav .--list-nav {
+    overflow: auto;
+    padding: 5px;
+  }
+    .box-list-nav .--list-nav > .d-flex {
+      min-width: max-content;
+      justify-content: center;
+      font-weight: 300;
+    }
+      .box-list-nav .--list-nav a {
+        
+      }
+      .box-list-nav .--list-nav a:hover {
+        opacity: 0.8;
+      }
+      .box-list-nav .--list-nav a.active {
+        color: #000;
+      }
+
 section.box-Recommend {
   overflow: hidden;
   background: url(../images/bg-Recommend.png) no-repeat right bottom;
@@ -1670,6 +1713,9 @@ footer.bg-dark {
     header .navbar-collapse.collapsing[style*="height"] + .box-shadow {
       display: block;
     }
+    .box-list-nav {
+      top: 35px;
+    }
     div#navbarMain li.nav-item.active::after {
       border-bottom: none;
       border-left: 4px solid var(--primary);
@@ -1777,6 +1823,9 @@ footer.bg-dark {
   header .navbar-collapse.collapsing[style*="height"] + .box-shadow {
     display: block;
   }
+  .box-list-nav {
+    top: 35px;
+  }
   div#navbarMain li.nav-item.active::after {
     border-bottom: none;
     border-left: 4px solid var(--primary);
@@ -1859,6 +1908,10 @@ footer.bg-dark {
   }
   .box-news .grid-container .grid-item .text .btn-view_more {
     display: none;
+  }
+  section.box-banner-head h1 {
+    color: #fff;
+    font-size: 50px !important;
   }
   /* แนวตั้ง */
   @media only screen and (orientation: portrait) {

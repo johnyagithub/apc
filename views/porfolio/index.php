@@ -16,20 +16,25 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-	<section class="">
-		<h1>Portfolio</h1>
-	</section>
+		<section class="box-banner-head" style="background-image: url(../../public/images/banner-head-porfolio.jpg);">
+			<div class="container">
+				<h1 class="text-line2">Portfolio</h1>
+			</div>
+		</section>
+
+		<section class="box-list-nav">
+			<div class="--list-nav">
+				<div class="d-flex">
+					<a class="nav-link" href="../porfolio/?m=Architecture">Architecture lighting</a>
+					<a class="nav-link active" href="../porfolio/?m=Facade">Facade lighting</a>
+					<a class="nav-link" href="../porfolio/?m=Decorate">Decorate lighting</a>
+					<a class="nav-link" href="../porfolio/?m=Funiture">Funiture</a>
+				</div>
+			</div>
+		</section>
 
 		<section class="box-Portfolio bg-page py-5">
 			<div class="container">
-				<div style="max-width: 100%;overflow: auto;" class="mb-md-2 pb-3">
-					<div class="d-flex justify-content-center font-weight-normal" style="min-width: max-content;">
-						<a class="nav-link hov-opacity-70 text-dark" href="../porfolio/?m=Architecture">Architecture lighting</a>
-						<a class="nav-link hov-opacity-70 active" href="../porfolio/?m=Facade">Facade lighting</a>
-						<a class="nav-link hov-opacity-70 text-dark" href="../porfolio/?m=Decorate">Decorate lighting</a>
-						<a class="nav-link hov-opacity-70 text-dark" href="../porfolio/?m=Funiture">Funiture</a>
-					</div>
-				</div>
 				<div class="box-List row py-3">
 
 					<div class="col-md-6 card">
