@@ -1222,9 +1222,12 @@ section.box-products {
         width: 100%;
 			}
 
-  .box-Clients {
-    background: no-repeat left bottom;
-    background-size: auto calc(100% - 30px);
+.box-Clients {
+  background: no-repeat left bottom;
+  background-size: auto 280px;
+}
+  .box-Clients .owl-carousel .owl-stage {
+    margin: auto;
   }
     .box-Clients .item {
 
@@ -1534,8 +1537,21 @@ div#content section.box-grid {
   align-items: center;
 }
 
+.bg-page {
+  background-color: #F5F5F5;
+  background-image: url(../images/bg-page-l.png), url(../images/bg-page-r.png);
+  background-position-x: left, right;
+  background-position-y: 20%, bottom;
+  background-size: 300px auto, 400px auto;
+  background-repeat: no-repeat;
+}
+
 .box-detail {
- 
+  background-image: url(../images/bg-Portfolio1.png), url(../images/bg-Portfolio2.png), url(../images/bg-Portfolio3.png);
+  background-position-x: right , left, right;
+  background-position-y: top , center, bottom;
+  background-size: 300px auto,400px auto,800px auto;
+  background-repeat: no-repeat;
 }
   .box-detail iframe {
     height: 520px;

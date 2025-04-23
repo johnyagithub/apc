@@ -417,6 +417,7 @@
 				<a href="../portfolio/" class="btn btn-primary px-4 mt-3 mt-md-5 d-table mx-auto">View our portfolio</a>
 			</div>
 		</section>
+
 	</div>
 	<!-- end #content -->
 
