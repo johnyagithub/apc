@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="th">
 
 <head>
 
@@ -16,117 +16,90 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section>
-			<img src="https://placehold.co/1500x500" class="w-100 aspect-ratio-mobile-1" alt="">
-		</section>
-		<section class="box-detail">
-			<div class="container py-5">
-				<h1>Lorem ipsum Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
-
-				<span class="text-muted">3 ก.พ. 2565 &nbsp;&nbsp;|&nbsp;&nbsp; view 2,453</span>
-				<div class="mt-3">
-					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Neque porro quisquam est, qui dolo rem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Excep teur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, co nsectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
-
-					<img src="https://placehold.co/1200x500" class="w-100" alt="">
-					<br><br>
-
-					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Neque porro quisquam est, qui dolo rem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Excep teur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, co nsectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
-				</div>
-
-				<div class="d-flex justify-content-between align-items-center">
-					<div class="my-1">
-						<button type="button" class="btn btn-dark px-4 btn-sm" onclick="window.history.back()">ย้อนกลับ</button>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="box-slide box-news pt-5 pb-4" style="background: #f3f3f3;">
+		<section class="box-detail py-5">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 mb-2">
-						<h4 class="my-1 d-inline-block">สำหรับคุณ</h4>
 
-						<div class="box-absolute-right position-absolute justify-content-between" style="transform: translateY(-50%);">
-							<div class="arrow-default">
-								<div class="o-prev btn btn-outline-light"><i class="fa fa-angle-left fs-20 align-middle w-20px"></i></div>
-								<div class="o-next btn btn-primary"><i class="fa fa-angle-right fs-20 align-middle w-20px"></i></div>
+				<div class="row flex-wrap">
+					<div class="col-12 col-lg">
+						<h1>Ambient, task, and accent <br>lighting in interiors</h1>
+					</div>
+					<div class="p-3">
+						<h6>Share with :</h6>
+						<div class="d-fle mt-4">
+							<button onclick="navigator.clipboard.writeText(window.location.href);" type="button" class="btn btn-outline-secondary mr-2 btn-sm">
+								<i class="fa fa-clone" aria-hidden="true"></i> 
+								Copy link
+							</button>
+							<a href="#" target="_blank" class="btn btn-outline-secondary mr-2 btn-sm">
+								<img src="../../public/images/I-line.png" alt="">
+							</a>
+							<a href="#" target="_blank" class="btn btn-outline-secondary mr-2 btn-sm">
+								<img src="../../public/images/I-facebook.png" alt="">
+							</a>
+							<a href="#" target="_blank" class="btn btn-outline-secondary mr-2 btn-sm">
+								<img src="../../public/images/I-in.png" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="table-responsive">
+					<table class="mt-5" style="min-width: 600px;">
+						<tr class="align-top">
+							<td class="py-4 pr-4">
+								<h5>Project Overview</h5>
+							</td>
+							<td class="py-4">
+								<p class="m-0"><b>Objective:</b> To design a smart, energy-efficient lighting system for an urban park that enhances safety, aesthetics, and user experience.</p>
+								<p class="m-0"><b>Scope:</b> Focus on pathways, seating areas, and landscape elements using IoT-controlled lighting.</p>
+								<p class="m-0"><b>Target Audience:</b> City residents, joggers, cyclists, and event organizers.</p>
+							</td>
+						</tr>
+						<tr class="align-top">
+							<td class="py-4 pr-4">
+								<h5>Concept Development</h5>
+							</td>
+							<td class="py-4">
+								<p><b>Technology Integration:</b> Focus on pathways, seating areas, and landscape elements using IoT-controlled lighting.</p>
+								<p><b>Lighting Mood & Theme:</b> Adaptive brightness levels based on time and foot traffic.</p>
+							</td>
+						</tr>
+					</table>
+
+					<div class="box-slide py-4">
+						<div class="owl-carousel" data-itemSlide-Tablet="4" data-itemSlide-pc="6">
+
+							<div class="item">
+								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+1" alt="">
+								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+2" alt="">
 							</div>
+							<div class="item">
+								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+3" alt="">
+								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+4" alt="">
+							</div>
+							<div class="item">
+								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+5" alt="">
+								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+6" alt="">
+							</div>
+
 						</div>
+					</div>
+
+					<a href="https://placehold.co/1400x700" data-fancybox="gallery">
+						<img src="https://placehold.co/1400x700" alt="">
+					</a>
+					<a href="https://placehold.co/1400x700" data-fancybox="gallery">
+						<img src="https://placehold.co/1400x700" alt="">
+					</a>
+					<a href="https://placehold.co/1400x700" data-fancybox="gallery">
+						<img src="https://placehold.co/1400x700" alt="">
+					</a>
+
+					<div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
+						<a href="#" type="button" rel="prev" class="btn btn-outline-primary px-3">Back to Porfolio</a>
+						<a href="#" type="button" rel="next" class="btn btn-outline-primary px-3 order-md-1">Back to homepage</a>
 					</div>
 				</div>
-
-				<div class="owl-carousel box-List py-3" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
-
-					<div class="card item col-12">
-						<div class="card-body">
-							<a href="../news/detail.php" class="text-dark">
-								<div class="img">
-									<img src="https://placehold.co/400x300" alt="" class="w-100">
-								</div>
-								<div class="box-text">
-									<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-									<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-								</div>
-							</a>
-						</div>
-						<div class="card-footer border-0 pt-0 pb-4">
-							<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-						</div>
-					</div>
-					<div class="card item col-12">
-						<div class="card-body">
-							<a href="../news/detail.php" class="text-dark">
-								<div class="img">
-									<img src="https://placehold.co/400x300" alt="" class="w-100">
-								</div>
-								<div class="box-text">
-									<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-									<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-								</div>
-							</a>
-						</div>
-						<div class="card-footer border-0 pt-0 pb-4">
-							<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-						</div>
-					</div>
-					<div class="card item col-12">
-						<div class="card-body">
-							<a href="../news/detail.php" class="text-dark">
-								<div class="img">
-									<img src="https://placehold.co/400x300" alt="" class="w-100">
-								</div>
-								<div class="box-text">
-									<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-									<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-								</div>
-							</a>
-						</div>
-						<div class="card-footer border-0 pt-0 pb-4">
-							<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-						</div>
-					</div>
-					<div class="card item col-12">
-						<div class="card-body">
-							<a href="../news/detail.php" class="text-dark">
-								<div class="img">
-									<img src="https://placehold.co/400x300" alt="" class="w-100">
-								</div>
-								<div class="box-text">
-									<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-									<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-								</div>
-							</a>
-						</div>
-						<div class="card-footer border-0 pt-0 pb-4">
-							<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-						</div>
-					</div>
-
-				</div>
-			</div>
 		</section>
 
 	</div>

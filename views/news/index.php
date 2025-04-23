@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="EN">
+<html lang="th">
 
 <head>
 
@@ -16,182 +16,104 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="box-news pt-5 pb-3">
+		<section class="box-banner-head" style="background-image: url(../../public/images/banner-head-porfolio.jpg);">
 			<div class="container">
-				<div class="row">
-					<div class="col-lg-12 mb-2">
-						<h4 class="my-1 d-block d-sm-inline-block">กิจกรรมและข่าวสาร</h4>
-						<p class="text-muted m-0">We do the light things. aims to target major lighting professional</p>
-					</div>
-				</div>
+				<h1 class="text-line2">Newsletter</h1>
+			</div>
+		</section>
 
-				<div class="row box-List pt-4">
+		<section class="box-Portfolio bg-page py-5">
+			<div class="container">
+				<div class="box-List row py-3">
 
-					<div class="col-lg-4 col-md-6 p-2">
-						<div class="card">
-							<div class="card-body">
-								<a href="../news/detail.php" class="text-dark">
-									<div class="img">
-										<img src="https://placehold.co/400x300" alt="" class="w-100">
-									</div>
-									<div class="box-text">
-										<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-										<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-									</div>
-								</a>
-							</div>
-							<div class="card-footer border-0 pt-0 pb-4">
-								<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
+					<div class="col-sm-6 col-lg-4 card">
+						<div class="item">
+							<a href="../porfolio/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
+								</div>
+								<div class="box-text">
+									<span class="text-line1 text-primary" style="font-size: 14px;">Phoenix Baker • 19 Jan 2022</span>
+									<h5 class="text-line2">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line3 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 p-2">
-						<div class="card">
-							<div class="card-body">
-								<a href="../news/detail.php" class="text-dark">
-									<div class="img">
-										<img src="https://placehold.co/400x300" alt="" class="w-100">
-									</div>
-									<div class="box-text">
-										<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-										<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-									</div>
-								</a>
-							</div>
-							<div class="card-footer border-0 pt-0 pb-4">
-								<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
+					<div class="col-sm-6 col-lg-4 card">
+						<div class="item">
+							<a href="../porfolio/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
+								</div>
+								<div class="box-text">
+									<span class="text-line1 text-primary" style="font-size: 14px;">Phoenix Baker • 19 Jan 2022</span>
+									<h5 class="text-line2">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line3 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 p-2">
-						<div class="card">
-							<div class="card-body">
-								<a href="../news/detail.php" class="text-dark">
-									<div class="img">
-										<img src="https://placehold.co/400x300" alt="" class="w-100">
-									</div>
-									<div class="box-text">
-										<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-										<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-									</div>
-								</a>
-							</div>
-							<div class="card-footer border-0 pt-0 pb-4">
-								<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
+					<div class="col-sm-6 col-lg-4 card">
+						<div class="item">
+							<a href="../porfolio/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
+								</div>
+								<div class="box-text">
+									<span class="text-line1 text-primary" style="font-size: 14px;">Phoenix Baker • 19 Jan 2022</span>
+									<h5 class="text-line2">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line3 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 p-2">
-						<div class="card">
-							<div class="card-body">
-								<a href="../news/detail.php" class="text-dark">
-									<div class="img">
-										<img src="https://placehold.co/400x300" alt="" class="w-100">
-									</div>
-									<div class="box-text">
-										<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-										<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-									</div>
-								</a>
-							</div>
-							<div class="card-footer border-0 pt-0 pb-4">
-								<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
+					<div class="col-sm-6 col-lg-4 card">
+						<div class="item">
+							<a href="../porfolio/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
+								</div>
+								<div class="box-text">
+									<span class="text-line1 text-primary" style="font-size: 14px;">Phoenix Baker • 19 Jan 2022</span>
+									<h5 class="text-line2">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line3 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 p-2">
-						<div class="card">
-							<div class="card-body">
-								<a href="../news/detail.php" class="text-dark">
-									<div class="img">
-										<img src="https://placehold.co/400x300" alt="" class="w-100">
-									</div>
-									<div class="box-text">
-										<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-										<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-									</div>
-								</a>
-							</div>
-							<div class="card-footer border-0 pt-0 pb-4">
-								<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
+					<div class="col-sm-6 col-lg-4 card">
+						<div class="item">
+							<a href="../porfolio/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
+								</div>
+								<div class="box-text">
+									<span class="text-line1 text-primary" style="font-size: 14px;">Phoenix Baker • 19 Jan 2022</span>
+									<h5 class="text-line2">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line3 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
 						</div>
 					</div>
-					<div class="col-lg-4 col-md-6 p-2">
-						<div class="card">
-							<div class="card-body">
-								<a href="../news/detail.php" class="text-dark">
-									<div class="img">
-										<img src="https://placehold.co/400x300" alt="" class="w-100">
-									</div>
-									<div class="box-text">
-										<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-										<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-									</div>
-								</a>
-							</div>
-							<div class="card-footer border-0 pt-0 pb-4">
-								<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 p-2">
-						<div class="card">
-							<div class="card-body">
-								<a href="../news/detail.php" class="text-dark">
-									<div class="img">
-										<img src="https://placehold.co/400x300" alt="" class="w-100">
-									</div>
-									<div class="box-text">
-										<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-										<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-									</div>
-								</a>
-							</div>
-							<div class="card-footer border-0 pt-0 pb-4">
-								<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 p-2">
-						<div class="card">
-							<div class="card-body">
-								<a href="../news/detail.php" class="text-dark">
-									<div class="img">
-										<img src="https://placehold.co/400x300" alt="" class="w-100">
-									</div>
-									<div class="box-text">
-										<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-										<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-									</div>
-								</a>
-							</div>
-							<div class="card-footer border-0 pt-0 pb-4">
-								<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
-						</div>
-					</div>
-					<div class="col-lg-4 col-md-6 p-2">
-						<div class="card">
-							<div class="card-body">
-								<a href="../news/detail.php" class="text-dark">
-									<div class="img">
-										<img src="https://placehold.co/400x300" alt="" class="w-100">
-									</div>
-									<div class="box-text">
-										<h6 class="text-line1 mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit</h6>
-										<p class="text-line3 mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore etLorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et</p>
-									</div>
-								</a>
-							</div>
-							<div class="card-footer border-0 pt-0 pb-4">
-								<a class="text-primary" href="../news/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
+					<div class="col-sm-6 col-lg-4 card">
+						<div class="item">
+							<a href="../porfolio/detail.php">
+								<div class="img">
+									<img src="https://placehold.co/400/fff/B28E5E" alt="">
+								</div>
+								<div class="box-text">
+									<span class="text-line1 text-primary" style="font-size: 14px;">Phoenix Baker • 19 Jan 2022</span>
+									<h5 class="text-line2">Ambient, task, and accent lighting in interiors</h5>
+									<p class="text-line3 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+								</div>
+							</a>
 						</div>
 					</div>
 
 				</div>
 
+				<button type="button" class="btn btn-outline-primary px-4 mt-3 mt-md-5 d-table mx-auto">Load more</button>
 			</div>
 		</section>
 

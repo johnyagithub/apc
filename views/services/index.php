@@ -18,7 +18,7 @@
 
 		<section class="box-promotion">
 
-			<div class="box-news-index py-5 px-3" style="background-image: url('../../public/images/img-promotion1.png')">
+			<div class="box-promotion-list py-5 px-3" style="background-image: url('../../public/images/img-promotion1.png')">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-6 py-3 px-lg-5">
@@ -32,7 +32,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="box-news-index py-5 px-3" style="background-image: url('../../public/images/img-promotion2.png')">
+			<div class="box-promotion-list py-5 px-3" style="background-image: url('../../public/images/img-promotion2.png')">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-6 py-3 px-lg-5">
@@ -46,7 +46,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="box-news-index py-5 px-3" style="background-image: url('../../public/images/img-promotion3.png')">
+			<div class="box-promotion-list py-5 px-3" style="background-image: url('../../public/images/img-promotion3.png')">
 				<div class="container">
 					<div class="row">
 						<div class="col-lg-6 py-3 px-lg-5">
