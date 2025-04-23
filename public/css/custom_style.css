@@ -906,7 +906,22 @@ form.form-Search {
     transform: none;
     bottom: 10px;
   }
-  
+
+.quote-block {
+  border-left: 2px solid #333;
+  margin: 20px auto;
+}
+  .quote-block blockquote {
+    margin: 15px;
+    font-weight: 500;
+    color: var(--secondary);
+  }
+  .quote-block cite {
+    margin: 15px;
+    display: block;
+    font-style: normal;
+  }
+    
 .box-slide {
  
 }
@@ -1082,7 +1097,6 @@ body section.bg-page {
 
 section.box-banner-head {
   height: 450px;
-  max-height: 39vh;
   background: no-repeat center center;
   background-size: cover;
   display: flex;
@@ -1834,6 +1848,9 @@ footer.bg-dark {
   .box-detail a[data-fancybox] {
     margin: 15px auto;
   }
+  section.box-banner-head {
+    max-height: 50vh;
+  }
   /* แนวตั้ง */
   @media only screen and (orientation: portrait) {
     .box-promotion img.img-portrait + img {
@@ -1869,6 +1886,9 @@ footer.bg-dark {
     }
     .box-Recommend .owl-carousel {
       max-width: 190px;
+    }
+    section.box-banner-head {
+      max-height: 200px;
     }
   }
   /* แนวนอน */

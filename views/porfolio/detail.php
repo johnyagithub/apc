@@ -27,7 +27,7 @@
 						<h6>Share with :</h6>
 						<div class="d-fle mt-4">
 							<button onclick="navigator.clipboard.writeText(window.location.href);" type="button" class="btn btn-outline-secondary mr-2 btn-sm">
-								<i class="fa fa-clone" aria-hidden="true"></i> 
+								<i class="fa fa-clone" aria-hidden="true"></i>
 								Copy link
 							</button>
 							<a href="#" target="_blank" class="btn btn-outline-secondary mr-2 btn-sm">
@@ -65,40 +65,40 @@
 							</td>
 						</tr>
 					</table>
+				</div>
 
-					<div class="box-slide py-4">
-						<div class="owl-carousel" data-itemSlide-Tablet="4" data-itemSlide-pc="6">
+				<div class="box-slide py-4">
+					<div class="owl-carousel" data-itemSlide-Tablet="4" data-itemSlide-pc="6">
 
-							<div class="item">
-								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+1" alt="">
-								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+2" alt="">
-							</div>
-							<div class="item">
-								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+3" alt="">
-								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+4" alt="">
-							</div>
-							<div class="item">
-								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+5" alt="">
-								<img src="https://placehold.co/300x120/transparent/000?text=LOGO+6" alt="">
-							</div>
-
+						<div class="item">
+							<img src="https://placehold.co/300x120/transparent/000?text=LOGO+1" alt="">
+							<img src="https://placehold.co/300x120/transparent/000?text=LOGO+2" alt="">
 						</div>
-					</div>
+						<div class="item">
+							<img src="https://placehold.co/300x120/transparent/000?text=LOGO+3" alt="">
+							<img src="https://placehold.co/300x120/transparent/000?text=LOGO+4" alt="">
+						</div>
+						<div class="item">
+							<img src="https://placehold.co/300x120/transparent/000?text=LOGO+5" alt="">
+							<img src="https://placehold.co/300x120/transparent/000?text=LOGO+6" alt="">
+						</div>
 
-					<a href="https://placehold.co/1400x700" data-fancybox="gallery">
-						<img src="https://placehold.co/1400x700" alt="">
-					</a>
-					<a href="https://placehold.co/1400x700" data-fancybox="gallery">
-						<img src="https://placehold.co/1400x700" alt="">
-					</a>
-					<a href="https://placehold.co/1400x700" data-fancybox="gallery">
-						<img src="https://placehold.co/1400x700" alt="">
-					</a>
-
-					<div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
-						<a href="#" type="button" rel="prev" class="btn btn-outline-primary px-3">Back to Porfolio</a>
-						<a href="#" type="button" rel="next" class="btn btn-outline-primary px-3 order-md-1">Back to homepage</a>
 					</div>
+				</div>
+
+				<a href="https://placehold.co/1400x700" data-fancybox="gallery">
+					<img src="https://placehold.co/1400x700" alt="">
+				</a>
+				<a href="https://placehold.co/1400x700" data-fancybox="gallery">
+					<img src="https://placehold.co/1400x700" alt="">
+				</a>
+				<a href="https://placehold.co/1400x700" data-fancybox="gallery">
+					<img src="https://placehold.co/1400x700" alt="">
+				</a>
+
+				<div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
+					<a href="../porfolio/" type="button" rel="prev" class="btn btn-outline-primary px-3">Back to Porfolio</a>
+					<a href="#" type="button" rel="next" class="btn btn-outline-primary px-3 order-md-1">Back to homepage</a>
 				</div>
 		</section>
 

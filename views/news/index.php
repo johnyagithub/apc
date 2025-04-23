@@ -16,7 +16,7 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="box-banner-head" style="background-image: url(../../public/images/banner-head-porfolio.jpg);">
+		<section class="box-banner-head" style="background-image: url(../../public/images/banner-head-news.jpg);">
 			<div class="container">
 				<h1 class="text-line2">Newsletter</h1>
 			</div>
@@ -28,7 +28,7 @@
 
 					<div class="col-sm-6 col-lg-4 card">
 						<div class="item">
-							<a href="../porfolio/detail.php">
+							<a href="../news/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
@@ -42,7 +42,7 @@
 					</div>
 					<div class="col-sm-6 col-lg-4 card">
 						<div class="item">
-							<a href="../porfolio/detail.php">
+							<a href="../news/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
@@ -56,7 +56,7 @@
 					</div>
 					<div class="col-sm-6 col-lg-4 card">
 						<div class="item">
-							<a href="../porfolio/detail.php">
+							<a href="../news/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
@@ -70,7 +70,7 @@
 					</div>
 					<div class="col-sm-6 col-lg-4 card">
 						<div class="item">
-							<a href="../porfolio/detail.php">
+							<a href="../news/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
@@ -84,7 +84,7 @@
 					</div>
 					<div class="col-sm-6 col-lg-4 card">
 						<div class="item">
-							<a href="../porfolio/detail.php">
+							<a href="../news/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
@@ -98,7 +98,7 @@
 					</div>
 					<div class="col-sm-6 col-lg-4 card">
 						<div class="item">
-							<a href="../porfolio/detail.php">
+							<a href="../news/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
