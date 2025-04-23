@@ -18,7 +18,7 @@
 
 		<section class="box-banner-head" style="background-image: url(../../public/images/banner-head-news.jpg);">
 			<div class="container">
-				<h1 class="text-line2">Newsletter</h1>
+				<h1 class="text-line2 text-capitalize">Newsletter</h1>
 			</div>
 		</section>
 
