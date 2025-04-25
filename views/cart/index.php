@@ -16,7 +16,7 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="box-cart bg-page py-5">
+		<section class="box-cart py-5">
 			<div class="container">
 
 				dfhfdh<br>

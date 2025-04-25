@@ -1107,9 +1107,12 @@ section.box-succeed {
 }
 
 section.box-cart {
-  background-color: #EBEBEB !important;
-  background-position-x: left, calc(100% + 122px) !important;
-  background-position-y: -180px, calc(100% + 200px) !important;
+  background-color: #EBEBEB;
+  background-image: url(../images/bg-cart-l.png), url(../images/bg-cart-r.png);
+  background-position-x: left, right;
+  background-position-y: top, top;
+  background-size: 500px auto, 500px auto;
+  background-repeat: no-repeat;
 }
 div#content:has(section.box-cart)+section:not(.footer-widget) {
   background-color: #EBEBEB;
