@@ -16,24 +16,11 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="box-cart bg-page py-5">
-			<div class="container">
-
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-				dfhfdh<br>
-
+		<section class="box-succeed bg-page">
+			<div class="d-flex justify-content-center align-items-center flex-column h-500px">
+				<h1 style="font-size: 5em;">Thank you</h1>
+				<p>We will contact you soon</p>
+				<a class="btn btn-primary w-300px" href="../home/">Back to Homepage</a>
 			</div>
 		</section>
 

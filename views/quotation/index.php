@@ -29,7 +29,7 @@
 					<div class="col-lg-6 p-sm-0 order-lg-1">
 						<img src="https://placehold.co/800x500" class="rounded img-container2" alt="">
 					</div>
-					<div class="col-lg-6 pt-4 py-md-5">
+					<div class="col-lg-6 pt-4 py-md-5 pr-xl-5">
 						<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
 						<p class="m-0">Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space. Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.Enhance architecture with the perfect balance of light and shadow.</p>
 					</div>
@@ -38,10 +38,10 @@
 			</div>
 		</section>
 
-		<section class="bg-page py-5">
+		<section class="box-quotation bg-page py-5">
 			<div class="container">
 
-				<form action="#" class="mx-auto mt-5 mb-2 pt-5" style="max-width: 500px;">
+				<form action="../quotation/succeed.php" class="mx-auto mt-5 mb-2 pt-5" style="max-width: 500px;">
 					<div class="form-group">
 						<label for="">First name - Last name</label>
 						<input type="text" class="form-control" id="" placeholder="name">
@@ -64,7 +64,7 @@
 					</div>
 					<div class="form-group">
 						<label for="Message">Message</label>
-						<textarea class="form-control" id="Message" rows="3"></textarea>
+						<textarea class="form-control" id="Message" rows="4" style="resize: none;"></textarea>
 					</div>
 					<div class="form-check mb-3">
 						<input type="checkbox" class="form-check-input" id="exampleCheck1">

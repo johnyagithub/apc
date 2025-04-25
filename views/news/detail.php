@@ -60,8 +60,8 @@
 				</div>
 
 				<div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
-					<a href="../news/" type="button" rel="prev" class="btn btn-outline-primary px-3">Back to Newsletter</a>
-					<a href="#" type="button" rel="next" class="btn btn-outline-primary px-3 order-md-1">Back to homepage</a>
+					<a href="../news/" type="button" class="btn btn-outline-primary px-3">Back to Newsletter</a>
+					<a href="../home/" type="button" class="btn btn-outline-primary px-3 order-md-1">Back to homepage</a>
 				</div>
 		</section>
 
