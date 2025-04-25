@@ -46,7 +46,7 @@ body hr {
   border-color: rgba(199, 199, 199, 0.5) !important;
 }
 #empty {
-  display: block;
+  display: flex;
 }
 div+#empty {
   display: none;
@@ -572,7 +572,19 @@ div#Tax-invoice .form-group label {
 
 li.list-group-item {
   background-color: transparent;
+  border: 0px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
+  li.list-group-item img {
+    margin-right: 20px;
+    background: #fff;
+    aspect-ratio: 1;
+    border: 1px solid #BFBFBF;
+    width: 150px;
+    object-fit: contain;
+  }
+ 
 .owl-nav {
 	position: absolute;
 	top: 50%;
@@ -1102,9 +1114,12 @@ section.box-quotation {
 }
 
 section.box-succeed {
-  background-color: #FAF9F8 !important;
-  background-position-x: left, calc(100% + 260px) !important;
-  background-position-y: calc(100% + 290px), -75px !important;
+  background-color: #FAF9F8;
+  background-image: url(../images/bg-succeed.png),url(../images/bg-page-l.png), url(../images/bg-succeed.png), url(../images/bg-page-r.png);
+  background-position-x: center,left,center, calc(100% + 260px);
+  background-position-y: center,calc(100% + 290px),center, -75px;
+  background-size: 1335px auto,300px auto, 380px auto, 400px auto;
+  background-repeat: no-repeat;
 }
 div#content:has(section.box-succeed)+section.box-Request {
   background-color: #FAF9F8;
@@ -1131,6 +1146,14 @@ div#content:has(section.box-cart)+section.box-Request {
     .box-cart table th:nth-child(1) {
       /* width: 90%; */
     }
+      .box-cart table img.img-product {
+        margin-right: 21px;
+        background: #fff;
+        aspect-ratio: 1;
+        border: 1px solid #BFBFBF;
+        width: 150px;
+        object-fit: contain;
+      }
 
 section.box-banner-head {
   height: 450px;
@@ -1390,7 +1413,7 @@ section.box-products {
       background-color: var(--primary);
 		}
 		.btn-group.quantity button.btn.btn-delete {
-      background-color: #d1d1d1;
+      background-color: #434343;
 		}
 		.btn-group.quantity .btn.btn-plus:after {
       content: "";
@@ -1838,7 +1861,7 @@ footer.bg-dark {
     border-radius: 50%;
     position: absolute;
     top: 3px;
-    font-size: 14px;
+    font-size: 14px !important;
     right: -9px;
   }
   div#navbarMain .navbar-nav.box-menu+.d-flex {
@@ -1897,6 +1920,12 @@ footer.bg-dark {
   }
   section.box-banner-head {
     max-height: 50vh;
+  }
+  li.list-group-item img {
+    width: 100px;
+  }
+  li.list-group-item h3 {
+    font-size: 20px;
   }
   /* แนวตั้ง */
   @media only screen and (orientation: portrait) {

@@ -16,7 +16,7 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="box-succeed bg-page">
+		<section class="box-succeed">
 			<div class="d-flex justify-content-center align-items-center flex-column h-500px">
 				<h1 style="font-size: 5em;">Thank you</h1>
 				<p>We will contact you soon</p>

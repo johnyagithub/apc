@@ -40,7 +40,7 @@
             <div class="dropdown-toggle nav-cart-box dropdown h-100" id="cart_items">
               <a href="javascript:void(0)" class="d-flex align-items-center text-reset h-100" style="width: max-content;" data-toggle="dropdown" data-display="static">
                 <img src="../../public/images/cart.png" style="width: 27px;" alt="">
-                <span class="badge">3</span>
+                <span class="badge">2</span>
               </a>
 
               <div class="dropdown-menu py-0 dropdown-menu-right dropdown-menu-lg p-0">
