@@ -1102,21 +1102,35 @@ section.box-quotation {
 }
 
 section.box-succeed {
+  background-color: #FAF9F8 !important;
   background-position-x: left, calc(100% + 260px) !important;
   background-position-y: calc(100% + 290px), -75px !important;
+}
+div#content:has(section.box-succeed)+section.box-Request {
+  background-color: #FAF9F8;
+  padding-top: 0px !important;
 }
 
 section.box-cart {
   background-color: #EBEBEB;
   background-image: url(../images/bg-cart-l.png), url(../images/bg-cart-r.png);
   background-position-x: left, right;
-  background-position-y: top, top;
-  background-size: 500px auto, 500px auto;
+  background-position-y: top, bottom;
+  background-size: 380px auto, 320px auto;
   background-repeat: no-repeat;
 }
-div#content:has(section.box-cart)+section:not(.footer-widget) {
+div#content:has(section.box-cart)+section.box-Request {
   background-color: #EBEBEB;
 }
+  .box-cart table {
+    width: 100%;
+  }
+    .box-cart table th {
+      padding: 15px 0px;
+    }
+    .box-cart table th:nth-child(1) {
+      /* width: 90%; */
+    }
 
 section.box-banner-head {
   height: 450px;

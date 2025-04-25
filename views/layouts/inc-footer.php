@@ -1,8 +1,8 @@
-<section class="py-5">
+<section class="box-Request py-5">
   <div class="container">
     <div class="rounded p-4" style="background: url(../../public/images/bg-quotation.jpg) no-repeat center;background-size: cover;">
       <div class="text-center p-sm-3 text-white">
-        <h1>Request Request a Quote & Plan Your Budget!</h1>
+        <h1>Request a Quote & Plan Your Budget!</h1>
         <p>Looking for a customized solution? Request a free, no-obligation quotation today!</p>
         <a href="../quotation/" class="btn btn-primary px-4 rounded mt-3 mt-md-5">Request Your Free Quote</a>
       </div>

@@ -1,8 +1,6 @@
 $(function () {
 
 	sliderItem();
-	myQuantity();
-	slidershowImg();
 	sliderBanner();
 	sliderWhatwedo();
 	sliderRecommend();
@@ -120,51 +118,6 @@ let sliderRecommend = () => {
 			},
 			900: {
 				items: 4
-			}
-		}
-	});
-}
-let slidershowImg = () => {
-	$(".box-showImg .owl-carousel").owlCarousel({
-		margin: 0,
-		nav: false,
-		items: 1,
-		dots: true,
-		lazyLoad: true,
-		navText: ["<i class='fa fa-angle-left fs-20 align-middle'></i>", "<i class='fa fa-angle-right fs-20 align-middle'></i>"]
-	});
-}
-
-let myQuantity = () => {
-	$('.btn-group.quantity .btn-plus').click(function () {
-		var n1 = $(this).closest(".btn-group.quantity").find("input").val();
-		$(this).closest(".btn-group.quantity").find(".btn-delete").removeClass('disabled');
-
-		var result = parseInt(n1) + 1;
-		$(this).closest(".btn-group.quantity").find("input").val(result);
-
-		var price = $(this).closest(".btn-group.quantity").attr('data-price');
-		if (price != '') {
-			var number = parseInt(result) * price;
-			$(this).closest(".btn-group.quantity[data-price]").nextAll('input[type="hidden"]').val(number);
-			$(this).closest(".btn-group.quantity[data-price]").nextAll('.sum').find('b').html(number.toLocaleString(undefined, { minimumFractionDigits: 2 }));
-		}
-	});
-	$('.btn-group.quantity .btn-delete').click(function () {
-		var n2 = $(this).closest(".btn-group.quantity").find("input").val();
-		if (parseInt(n2) == 2) {
-			$(this).closest(".btn-group.quantity").find(".btn-delete").addClass('disabled');
-		}
-
-		if (parseInt(n2) > 1) {
-			var result2 = parseInt(n2) - 1;
-			$(this).closest(".btn-group.quantity").find("input").val(result2);
-
-			var price2 = $(this).closest(".btn-group.quantity").attr('data-price');
-			if (price2 != '') {
-				var number2 = parseInt(result2) * price2;
-				$(this).closest(".btn-group.quantity[data-price]").nextAll('input[type="hidden"]').val(number2);
-				$(this).closest(".btn-group.quantity[data-price]").nextAll().find('b').html(number2.toLocaleString(undefined, { minimumFractionDigits: 2 }));
 			}
 		}
 	});
