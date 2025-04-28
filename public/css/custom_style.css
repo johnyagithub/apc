@@ -345,6 +345,55 @@ header {
       font-weight: 900;
       font-size: 57%;
     }
+    header div#navbarMain #cart_items {
+      
+    }
+      header div#navbarMain #cart_items .dropdown-menu.dropdown-menu-right.dropdown-menu-xl {
+        width: 500px;
+        min-width: 500px;
+        border-radius: var(--border_radius);
+        margin-top: 9px !important;
+      }
+        header div#navbarMain #cart_items .box-cart {
+
+        }
+          header div#navbarMain #cart_items .b-cart {
+            padding: 0px 13px 13px 13px;
+          }
+            div#navbarMain #cart_items .btn-group.quantity .btn {
+              height: 30px;
+            }
+            div#navbarMain #cart_items .btn-group.quantity .btn.btn-plus:after {
+              height: 10px !important;
+            }
+            div#navbarMain #cart_items .btn-group.quantity .btn.btn-plus:before ,
+            div#navbarMain #cart_items .btn-group.quantity .btn.btn-delete:before {
+              width: 10px !important;
+            }
+            div#navbarMain #cart_items .btn-group.quantity button.btn {
+              width: 0px !important;
+            }
+            header div#navbarMain #cart_items .b-cart table {
+              max-width: 100%;
+            }
+              header div#navbarMain #cart_items .b-cart thead {
+                position: sticky;
+                top: -1px;
+                background: #fff;
+                z-index: 1;
+              }
+                header div#navbarMain #cart_items .b-cart table thead th {
+                  padding-top: 0px;
+                }
+
+              header div#navbarMain #cart_items .b-cart table td {
+                padding: 5px;
+              }
+                header div#navbarMain #cart_items .b-cart table img.img-product {
+                  width: 71px;
+                  margin-right: 10px;
+                }
+
 
 body header .container {
   max-width: 1500px;
@@ -715,11 +764,7 @@ li.list-group-item {
       margin-right: 4px;
     }
 	
-.text-line1 {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
+.text-line1 ,
 .text-line2 ,
 .text-line3 ,
 .text-line4 ,
@@ -729,6 +774,10 @@ li.list-group-item {
   overflow: hidden;
   text-overflow: ellipsis;
   word-break: break-all;
+  white-space: pre-wrap;
+}
+.text-line1 {
+  -webkit-line-clamp: 1;
 }
 .text-line2 {
   -webkit-line-clamp: 2;
@@ -1153,6 +1202,9 @@ div#content:has(section.box-cart)+section.box-Request {
         border: 1px solid #BFBFBF;
         width: 150px;
         object-fit: contain;
+        margin-top: auto;
+        margin-bottom: auto;
+        border-radius: 10px;
       }
 
 section.box-banner-head {

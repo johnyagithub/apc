@@ -38,92 +38,96 @@
         <div class="d-flex">
           <div class="align-self-stretch px-2" data-hover="dropdown">
             <div class="dropdown-toggle nav-cart-box dropdown h-100" id="cart_items">
-              <a href="javascript:void(0)" class="d-flex align-items-center text-reset h-100" style="width: max-content;" data-toggle="dropdown" data-display="static">
+              <a href="javascript:void(0)" class="d-none d-lg-flex align-items-center text-reset h-100" style="width: max-content;" data-toggle="dropdown" data-display="static">
+                <img src="../../public/images/cart.png" style="width: 27px;" alt="">
+                <span class="badge">2</span>
+              </a>
+              <a href="../cart/" class="d-flex d-lg-none text-reset">
                 <img src="../../public/images/cart.png" style="width: 27px;" alt="">
                 <span class="badge">2</span>
               </a>
 
-              <div class="dropdown-menu py-0 dropdown-menu-right dropdown-menu-lg p-0">
-                <div id="list_cart">
-                  <div class="p-3 fs-15 fw-500 p-3 border-bottom">
-                    รายการรถเข็น
+              <div class="dropdown-menu py-0 dropdown-menu-right dropdown-menu-xl p-0">
+                <div class="box-cart">
+                  <h5 class="p-3 fs-15 fw-500 p-3" id="cart_items2">My Cart (<span>2</span>)</h5>
+                  <div class="b-cart h-300px overflow-auto fs-13">
+                    <table>
+                      <thead>
+                        <tr>
+                          <th class="w-250px">order</th>
+                          <th class="w-100px">Qty</th>
+                          <th>Price</th>
+                          <th></th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td class="d-flex align-items-center py-2">
+                            <img src="../../public/images/img-Product1.png" class="img-product" alt="">
+                            <a href="../product/detail.php" class="text-dark">
+                              <p class="m-0 text-line1">Product Brand_name</p>
+                              <h6 class="text-line3">Jelly Fish Table Lamp</h6>
+                            </a>
+                          </td>
+                          <td>
+                            <div class="btn-group quantity mr-2 ml-0" data-price="180">
+                              <button type="button" class="btn btn-delete btn-sm rounded-circle btn-light border-0 disabled" onclick="event.stopPropagation()"></button>
+                              <input type="text" class="btn border-0" name="inputQuantity" value="2" readonly>
+                              <button type="button" class="btn btn-plus btn-sm rounded-circle btn-light border-0" onclick="event.stopPropagation()"></button>
+                              <input type="hidden" class="sumprice" value="360">
+                            </div>
+                          </td>
+                          <td>
+                            <span class="text-dark">฿ 360</span>
+                          </td>
+                          <td>
+                            <button type="button" class="fs-23 btn border-0 text-primary p-2" onclick="event.stopPropagation(); myDeleteItem($(this));"><i class="fa fa-trash"></i></button>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="d-flex align-items-center py-2">
+                            <img src="../../public/images/img-Product2.png" class="img-product" alt="">
+                            <a href="../product/detail.php" class="text-dark">
+                              <p class="m-0 text-line1">Product Brand_name</p>
+                              <h6 class="text-line3">VÄXJÖ Wall Lamp</h6>
+                            </a>
+                          </td>
+                          <td>
+                            <div class="btn-group quantity mr-2 ml-0" data-price="180">
+                              <button type="button" class="btn btn-delete btn-sm rounded-circle btn-light border-0 disabled" onclick="event.stopPropagation()"></button>
+                              <input type="text" class="btn border-0" name="inputQuantity" value="1" readonly>
+                              <button type="button" class="btn btn-plus btn-sm rounded-circle btn-light border-0" onclick="event.stopPropagation()"></button>
+                              <input type="hidden" class="sumprice" value="180">
+                            </div>
+                          </td>
+                          <td>
+                            <span class="text-dark">฿ 180</span>
+                          </td>
+                          <td>
+                            <button type="button" class="fs-23 btn border-0 text-primary p-2" onclick="event.stopPropagation(); myDeleteItem($(this));"><i class="fa fa-trash"></i></button>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
                   </div>
-                  <ul id="list-cart" class="h-250px overflow-auto c-scrollbar-light list-group list-group-flush fs-13">
-
-                    <li class="list-group-item p-2" data-id="3" data-producttype="1 กก. x 10 แพ็ค / กล่อง">
-                      <span class="d-flex align-items-center">
-                        <a href="../product/detail.php" class="text-reset d-flex align-items-center flex-grow-1">
-                          <img src="../../public/images/demo-img1.jpg" class="img-fit size-60px rounded ls-is-cached">
-                          <span class="minw-0 pl-2 flex-grow-1">
-                            <span class="fw-500 mb-1 text-truncate-2 text-line2" style="white-space: initial;">
-                              2310 LED weatherproof
-                            </span>
-                            <span>
-                              <span class="box-num">1</span>x
-                            </span>
-                            <span>
-                              1,800 บาท
-                            </span>
-                          </span>
-                        </a>
-                      </span>
-                    </li>
-                    <li class="list-group-item p-2" data-id="1" data-producttype="500 กรัม / แพ็ค">
-                      <span class="d-flex align-items-center">
-                        <a href="../product/detail.php" class="text-reset d-flex align-items-center flex-grow-1">
-                          <img src="../../public/images/demo-img1.jpg" class="img-fit size-60px rounded ls-is-cached">
-                          <span class="minw-0 pl-2 flex-grow-1">
-                            <span class="fw-500 mb-1 text-truncate-2 text-line2" style="white-space: initial;">
-                              2310 LED weatherproof
-                            </span>
-                            <span>
-                              <span class="box-num">1</span>x
-                            </span>
-                            <span>
-                              1,320 บาท
-                            </span>
-                          </span>
-                        </a>
-                      </span>
-                    </li>
-                    <li class="list-group-item p-2" data-id="2" data-producttype="1 กล่อง (10 กก.)">
-                      <span class="d-flex align-items-center">
-                        <a href="../product/detail.php" class="text-reset d-flex align-items-center flex-grow-1">
-                          <img src="../../public/images/demo-img2.jpg" class="img-fit size-60px rounded ls-is-cached">
-                          <span class="minw-0 pl-2 flex-grow-1">
-                            <span class="fw-500 mb-1 text-truncate-2 text-line2" style="white-space: initial;">
-                              2310 LED weatherproof
-                            </span>
-                            <span>
-                              <span class="box-num">2</span>x
-                            </span>
-                            <span>
-                              1,320 บาท
-                            </span>
-                          </span>
-                        </a>
-                      </span>
-                    </li>
-
-                  </ul>
-
-                  <div class="px-3 py-2 fs-15 border-top d-flex justify-content-between">
-                    <span class="opacity-60">ยอดรวม</span>
-                    <span class="fw-500">5,760 บาท</span>
+                  <div class="btn-cart row px-3 mb-3 mx-0">
+                    <div class="col p-1">
+                      <button type="button" class="btn btn-outline-dark text-dark btn-sm w-100">Close</button>
+                    </div>
+                    <div class="col p-1">
+                      <a href="../cart/" type="button" class="btn btn-dark btn-sm w-100">Check out</a>
+                    </div>
                   </div>
-                  <div class="px-3 py-2 text-center border-top">
-                    <a href="../cart" class="btn btn-soft-primary btn-sm w-100">ดูตะกร้า</a>
+
+                  <!-- ไม่มีสินค้าในตะกร้า -->
+                  <div id="empty" class="h-300px align-items-center justify-content-center">
+                    <div class="text-center p-3">
+                      <i class="fa fa-frown-o fa-3x opacity-60 mb-3"></i>
+                      <h3 class="h6 fw-700">Your Cart is empty</h3>
+                    </div>
                   </div>
+
                 </div>
-
-                <!-- ไม่มีสินค้าในตะกร้า -->
-                <div>
-                  <div class="text-center p-3">
-                    <i class="fa fa-frown-o fa-3x opacity-60 mb-3"></i>
-                    <h3 class="h6 fw-700">Your Cart is empty</h3>
-                  </div>
-                </div>
-
               </div>
             </div>
           </div>

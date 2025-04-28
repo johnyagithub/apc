@@ -38,8 +38,8 @@
                       <div class="col-lg-7 col-xl-8 d-flex">
                         <img src="../../public/images/img-Product1.png" class="img-product" alt="">
                         <a href="../product/detail.php" class="text-dark">
-                          <h6>Product Brand_name</h6>
-                          <h3>Jelly Fish Table Lamp</h3>
+                          <h6 class="text-line1">Product Brand_name</h6>
+                          <h3 class="text-line2">Jelly Fish Table Lamp</h3>
                           <span class="mb-0 mt-2">฿ 180</span>
                         </a>
                       </div>
@@ -57,7 +57,7 @@
                         <span class="text-dark">฿ <span class="box-Total">360</span></span>
                       </div>
                       <div class="w-50px order-5 order-lg-0 text-right d-flex align-content-center flex-wrap align-items-center mx-auto mr-sm-0">
-                        <a href="javascript:void(0)" class="btn btn-sm btn-dark w-100" onclick="deleteItem($(this));">ลบ</a>
+                        <button type="button" class="fs-23 btn border-0 text-primary" onclick="deleteItem($(this));"><i class="fa fa-trash" aria-hidden="true"></i></button>
                       </div>
                     </div>
                   </li>
@@ -66,8 +66,8 @@
                       <div class="col-lg-7 col-xl-8 d-flex">
                         <img src="../../public/images/img-Product2.png" class="img-product" alt="">
                         <a href="../product/detail.php" class="text-dark">
-                          <h6>Product Brand_name</h6>
-                          <h3>VÄXJÖ Wall Lamp </h3>
+                          <h6 class="text-line1">Product Brand_name</h6>
+                          <h3 class="text-line2">VÄXJÖ Wall Lamp </h3>
                           <span class="mb-0 mt-2">฿ 200</span>
                         </a>
                       </div>
@@ -85,7 +85,7 @@
                         <span class="text-dark">฿ <span class="box-Total">200</span></span>
                       </div>
                       <div class="w-50px order-5 order-lg-0 text-right d-flex align-content-center flex-wrap align-items-center mx-auto mr-sm-0">
-                        <a href="javascript:void(0)" class="btn btn-sm btn-dark w-100" onclick="deleteItem($(this));">ลบ</a>
+                        <button type="button" class="fs-23 btn border-0 text-primary" onclick="deleteItem($(this));"><i class="fa fa-trash" aria-hidden="true"></i></button>
                       </div>
                     </div>
                   </li>

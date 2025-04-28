@@ -158,3 +158,14 @@ let myQuantity = () => {
 		}
 	});
 }
+
+let myDeleteItem = (i) => {
+	var list = $(i).closest(".box-cart").find("tbody tr").length - 1;
+	if (list > 0) {
+		$(i).closest("tr").remove();
+	} else {
+		$(i).closest(".box-cart").find(".b-cart,.btn-cart").remove();
+		$("#cart_items2").remove();
+	}
+	$('#cart_items .badge,#cart_items2 span').text($(".box-cart tbody tr").length);
+}
