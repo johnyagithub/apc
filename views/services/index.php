@@ -16,46 +16,60 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="box-promotion">
+		<section class="box-services">
 
-			<div class="box-promotion-list py-5 px-3" style="background-image: url('../../public/images/img-promotion1.png')">
+			<div class="list-services">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 py-3 px-lg-5">
-							<h2>Lighting Today</h2>
-							<h5 class="text-primary font-weight-light">We do the light things.</h5>
-							<p>aims to target major lighting professional and end users by become their vendor of choice for lighting renovation, replacement and consultancy that represents the most advanced and reliable lighting arrangements.</p>
-							<div class="mt-4">
-								<a class="text-primary" href="../services/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
+					<div class="row align-items-center">
+						<div class="col-lg-6 p-sm-0 order-lg-1">
+							<img src="https://placehold.co/800x500/000/fff" class="rounded img-container2 mb-0" alt="">
+						</div>
+						<div class="col-lg-6 pt-4 py-md-5">
+							<h1 class="head-services">Architecture lighting</h1>
+							<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
+							<p class="m-0">Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space. Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.Enhance architecture with the perfect balance of light and shadow.</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="box-promotion-list py-5 px-3" style="background-image: url('../../public/images/img-promotion2.png')">
+			<div class="list-services">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 py-3 px-lg-5">
-							<h2>Lighting Today</h2>
-							<h5 class="text-primary font-weight-light">We do the light things.</h5>
-							<p>aims to target major lighting professional and end users by become their vendor of choice for lighting renovation, replacement and consultancy that represents the most advanced and reliable lighting arrangements.</p>
-							<div class="mt-4">
-								<a class="text-primary" href="../services/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
+					<div class="row align-items-center">
+						<div class="col-lg-6 p-sm-0 order-lg-1">
+							<img src="https://placehold.co/800x500/000/fff" class="rounded img-container2 mb-0" alt="">
+						</div>
+						<div class="col-lg-6 pt-4 py-md-5">
+							<h1 class="head-services">Facade Lighting</h1>
+							<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
+							<p class="m-0">Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space. Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.Enhance architecture with the perfect balance of light and shadow.</p>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="box-promotion-list py-5 px-3" style="background-image: url('../../public/images/img-promotion3.png')">
+			<div class="list-services">
 				<div class="container">
-					<div class="row">
-						<div class="col-lg-6 py-3 px-lg-5">
-							<h2>Lighting Today</h2>
-							<h5 class="text-primary font-weight-light">We do the light things.</h5>
-							<p>aims to target major lighting professional and end users by become their vendor of choice for lighting renovation, replacement and consultancy that represents the most advanced and reliable lighting arrangements.</p>
-							<div class="mt-4">
-								<a class="text-primary" href="../services/detail.php"><u>ดูเพิ่มเติม</u></a>
-							</div>
+					<div class="row align-items-center">
+						<div class="col-lg-6 p-sm-0 order-lg-1">
+							<img src="https://placehold.co/800x500/000/fff" class="rounded img-container2 mb-0" alt="">
+						</div>
+						<div class="col-lg-6 pt-4 py-md-5">
+							<h1 class="head-services">Decorate Lighting </h1>
+							<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
+							<p class="m-0">Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="list-services">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-lg-6 p-sm-0 order-lg-1">
+							<img src="https://placehold.co/800x500/000/fff" class="rounded img-container2 mb-0" alt="">
+						</div>
+						<div class="col-lg-6 pt-4 py-md-5">
+							<h1 class="head-services">Furniture</h1>
+							<h6>Transform Your Building’s Façade with Stunning Lighting</h6>
+							<p class="m-0">Façade lighting enhances architectural beauty, improves visibility, and creates a lasting impression. Elevate your building’s exterior with cutting-edge lighting solutions designed for aesthetics, functionality, and energy efficiency.</p>
 						</div>
 					</div>
 				</div>

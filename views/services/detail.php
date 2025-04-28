@@ -22,7 +22,7 @@
 			</div>
 		</section>
 
-		<section class="py-5" style="background: #E3E3E3 url(../../public/images/bg-Portfolio3.png) no-repeat left bottom;background-size: 500px auto;">
+		<section class="py-5" style="background: #E3E3E3 url(../../public/images/bg-services.png) no-repeat left bottom;background-size: 650px auto;">
 			<div class="container">
 
 				<div class="row">
@@ -38,95 +38,85 @@
 			</div>
 		</section>
 
-		<section class="box-Portfolio py-5">
-			<div class="container pt-5">
+		<section class="box-Portfolio bg-page box-slide py-5" style="background-position-y: calc(100% + 134px), calc(100% - 20px);background-color: #fff;background-size: 208px auto, 400px auto;">
+			<div class="container pt-5 mt-5">
 				<h4 class="text-head mb-3">Portfolio</h4>
-				<h1 class="text-primary" style="font-size: 100px;">Show case</h1>
+				<h1 style="font-size: 40px;">Achitecture lighting</h1>
 
-				<div class="box-List row py-3">
+				<div class="box-List owl-carousel py-3" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
 
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../product/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+					<div class="item mr-3">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400/fff/B28E5E" alt="">
+							</div>
+							<div class="box-text">
+								<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+								<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+							</div>
+						</a>
 					</div>
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../product/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+					<div class="item mr-3">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400/fff/B28E5E" alt="">
+							</div>
+							<div class="box-text">
+								<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+								<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+							</div>
+						</a>
 					</div>
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../product/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+					<div class="item mr-3">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400/fff/B28E5E" alt="">
+							</div>
+							<div class="box-text">
+								<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+								<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+							</div>
+						</a>
 					</div>
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../product/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+					<div class="item mr-3">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400/fff/B28E5E" alt="">
+							</div>
+							<div class="box-text">
+								<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+								<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+							</div>
+						</a>
 					</div>
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../product/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+					<div class="item mr-3">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400/fff/B28E5E" alt="">
+							</div>
+							<div class="box-text">
+								<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+								<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+							</div>
+						</a>
 					</div>
-					<div class="col-md-6 card">
-						<div class="item">
-							<a href="../product/detail.php">
-								<div class="img">
-									<img src="https://placehold.co/400/fff/B28E5E" alt="">
-								</div>
-								<div class="box-text">
-									<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
-									<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
-								</div>
-							</a>
-						</div>
+					<div class="item mr-3">
+						<a href="../product/detail.php">
+							<div class="img">
+								<img src="https://placehold.co/400/fff/B28E5E" alt="">
+							</div>
+							<div class="box-text">
+								<h5 class="text-line1 text-primary">Ambient, task, and accent lighting in interiors</h5>
+								<p class="text-line4 m-0">Lighting plays a crucial role in interior design, affecting both functionality and aesthetics.</p>
+							</div>
+						</a>
 					</div>
 
 				</div>
-
-				<a href="../portfolio/" class="btn btn-primary px-4 mt-3 mt-md-5 d-table mx-auto">View our portfolio</a>
+				<div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
+					<a href="../service/" type="button" class="btn btn-outline-primary px-3">Back to Service</a>
+					<a href="../home/" type="button" class="btn btn-outline-primary px-3 order-md-1">Back to homepage</a>
+				</div>
 			</div>
 		</section>
 
