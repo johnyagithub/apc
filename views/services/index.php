@@ -26,7 +26,7 @@
 							<h5 class="text-primary font-weight-light">We do the light things.</h5>
 							<p>aims to target major lighting professional and end users by become their vendor of choice for lighting renovation, replacement and consultancy that represents the most advanced and reliable lighting arrangements.</p>
 							<div class="mt-4">
-								<a class="text-primary" href="../promotion/list.php"><u>ดูเพิ่มเติม</u></a>
+								<a class="text-primary" href="../services/detail.php"><u>ดูเพิ่มเติม</u></a>
 							</div>
 						</div>
 					</div>
@@ -40,7 +40,7 @@
 							<h5 class="text-primary font-weight-light">We do the light things.</h5>
 							<p>aims to target major lighting professional and end users by become their vendor of choice for lighting renovation, replacement and consultancy that represents the most advanced and reliable lighting arrangements.</p>
 							<div class="mt-4">
-								<a class="text-primary" href="../promotion/list.php"><u>ดูเพิ่มเติม</u></a>
+								<a class="text-primary" href="../services/detail.php"><u>ดูเพิ่มเติม</u></a>
 							</div>
 						</div>
 					</div>
@@ -54,7 +54,7 @@
 							<h5 class="text-primary font-weight-light">We do the light things.</h5>
 							<p>aims to target major lighting professional and end users by become their vendor of choice for lighting renovation, replacement and consultancy that represents the most advanced and reliable lighting arrangements.</p>
 							<div class="mt-4">
-								<a class="text-primary" href="../promotion/list.php"><u>ดูเพิ่มเติม</u></a>
+								<a class="text-primary" href="../services/detail.php"><u>ดูเพิ่มเติม</u></a>
 							</div>
 						</div>
 					</div>

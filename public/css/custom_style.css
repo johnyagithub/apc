@@ -349,8 +349,8 @@ header {
       
     }
       header div#navbarMain #cart_items .dropdown-menu.dropdown-menu-right.dropdown-menu-xl {
-        width: 500px;
-        min-width: 500px;
+        width: 460px;
+        min-width: 460px;
         border-radius: var(--border_radius);
         margin-top: 9px !important;
       }

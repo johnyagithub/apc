@@ -49,8 +49,8 @@
 
               <div class="dropdown-menu py-0 dropdown-menu-right dropdown-menu-xl p-0">
                 <div class="box-cart">
-                  <h5 class="p-3 fs-15 fw-500 p-3" id="cart_items2">My Cart (<span>2</span>)</h5>
-                  <div class="b-cart h-300px overflow-auto fs-13">
+                  <h5 class="p-3" id="cart_items2">My Cart (<span>2</span>)</h5>
+                  <div class="b-cart h-250px overflow-auto fs-13">
                     <table>
                       <thead>
                         <tr>
@@ -62,7 +62,7 @@
                       </thead>
                       <tbody>
                         <tr>
-                          <td class="d-flex align-items-center py-2">
+                          <td class="d-flex align-items-center py-3">
                             <img src="../../public/images/img-Product1.png" class="img-product" alt="">
                             <a href="../product/detail.php" class="text-dark">
                               <p class="m-0 text-line1">Product Brand_name</p>
@@ -85,7 +85,7 @@
                           </td>
                         </tr>
                         <tr>
-                          <td class="d-flex align-items-center py-2">
+                          <td class="d-flex align-items-center py-3">
                             <img src="../../public/images/img-Product2.png" class="img-product" alt="">
                             <a href="../product/detail.php" class="text-dark">
                               <p class="m-0 text-line1">Product Brand_name</p>
