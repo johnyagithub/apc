@@ -27,7 +27,7 @@
 
 				<div class="row">
 					<div class="col-lg-6 p-sm-0 order-lg-1">
-						<img src="https://placehold.co/800x500" class="rounded img-container2" alt="">
+						<img src="../../public/images/img-quotation.jpg" class="rounded img-container2" alt="">
 					</div>
 					<div class="col-lg-6 pt-4 py-md-5 pr-xl-5">
 						<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
