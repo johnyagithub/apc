@@ -1411,10 +1411,11 @@ section.box-products {
 
     }
       .box-products .item .img img {
-        aspect-ratio: 400 / 600;
+        aspect-ratio: 1;
         object-fit: contain;
         padding: 40px;
         margin: auto;
+        width: 280px;
       }
 
     .box-products .item .box-text {

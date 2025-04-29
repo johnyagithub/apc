@@ -84,7 +84,7 @@
 								<div class="item">
 									<a href="../product/detail.php" class="text-secondary">
 										<div class="img">
-											<img src="../../public/images/img-Product1.png" style="aspect-ratio:1;" alt="">
+											<img src="../../public/images/img-Product5.png" alt="">
 										</div>
 										<div class="box-text">
 											<p class="m-0">Jelly fish able Lamp</p>
@@ -97,7 +97,7 @@
 								<div class="item">
 									<a href="../product/detail.php" class="text-secondary">
 										<div class="img">
-											<img src="../../public/images/img-Product2.png" style="aspect-ratio:1;" alt="">
+											<img src="../../public/images/img-Product5.png" alt="">
 										</div>
 										<div class="box-text">
 											<p class="m-0">Jelly fish able Lamp</p>
@@ -110,7 +110,7 @@
 								<div class="item">
 									<a href="../product/detail.php" class="text-secondary">
 										<div class="img">
-											<img src="../../public/images/img-Product3.png" style="aspect-ratio:1;" alt="">
+											<img src="../../public/images/img-Product5.png" alt="">
 										</div>
 										<div class="box-text">
 											<p class="m-0">Jelly fish able Lamp</p>
@@ -123,7 +123,7 @@
 								<div class="item">
 									<a href="../product/detail.php" class="text-secondary">
 										<div class="img">
-											<img src="../../public/images/img-Product4.png" style="aspect-ratio:1;" alt="">
+											<img src="../../public/images/img-Product5.png" alt="">
 										</div>
 										<div class="box-text">
 											<p class="m-0">Jelly fish able Lamp</p>
@@ -136,7 +136,7 @@
 								<div class="item">
 									<a href="../product/detail.php" class="text-secondary">
 										<div class="img">
-											<img src="../../public/images/img-Product1.png" style="aspect-ratio:1;" alt="">
+											<img src="../../public/images/img-Product5.png" alt="">
 										</div>
 										<div class="box-text">
 											<p class="m-0">Jelly fish able Lamp</p>
@@ -149,7 +149,7 @@
 								<div class="item">
 									<a href="../product/detail.php" class="text-secondary">
 										<div class="img">
-											<img src="../../public/images/img-Product2.png" style="aspect-ratio:1;" alt="">
+											<img src="../../public/images/img-Product5.png" alt="">
 										</div>
 										<div class="box-text">
 											<p class="m-0">Jelly fish able Lamp</p>
@@ -162,7 +162,7 @@
 								<div class="item">
 									<a href="../product/detail.php" class="text-secondary">
 										<div class="img">
-											<img src="../../public/images/img-Product3.png" style="aspect-ratio:1;" alt="">
+											<img src="../../public/images/img-Product5.png" alt="">
 										</div>
 										<div class="box-text">
 											<p class="m-0">Jelly fish able Lamp</p>
@@ -175,7 +175,7 @@
 								<div class="item">
 									<a href="../product/detail.php" class="text-secondary">
 										<div class="img">
-											<img src="../../public/images/img-Product4.png" style="aspect-ratio:1;" alt="">
+											<img src="../../public/images/img-Product5.png" alt="">
 										</div>
 										<div class="box-text">
 											<p class="m-0">Jelly fish able Lamp</p>
@@ -188,7 +188,7 @@
 								<div class="item">
 									<a href="../product/detail.php" class="text-secondary">
 										<div class="img">
-											<img src="../../public/images/img-Product1.png" style="aspect-ratio:1;" alt="">
+											<img src="../../public/images/img-Product5.png" alt="">
 										</div>
 										<div class="box-text">
 											<p class="m-0">Jelly fish able Lamp</p>
