@@ -1109,7 +1109,6 @@ section.box-services {
     inset: 0px;
     pointer-events: none;
     z-index: 1;
-    max-height: 500px;
     height: 100%;
   }
   .box-services .list-services:nth-child(4n+2)::before {
@@ -1728,6 +1727,9 @@ footer.bg-dark {
   }
   .box-products .item .img img {
     padding: 20px;
+  }
+  .box-services .list-services::before {
+    max-height: 500px;
   }
 }
 

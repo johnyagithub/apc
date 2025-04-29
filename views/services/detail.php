@@ -40,13 +40,13 @@
 
 		<section class="box-Portfolio bg-page box-slide py-5" style="background-position-y: calc(100% + 134px), calc(100% - 20px);background-color: #fff;background-size: 208px auto, 400px auto;">
 			<div class="container pt-5 mt-5">
-				<h4 class="text-head mb-3">Portfolio</h4>
+				<h4 class="text-head mb-3">Services</h4>
 				<h1 style="font-size: 40px;">Achitecture lighting</h1>
 
 				<div class="box-List owl-carousel py-3" data-itemSlide-pc="3" data-itemSlide-Tablet="2" data-itemSlide-mobile="1">
 
 					<div class="item mr-3">
-						<a href="../product/detail.php">
+						<a href="../services/detail.php">
 							<div class="img">
 								<img src="https://placehold.co/400/fff/B28E5E" alt="">
 							</div>
@@ -57,7 +57,7 @@
 						</a>
 					</div>
 					<div class="item mr-3">
-						<a href="../product/detail.php">
+						<a href="../services/detail.php">
 							<div class="img">
 								<img src="https://placehold.co/400/fff/B28E5E" alt="">
 							</div>
@@ -68,7 +68,7 @@
 						</a>
 					</div>
 					<div class="item mr-3">
-						<a href="../product/detail.php">
+						<a href="../services/detail.php">
 							<div class="img">
 								<img src="https://placehold.co/400/fff/B28E5E" alt="">
 							</div>
@@ -79,7 +79,7 @@
 						</a>
 					</div>
 					<div class="item mr-3">
-						<a href="../product/detail.php">
+						<a href="../services/detail.php">
 							<div class="img">
 								<img src="https://placehold.co/400/fff/B28E5E" alt="">
 							</div>
@@ -90,7 +90,7 @@
 						</a>
 					</div>
 					<div class="item mr-3">
-						<a href="../product/detail.php">
+						<a href="../services/detail.php">
 							<div class="img">
 								<img src="https://placehold.co/400/fff/B28E5E" alt="">
 							</div>
@@ -101,7 +101,7 @@
 						</a>
 					</div>
 					<div class="item mr-3">
-						<a href="../product/detail.php">
+						<a href="../services/detail.php">
 							<div class="img">
 								<img src="https://placehold.co/400/fff/B28E5E" alt="">
 							</div>
