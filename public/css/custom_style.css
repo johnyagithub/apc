@@ -41,6 +41,9 @@ body .btn-outline-secondary {
 body .btn-outline-secondary:hover>img {
   filter: invert(1) brightness(2);
 }
+.btn.btn-outline-dark.text-dark:hover {
+  color: #fff !important;
+}
 body [class*="border"] ,
 body hr {
   border-color: rgba(199, 199, 199, 0.5) !important;
@@ -1122,8 +1125,15 @@ section.box-services {
 }
   .box-services .list-services {
     padding: 50px 0px;
+    position: relative;
+  }
+  .box-services .list-services::after {
+    content: "";
     background: url(../images/bg-page-l.png) no-repeat left bottom;
     background-size: auto 110%;
+    position: absolute;
+    inset: 0px;
+    pointer-events: none;
   }
   .box-services .list-services:nth-child(even) {
     background-color: #B8B8B8;

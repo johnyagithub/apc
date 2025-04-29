@@ -55,8 +55,8 @@
                       <thead>
                         <tr>
                           <th class="w-250px">order</th>
-                          <th class="w-100px">Qty</th>
-                          <th>Price</th>
+                          <th class="w-100px text-center">Qty</th>
+                          <th class="text-center">Price</th>
                           <th></th>
                         </tr>
                       </thead>
@@ -132,7 +132,7 @@
             </div>
           </div>
 
-          <a href="javascript:void(0);" class="text-reset d-none d-lg-block text-center text-white px-2" data-toggle="class-toggle-custom" data-target=".front-header-search">
+          <a href="javascript:void(0);" class="text-reset d-none d-lg-block text-center text-white px-2 ml-1" data-toggle="class-toggle-custom" data-target=".front-header-search">
             <i class="fa fa-search"></i>
           </a>
           <!-- search mobile -->
