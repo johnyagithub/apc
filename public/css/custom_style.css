@@ -1129,11 +1129,23 @@ section.box-services {
   }
   .box-services .list-services::after {
     content: "";
-    background: url(../images/bg-page-l.png) no-repeat left bottom;
+    background: url(../images/bg-services2.png) no-repeat left bottom;
     background-size: auto 110%;
     position: absolute;
     inset: 0px;
     pointer-events: none;
+  }
+  .box-services .list-services:nth-child(4n+2)::after {
+    background: url(../images/bg-services3.png) no-repeat left bottom;
+    background-size: auto 110%;
+  }
+  .box-services .list-services:nth-child(4n+3)::after {
+    background: url(../images/bg-services4.png) no-repeat left bottom;
+    background-size: auto 110%;
+  }
+  .box-services .list-services:nth-child(4n+4)::after {
+    background: url(../images/bg-services5.png) no-repeat left bottom;
+    background-size: auto 110%;
   }
   .box-services .list-services:nth-child(even) {
     background-color: #B8B8B8;
