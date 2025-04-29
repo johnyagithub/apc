@@ -28,6 +28,7 @@
 							<h1 class="head-services">Architecture lighting</h1>
 							<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
 							<p class="m-0">Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space. Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.Enhance architecture with the perfect balance of light and shadow.</p>
+							<a href="../services/detail.php" class="text-dark link-style">Read more</a>
 						</div>
 					</div>
 				</div>
@@ -42,6 +43,7 @@
 							<h1 class="head-services">Facade Lighting</h1>
 							<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
 							<p class="m-0">Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space. Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.Enhance architecture with the perfect balance of light and shadow.</p>
+							<a href="../services/detail.php" class="text-dark link-style">Read more</a>
 						</div>
 					</div>
 				</div>
@@ -56,6 +58,7 @@
 							<h1 class="head-services">Decorate Lighting </h1>
 							<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
 							<p class="m-0">Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.</p>
+							<a href="../services/detail.php" class="text-dark link-style">Read more</a>
 						</div>
 					</div>
 				</div>
@@ -70,6 +73,7 @@
 							<h1 class="head-services">Furniture</h1>
 							<h6>Transform Your Building’s Façade with Stunning Lighting</h6>
 							<p class="m-0">Façade lighting enhances architectural beauty, improves visibility, and creates a lasting impression. Elevate your building’s exterior with cutting-edge lighting solutions designed for aesthetics, functionality, and energy efficiency.</p>
+							<a href="../services/detail.php" class="text-dark link-style">Read more</a>
 						</div>
 					</div>
 				</div>
