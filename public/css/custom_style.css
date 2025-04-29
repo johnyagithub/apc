@@ -803,7 +803,7 @@ li.list-group-item {
     height: calc(100vh - 70px) !important;
   }
   .banner .gallery-wrap .item:hover {
-    flex: 7;
+    flex: 3;
     opacity: 1 !important;
   }
     .banner .item img {
