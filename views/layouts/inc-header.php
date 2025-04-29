@@ -22,7 +22,7 @@
             <a class="nav-link opacity-80 hov-opacity-100" href="../services/">Services</a>
           </li>
           <li class="nav-item position-relative">
-            <a class="nav-link opacity-80 hov-opacity-100" href="../porfolio/">Porfolio</a>
+            <a class="nav-link opacity-80 hov-opacity-100" href="../portfolio/">portfolio</a>
           </li>
           <li class="nav-item position-relative">
             <a class="nav-link opacity-80 hov-opacity-100" href="../news/">Newsletter</a>

@@ -29,7 +29,7 @@
 						<h1 class="btmline">Architectural</h1>
 						<div class="details">
 							<h1>Lighting</h1>
-							<a href="../services/" class="mt-4 btn btn-outline-light">See more</a>
+							<a href="../services/detail.php" class="mt-4 btn btn-outline-light">See more</a>
 						</div>
 					</div>
 				</div>
@@ -43,7 +43,7 @@
 						<h2 class="btmline">Facade</h2>
 						<div class="details">
 							<h1>Lighting</h1>
-							<a href="../services/" class="mt-4 btn btn-outline-light">See more</a>
+							<a href="../services/detail.php" class="mt-4 btn btn-outline-light">See more</a>
 						</div>
 					</div>
 				</div>
@@ -57,7 +57,7 @@
 						<h2 class="btmline">Decorative</h2>
 						<div class="details">
 							<h1>Lighting</h1>
-							<a href="../services/" class="mt-4 btn btn-outline-light">See more</a>
+							<a href="../services/detail.php" class="mt-4 btn btn-outline-light">See more</a>
 						</div>
 					</div>
 				</div>
@@ -71,7 +71,7 @@
 						<h2 class="btmline">Furniture</h2>
 						<div class="details">
 							<h1>Lighting</h1>
-							<a href="../services/" class="mt-4 btn btn-outline-light">See more</a>
+							<a href="../services/detail.php" class="mt-4 btn btn-outline-light">See more</a>
 						</div>
 					</div>
 				</div>
@@ -335,7 +335,7 @@
 
 					<div class="col-md-6 card">
 						<div class="item">
-							<a href="../product/detail.php">
+							<a href="../portfolio/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
@@ -348,7 +348,7 @@
 					</div>
 					<div class="col-md-6 card">
 						<div class="item">
-							<a href="../product/detail.php">
+							<a href="../portfolio/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
@@ -361,7 +361,7 @@
 					</div>
 					<div class="col-md-6 card">
 						<div class="item">
-							<a href="../product/detail.php">
+							<a href="../portfolio/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
@@ -374,7 +374,7 @@
 					</div>
 					<div class="col-md-6 card">
 						<div class="item">
-							<a href="../product/detail.php">
+							<a href="../portfolio/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
@@ -387,7 +387,7 @@
 					</div>
 					<div class="col-md-6 card">
 						<div class="item">
-							<a href="../product/detail.php">
+							<a href="../portfolio/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
@@ -400,7 +400,7 @@
 					</div>
 					<div class="col-md-6 card">
 						<div class="item">
-							<a href="../product/detail.php">
+							<a href="../portfolio/detail.php">
 								<div class="img">
 									<img src="https://placehold.co/400/fff/B28E5E" alt="">
 								</div>
