@@ -26,7 +26,7 @@
         <div class="mx-auto mt-4" style="max-width: 800px;">
           <h4>Product</h4>
 
-          <ul class="box-List list-group">
+          <ul class="box-List box-Portfolio list-group">
             <li class="list-group-item item my-2">
               <a class="text-reset" href="../product/detail.php">
                 <div class="d-flex search-product align-items-center">

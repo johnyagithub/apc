@@ -10,11 +10,6 @@ $(function () {
 		setTimeout(function () { $('#cookie-con-head').addClass('show'); }, 5000);
 	}
 
-	if ($(window).width() > 1000) {
-		$('a[href="#collapseProductType"]').attr('aria-expanded', 'true');
-		$('#collapseProductType').addClass('show');
-	}
-
 	$('[data-toggle="class-toggle-custom"]').on('click', function () {
 		$($(this).data('target')).toggleClass('active');
 	});
