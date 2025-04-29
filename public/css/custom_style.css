@@ -643,12 +643,10 @@ div#Tax-invoice .form-group label {
 }
   .list-group li.footable-empty:before {
     content: "\f119";
-    font-family: "Line Awesome Free";
-    font-weight: 900;
+    font-family: "FontAwesome";
     font-size: 60px;
     opacity: 0.5;
     display: block;
-    margin-bottom: -18px;
   }
 
 li.list-group-item {
