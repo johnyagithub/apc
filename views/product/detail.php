@@ -16,11 +16,11 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="box-detail pb-5">
+		<section class="box-product-detail pb-5">
 			<div class="container">
 
 				<div class="row">
-					<div class="col-md-6">
+					<div class="col-md-8 col-lg-6">
 						<div class="b-sticky">
 							<div class="pl-lg-5 py-5">
 								<p>Home | Product Brand_name | Light_source | Table lamp | JellyFish table lamp</p>
@@ -86,9 +86,9 @@
 								<h5 class="mt-4">About Brand</h5>
 								<p class="d-inline-block"><img src="../../public/images/logo-luceplan.png" class="w-130px float-left p-2" alt=""> Luceplan is one of the leading companies in the lighting sector on an international scale, unique and inimitable identity thanks to the purity of its design and the innovative technology of its products.</p>
 
-								<div class="bg-white pl-lg-4 py-4">
+								<div class="bg-white pl-md-4 p-2">
 									<h5 class="mt-4">Product Detail</h5>
-									<ul style="column-count: 2;">
+									<ul class="--column2">
 										<li>Base Rotary Dimmer</li>
 										<li>On/Off Base Switch</li>
 										<li>Material: Marble, Brass, Steel</li>
@@ -102,6 +102,42 @@
 									</ul>
 
 									<p class="mt-4">Lighting</p>
+									<div class="specs-container">
+										<table class="specs-table">
+											<tr>
+												<td>Lamp Type</td>
+												<td>LED</td>
+											</tr>
+											<tr>
+												<td>Total Lumens</td>
+												<td>800.0</td>
+											</tr>
+											<tr>
+												<td># of Bulbs</td>
+												<td>1 (Included)</td>
+											</tr>
+											<tr>
+												<td>Bulb Type</td>
+												<td>120</td>
+											</tr>
+											<tr>
+												<td>Volts</td>
+												<td>9W A19 E26</td>
+											</tr>
+											<tr>
+												<td>Color Temp</td>
+												<td>2700 (Warm)</td>
+											</tr>
+											<tr>
+												<td>CRI</td>
+												<td>90</td>
+											</tr>
+											<tr>
+												<td>Equivalent Halogen, CFL or LED Bulb Can Be Used</td>
+												<td>Yes</td>
+											</tr>
+										</table>
+									</div>
 
 									<h5 class="mt-4">Lighting</h5>
 									<p>Fixture: Height 59", Diameter 9.1", Weight 30Lbs</p>
@@ -110,7 +146,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 p-0 d-none d-md-block">
+					<div class="col-md-4 col-lg-6 p-0 d-none d-md-block">
 						<div class="box-gallery b-sticky">
 							<a href="../../public/images/img-product-detail1.jpg" data-fancybox="gallery" class="m-0 rounded-0">
 								<img src="../../public/images/img-product-detail1.jpg">
