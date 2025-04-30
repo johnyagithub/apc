@@ -28,6 +28,23 @@
 								<span class="text-secondary font-weight-normal">Product Brand_name</span>
 								<h1>Jelly Fish Table Lamp</h1>
 								<h3>$180</h3>
+
+								<!-- gallery mobile -->
+								<div class="box-slide my-3 d-md-none">
+									<div class="owl-carousel" data-itemSlide-mobile="1" data-itemSlide-Tablet="2">
+										<a href="../../public/images/img-product-detail1.jpg" data-fancybox="gallery-mobile" class="item m-0 rounded-0">
+											<img src="../../public/images/img-product-detail1.jpg">
+										</a>
+										<a href="../../public/images/img-product-detail2.jpg" data-fancybox="gallery-mobile" class="item m-0 rounded-0">
+											<img src="../../public/images/img-product-detail2.jpg">
+										</a>
+										<a href="../../public/images/img-product-detail3.jpg" data-fancybox="gallery-mobile" class="item m-0 rounded-0">
+											<img src="../../public/images/img-product-detail3.jpg">
+										</a>
+									</div>
+								</div>
+								<!-- #end gallery mobile -->
+
 								<div class="p-md-2 p-lg-4"></div>
 								<div class="my-3">
 									<a href="#" class="btn btn-outline-primary px-3" download><i class="fa fa-file-text-o" aria-hidden="true"></i> Download document</a>
@@ -54,21 +71,55 @@
 								</div>
 							</div>
 
-							<div>
-								ddfhdfh
+							<div class="--detail">
+								<div>
+									<h5 class="d-inline-block pr-2">Key Features</h5>
+									<span class="p-2" style="white-space: nowrap;"><i class="fa fa-check text-muted" aria-hidden="true"></i> Dimmable</span>
+									<span class="p-2" style="white-space: nowrap;"><i class="fa fa-check text-muted" aria-hidden="true"></i> Dimmer Included</span>
+									<span class="p-2" style="white-space: nowrap;"><i class="fa fa-check text-muted" aria-hidden="true"></i> Limited 2 Year</span>
+									<span class="p-2" style="white-space: nowrap;"><i class="fa fa-check text-muted" aria-hidden="true"></i> Contract Grade</span>
+								</div>
+
+								<h5 class="mt-4">Products description</h5>
+								<p>Creates a soft, cosy mood light in your home. The lampshade in glass is mouth blown by a skilled craftsperson. If you want to be able to easily change the light according to mood and needs, you can dim and switch between warm and cold light wirelessly if you complete the lamp with TRÅDFRI remote control kit. Sold separately.</p>
+
+								<h5 class="mt-4">About Brand</h5>
+								<p><img src="../../public/images/logo-luceplan.png" class="w-130px float-left p-2" alt=""> Luceplan is one of the leading companies in the lighting sector on an international scale, unique and inimitable identity thanks to the purity of its design and the innovative technology of its products.</p>
+
+								<div class="bg-white pl-lg-4 py-4">
+									<h5 class="mt-4">Product Detail</h5>
+									<ul style="column-count: 2;">
+										<li>Base Rotary Dimmer</li>
+										<li>On/Off Base Switch</li>
+										<li>Material: Marble, Brass, Steel</li>
+										<li>Shade Material: White Opal Glass</li>
+										<li>Dimmable: Yes</li>
+										<li>Dimmer Included</li>
+										<li>Lighting Style: Soft/Diffused/Ambient</li>
+										<li>Location Rating: UL Listed</li>
+										<li>Warranty: Limited 2 Year</li>
+										<li>Made In China</li>
+									</ul>
+
+									<p>Lighting</p>
+
+									<h5 class="mt-4">Lighting</h5>
+									<p>Fixture: Height 59", Diameter 9.1", Weight 30Lbs</p>
+								</div>
+
 							</div>
 						</div>
 					</div>
-					<div class="col-md-6 p-0">
+					<div class="col-md-6 p-0 d-none d-md-block">
 						<div class="box-gallery b-sticky">
-							<a href="../../public/images/img-Product1.png" data-fancybox="gallery" class="m-0 rounded-0">
-								<img src="../../public/images/img-Product1.png">
+							<a href="../../public/images/img-product-detail1.jpg" data-fancybox="gallery" class="m-0 rounded-0">
+								<img src="../../public/images/img-product-detail1.jpg">
 							</a>
-							<a href="../../public/images/img-Product2.png" data-fancybox="gallery" class="m-0 rounded-0">
-								<img src="../../public/images/img-Product2.png">
+							<a href="../../public/images/img-product-detail2.jpg" data-fancybox="gallery" class="m-0 rounded-0">
+								<img src="../../public/images/img-product-detail2.jpg">
 							</a>
-							<a href="../../public/images/img-Product3.png" data-fancybox="gallery" class="m-0 rounded-0">
-								<img src="../../public/images/img-Product3.png">
+							<a href="../../public/images/img-product-detail3.jpg" data-fancybox="gallery" class="m-0 rounded-0">
+								<img src="../../public/images/img-product-detail3.jpg">
 							</a>
 						</div>
 					</div>
