@@ -84,7 +84,7 @@
 								<p>Creates a soft, cosy mood light in your home. The lampshade in glass is mouth blown by a skilled craftsperson. If you want to be able to easily change the light according to mood and needs, you can dim and switch between warm and cold light wirelessly if you complete the lamp with TRÅDFRI remote control kit. Sold separately.</p>
 
 								<h5 class="mt-4">About Brand</h5>
-								<p><img src="../../public/images/logo-luceplan.png" class="w-130px float-left p-2" alt=""> Luceplan is one of the leading companies in the lighting sector on an international scale, unique and inimitable identity thanks to the purity of its design and the innovative technology of its products.</p>
+								<p class="d-inline-block"><img src="../../public/images/logo-luceplan.png" class="w-130px float-left p-2" alt=""> Luceplan is one of the leading companies in the lighting sector on an international scale, unique and inimitable identity thanks to the purity of its design and the innovative technology of its products.</p>
 
 								<div class="bg-white pl-lg-4 py-4">
 									<h5 class="mt-4">Product Detail</h5>
@@ -101,7 +101,7 @@
 										<li>Made In China</li>
 									</ul>
 
-									<p>Lighting</p>
+									<p class="mt-4">Lighting</p>
 
 									<h5 class="mt-4">Lighting</h5>
 									<p>Fixture: Height 59", Diameter 9.1", Weight 30Lbs</p>
