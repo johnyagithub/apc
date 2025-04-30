@@ -83,15 +83,19 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6">
-            <div class="pl-lg-5 py-5">
+            <div class="px-lg-5 py-5">
               <h1 style="font-size: 60px;">APC</h1>
               <h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
               <p>Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.</p>
               <a href="#" target="_blank" class="btn btn-dark btn-sm px-4" rel="noopener noreferrer">View google map</a>
             </div>
           </div>
-          <div class="col-md-6">
-            
+          <div class="box-vision col-md-6">
+            <img src="../../public/images/img-contactus.jpg" class="rounded" alt="">
+            <div class="--text">
+              <p>Teamwork is the abilityto work together toward a common vision.</p>
+              <a href="#" class="btn btn-outline-primary">Portfolio</a>
+            </div>
           </div>
         </div>
       </div>

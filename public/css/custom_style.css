@@ -1381,6 +1381,22 @@ section.box-Recommend {
           margin-top: 20px;
         }
 
+.box-vision {
+
+}
+  .box-vision img {
+    margin-bottom: 40px;
+  }
+  .box-vision .--text {
+    background-color: #424040;
+    padding: 20px;
+    color: #fff;
+    width: 50%;
+    position: absolute;
+    bottom: 0px;
+    right: -30px;
+  }
+
 section.box-Portfolio {
   background-color: #F0F0F0;
   background-image: url(../images/bg-Portfolio1.png), url(../images/bg-Portfolio2.png), url(../images/bg-Portfolio3.png);
