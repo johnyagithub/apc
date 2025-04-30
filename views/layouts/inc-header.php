@@ -115,7 +115,7 @@
                       <button type="button" class="btn btn-outline-dark text-dark btn-sm w-100">Close</button>
                     </div>
                     <div class="col p-1">
-                      <a href="../cart/" type="button" class="btn btn-dark btn-sm w-100">Check out</a>
+                      <a href="../cart/" class="btn btn-dark btn-sm w-100">Check out</a>
                     </div>
                   </div>
 

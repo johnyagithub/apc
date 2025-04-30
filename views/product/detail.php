@@ -16,9 +16,64 @@
 	<!-- begin #content -->
 	<div id="content" class="content">
 
-		<section class="py-5">
+		<section class="box-detail pb-5">
 			<div class="container">
-				gyjuftj
+
+				<div class="row">
+					<div class="col-md-6">
+						<div class="b-sticky">
+							<div class="pl-lg-5 py-5">
+								<p>Home | Product Brand_name | Light_source | Table lamp | JellyFish table lamp</p>
+								<div class="p-md-1 p-lg-3"></div>
+								<span class="text-secondary font-weight-normal">Product Brand_name</span>
+								<h1>Jelly Fish Table Lamp</h1>
+								<h3>$180</h3>
+								<div class="p-md-2 p-lg-4"></div>
+								<div class="my-3">
+									<a href="#" class="btn btn-outline-primary px-3" download><i class="fa fa-file-text-o" aria-hidden="true"></i> Download document</a>
+								</div>
+								<div class="my-3">
+									<button type="button" class="btn btn-dark">Add to cart</button>
+								</div>
+								<div class="p-md-1 p-lg-2"></div>
+								<h6>Share with :</h6>
+								<div class="d-fle mt-4">
+									<button onclick="navigator.clipboard.writeText(window.location.href);" type="button" class="btn btn-outline-secondary mr-1 mr-lg-2 btn-sm">
+										<i class="fa fa-clone" aria-hidden="true"></i>
+										Copy link
+									</button>
+									<a href="#" target="_blank" class="btn btn-outline-secondary mr-1 mr-lg-2 btn-sm">
+										<img src="../../public/images/I-line.png" alt="">
+									</a>
+									<a href="#" target="_blank" class="btn btn-outline-secondary mr-1 mr-lg-2 btn-sm">
+										<img src="../../public/images/I-facebook.png" alt="">
+									</a>
+									<a href="#" target="_blank" class="btn btn-outline-secondary mr-1 mr-lg-2 btn-sm">
+										<img src="../../public/images/I-in.png" alt="">
+									</a>
+								</div>
+							</div>
+
+							<div>
+								ddfhdfh
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 p-0">
+						<div class="box-gallery b-sticky">
+							<a href="../../public/images/img-Product1.png" data-fancybox="gallery" class="m-0 rounded-0">
+								<img src="../../public/images/img-Product1.png">
+							</a>
+							<a href="../../public/images/img-Product2.png" data-fancybox="gallery" class="m-0 rounded-0">
+								<img src="../../public/images/img-Product2.png">
+							</a>
+							<a href="../../public/images/img-Product3.png" data-fancybox="gallery" class="m-0 rounded-0">
+								<img src="../../public/images/img-Product3.png">
+							</a>
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</section>
 

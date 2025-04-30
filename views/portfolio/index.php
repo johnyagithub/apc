@@ -119,8 +119,8 @@
 				</div>
 
 				<div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
-					<a href="#" type="button" rel="prev" class="btn btn-outline-primary px-3"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Previous</a>
-					<a href="#" type="button" rel="next" class="btn btn-outline-primary px-3 order-md-1">Next <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+					<a href="#" rel="prev" class="btn btn-outline-primary px-3"><i class="fa fa-angle-double-left" aria-hidden="true"></i> Previous</a>
+					<a href="#" rel="next" class="btn btn-outline-primary px-3 order-md-1">Next <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
 					<ul class="pagination d-flex justify-content-center pt-3 w-100 w-md-auto">
 						<li class="page-item active" aria-current="page"><span class="page-link">1</span></li>
 						<li class="page-item"><a class="page-link" href="#">2</a></li>

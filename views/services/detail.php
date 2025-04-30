@@ -114,8 +114,8 @@
 
 				</div>
 				<div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
-					<a href="../services/" type="button" class="btn btn-outline-primary px-3">Back to Service</a>
-					<a href="../home/" type="button" class="btn btn-outline-primary px-3 order-md-1">Back to homepage</a>
+					<a href="../services/" class="btn btn-outline-primary px-3">Back to Service</a>
+					<a href="../home/" class="btn btn-outline-primary px-3 order-md-1">Back to homepage</a>
 				</div>
 			</div>
 		</section>

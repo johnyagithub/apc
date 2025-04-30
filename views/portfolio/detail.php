@@ -26,17 +26,17 @@
 					<div class="p-3">
 						<h6>Share with :</h6>
 						<div class="d-fle mt-4">
-							<button onclick="navigator.clipboard.writeText(window.location.href);" type="button" class="btn btn-outline-secondary mr-2 btn-sm">
+							<button onclick="navigator.clipboard.writeText(window.location.href);" type="button" class="btn btn-outline-secondary mr-1 mr-lg-2 btn-sm">
 								<i class="fa fa-clone" aria-hidden="true"></i>
 								Copy link
 							</button>
-							<a href="#" target="_blank" class="btn btn-outline-secondary mr-2 btn-sm">
+							<a href="#" target="_blank" class="btn btn-outline-secondary mr-1 mr-lg-2 btn-sm">
 								<img src="../../public/images/I-line.png" alt="">
 							</a>
-							<a href="#" target="_blank" class="btn btn-outline-secondary mr-2 btn-sm">
+							<a href="#" target="_blank" class="btn btn-outline-secondary mr-1 mr-lg-2 btn-sm">
 								<img src="../../public/images/I-facebook.png" alt="">
 							</a>
-							<a href="#" target="_blank" class="btn btn-outline-secondary mr-2 btn-sm">
+							<a href="#" target="_blank" class="btn btn-outline-secondary mr-1 mr-lg-2 btn-sm">
 								<img src="../../public/images/I-in.png" alt="">
 							</a>
 						</div>
@@ -97,9 +97,10 @@
 				</a>
 
 				<div class="mt-5 d-flex justify-content-between align-items-center flex-wrap">
-					<a href="../portfolio/" type="button" class="btn btn-outline-primary px-3">Back to portfolio</a>
-					<a href="../home/" type="button" class="btn btn-outline-primary px-3 order-md-1">Back to homepage</a>
+					<a href="../portfolio/" class="btn btn-outline-primary px-3">Back to portfolio</a>
+					<a href="../home/" class="btn btn-outline-primary px-3 order-md-1">Back to homepage</a>
 				</div>
+			</div>
 		</section>
 
 	</div>
