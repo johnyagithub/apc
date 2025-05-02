@@ -73,15 +73,18 @@
     <section>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6">dfhdf</div>
-          <div class="col-md-6">dfhdf</div>
+          <div class="col-md-6 p-5">
+          <h4 class="text-head text-white mb-3">What we offer</h4>
+          <h1 class="text-white">Are you ready to work with us? Let’s make a difference.</h1>
+          </div>
+          <div class="col-md-6 p-5">dfhdf</div>
         </div>
       </div>
     </section>
 
     <section class="py-5" style="background: #EBEBEB url(../../public/images/bg-Whatwedo.png) no-repeat calc(100% + 350px) bottom;background-size: 78%;">
       <div class="container">
-        <div class="row">
+        <div class="row align-items-center">
           <div class="col-md-6">
             <div class="px-lg-5 py-5">
               <h1 style="font-size: 60px;">APC</h1>
@@ -91,10 +94,16 @@
             </div>
           </div>
           <div class="box-vision col-md-6">
-            <img src="../../public/images/img-contactus.jpg" class="rounded" alt="">
-            <div class="--text">
-              <p>Teamwork is the abilityto work together toward a common vision.</p>
-              <a href="#" class="btn btn-outline-primary">Portfolio</a>
+            <div class="row">
+              <div class="col-lg-11">
+                <img src="../../public/images/img-contactus.jpg" class="rounded" alt="">
+              </div>
+              <div class="col-lg-1 mt-auto">
+                <div class="--text">
+                  <p>Teamwork is the abilityto work together toward a common vision.</p>
+                  <a href="#" class="btn btn-outline-light text-white">Portfolio</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -109,6 +118,18 @@
   <!-- end #footer -->
 
   <?php include('../layouts/inc-script.php'); ?>
+  <script>
+    $(function() {
+      $(".box-vision").mousemove(function(event) {
+        var h = $(this).height();
+        var w = $(this).width();
+        var t = (event.clientY - h / 2) * -1;
+        var l = (event.clientX - w / 2) * -1;
+        $(this).find("img").css("transform","translate(" + l / 50 + "px, " + t / 50 + "px)");
+        $(this).find(".--text").css("transform","translate(" + l / 20 + "px, " + t / 20 + "px)");
+      });
+    });
+  </script>
 </body>
 
 </html>

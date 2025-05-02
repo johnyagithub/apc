@@ -44,6 +44,9 @@ body .btn-outline-secondary:hover>img {
 .btn.btn-outline-dark.text-dark:hover {
   color: #fff !important;
 }
+.btn.btn-outline-light.text-white:hover {
+  color: #000 !important;
+}
 body hr {
   border-color: rgba(199, 199, 199, 0.5) !important;
 }
@@ -1051,6 +1054,9 @@ li.list-group-item {
 .text-head {
   color: var(--primary);
 }
+.text-head.text-white {
+  color: #fff;
+}
   .text-head::before {
     content: "";
     background: linear-gradient(to right, var(--primary) 50%, transparent 50%);
@@ -1061,6 +1067,9 @@ li.list-group-item {
     border-radius: 50%;
     margin-top: -3px;
     margin-right: -4px;
+  }
+  .text-head.text-white::before {
+    background: linear-gradient(to right, #ffffff 50%, transparent 50%);
   }
 
 .box-List .item {
@@ -1385,16 +1394,18 @@ section.box-Recommend {
 
 }
   .box-vision img {
-    margin-bottom: 40px;
+    width: 100%;
+    margin-bottom: 50px;
   }
   .box-vision .--text {
     background-color: #424040;
     padding: 20px;
     color: #fff;
-    width: 50%;
+    width: 315px;
     position: absolute;
     bottom: 0px;
-    right: -30px;
+    right: 20px;
+    font-size: 20px;
   }
 
 section.box-Portfolio {
@@ -1887,6 +1898,15 @@ footer.bg-dark {
     .b-sticky {
       top: 60px;
     }
+    .box-vision .--text {
+      position: initial;
+      width : 100%;
+    }
+    .box-vision img {
+      margin-bottom: 0px;
+      border-bottom-right-radius: 0px !important;
+      border-bottom-left-radius: 0px !important;
+    }
   }
   /* แนวนอน */
   @media only screen and (orientation: landscape) {
@@ -2031,6 +2051,15 @@ footer.bg-dark {
   }
   .b-sticky {
     top: 60px;
+  }
+  .box-vision .--text {
+    position: initial;
+    width : 100%;
+  }
+  .box-vision img {
+    margin-bottom: 0px;
+    border-bottom-right-radius: 0px !important;
+    border-bottom-left-radius: 0px !important;
   }
   /* แนวตั้ง */
   @media only screen and (orientation: portrait) {
