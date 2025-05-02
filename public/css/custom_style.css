@@ -541,7 +541,8 @@ div#Tax-invoice .form-group label {
     width: calc(100% - 20px);
     box-sizing: border-box;
     max-width: 1080px;
-    box-shadow: 0 0 20px 10px rgb(255 255 255 / 25%);
+    border: 3px solid rgb(255 255 255 / 48%);
+    border-bottom: transparent;
     border-radius: var(--border_radius) var(--border_radius) 0 0;
   }
   .cookie-con-head.show {

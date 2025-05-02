@@ -24,7 +24,7 @@
       </div>
       <div class="col-lg-5 col-xl-5 col-md-6">
         <div class="text-center text-md-left mt-4">
-          <div class="row">
+          <div class="row" style="line-height: 30px;margin-bottom: -25px;">
             <div class="col-6 mb-3">
               <a href="#" class="d-block fs-18 text-white fw-500 border-gray-900">Product</a>
               <a href="../services/detail.php" class="d-block hov-opacity-70 text-reset">Architectural Lightings</a>
