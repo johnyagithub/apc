@@ -96,6 +96,6 @@
     เราใช้คุกกี้เพื่อปรับปรุงประสบการณ์ในการเข้าใช้งานเว็บไซต์ของเราให้ดียิ่งขึ้น
     <a href="../privacy" class="text-white">อ่านนโยบายคุ้มครองข้อมูลส่วนบุคคล</a>
 
-    <div class="button-submit btn btn-primary" onClick="setcookieuser('Allow')">Allow Cookie</div>
+    <button type="button" class="button-submit btn btn-primary" onClick="setcookieuser('Allow')">Allow Cookie</button>
   </div>
 </div>
