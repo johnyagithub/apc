@@ -73,11 +73,26 @@
     <section>
       <div class="container-fluid">
         <div class="row">
-          <div class="col-md-6 p-5">
+          <div class="col-md-6 p-5" style="background: url(../../public/images/bg-contactus.jpg) no-repeat center;background-size: cover;">
           <h4 class="text-head text-white mb-3">What we offer</h4>
-          <h1 class="text-white">Are you ready to work with us? Let’s make a difference.</h1>
+          <h1 class="text-white font-weight-light">Are you ready to work with us? <b>Let’s make a difference.</b></h1>
           </div>
-          <div class="col-md-6 p-5">dfhdf</div>
+          <div class="col-md-6 p-5">
+            <ul>
+              <li>
+                <h4>Giving Solution</h4>
+                <p>Lorem ipsum dolor amet consectetur labore dolore magna tempor.</p>
+              </li>
+              <li>
+                <h4>Reasonable Price</h4>
+                <p>Lorem ipsum dolor amet consectetur labore dolore magna tempor.</p>
+              </li>
+              <li>
+                <h4>professional operations</h4>
+                <p>Lorem ipsum dolor amet consectetur labore dolore magna tempor.</p>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
