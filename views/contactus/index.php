@@ -26,7 +26,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-md-6">
-            <div class="pl-lg-5 py-5 mx-auto my-4" style="max-width: 400px;">
+            <div class="pl-lg-5 py-lg-5 mx-auto my-4" style="max-width: 400px;">
               <h1 class="text-primary mb-4">Get in touch ?</h1>
               <p>For general enquiries <br>please email: <a href="mailto:info@APC.com" class="text-dark">info@APC.com </a></p>
 
@@ -74,11 +74,13 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 p-5" style="background: url(../../public/images/bg-contactus.jpg) no-repeat center;background-size: cover;">
-            <h4 class="text-head text-white mb-3">What we offer</h4>
-            <h1 class="text-white font-weight-light">Are you ready to work with us? <b>Let’s make a difference.</b></h1>
+            <div class="p-xl-5">
+              <h4 class="text-head text-white mb-3">What we offer</h4>
+              <h1 class="text-white font-weight-light" style="white-space: break-spaces;line-height: 65px;">Are you ready to work with us? <b>Let’s make a difference.</b></h1>
+            </div>
           </div>
           <div class="col-md-6 p-5">
-            <ul class="box-list-icon">
+            <ul class="box-list-icon p-xl-5">
               <li>
                 <img src="../../public/images/icon1.png" class="list-icon" alt="">
                 <h4>Giving Solution</h4>
@@ -108,7 +110,7 @@
               <h1 style="font-size: 60px;">APC</h1>
               <h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
               <p>Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.</p>
-              <a href="#" target="_blank" class="btn btn-dark btn-sm px-4" rel="noopener noreferrer">View google map</a>
+              <a href="https://maps.app.goo.gl/FT5v2SE9biizu6DM8" target="_blank" class="btn btn-dark btn-sm px-4" rel="noopener noreferrer">View google map</a>
             </div>
           </div>
           <div class="box-vision col-md-6">

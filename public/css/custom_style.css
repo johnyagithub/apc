@@ -296,6 +296,10 @@ div#navbarMain li.nav-item.active::after {
   position: absolute;
   bottom: -15px;
 }
+div#navbarMain li.nav-item a.nav-link {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 div#navbarMain li.nav-item:not(.active) a.nav-link:not(:hover) {
   color: #fff;
 }
@@ -1075,17 +1079,24 @@ li.list-group-item {
 ul.box-list-icon {
   list-style: none;
   padding: 0px;
+  margin: 0px;
 }
   ul.box-list-icon li {
     position: relative;
     padding-left: 50px;
     margin-bottom: 40px;
   }
+  ul.box-list-icon li:last-child {
+    margin-bottom: 0px;
+  }
     ul.box-list-icon li img.list-icon {
       width: 22px;
       position: absolute;
       left: 0px;
       top: 4px;
+    }
+    ul.box-list-icon li:last-child p {
+      margin-bottom: 0px;
     }
 
 .box-List .item {
