@@ -74,20 +74,23 @@
       <div class="container-fluid">
         <div class="row">
           <div class="col-md-6 p-5" style="background: url(../../public/images/bg-contactus.jpg) no-repeat center;background-size: cover;">
-          <h4 class="text-head text-white mb-3">What we offer</h4>
-          <h1 class="text-white font-weight-light">Are you ready to work with us? <b>Let’s make a difference.</b></h1>
+            <h4 class="text-head text-white mb-3">What we offer</h4>
+            <h1 class="text-white font-weight-light">Are you ready to work with us? <b>Let’s make a difference.</b></h1>
           </div>
           <div class="col-md-6 p-5">
-            <ul>
+            <ul class="box-list-icon">
               <li>
+                <img src="../../public/images/icon1.png" class="list-icon" alt="">
                 <h4>Giving Solution</h4>
                 <p>Lorem ipsum dolor amet consectetur labore dolore magna tempor.</p>
               </li>
               <li>
+                <img src="../../public/images/icon2.png" class="list-icon" alt="">
                 <h4>Reasonable Price</h4>
                 <p>Lorem ipsum dolor amet consectetur labore dolore magna tempor.</p>
               </li>
               <li>
+                <img src="../../public/images/icon3.png" class="list-icon" alt="">
                 <h4>professional operations</h4>
                 <p>Lorem ipsum dolor amet consectetur labore dolore magna tempor.</p>
               </li>
@@ -140,8 +143,8 @@
         var w = $(this).width();
         var t = (event.clientY - h / 2) * -1;
         var l = (event.clientX - w / 2) * -1;
-        $(this).find("img").css("transform","translate(" + l / 50 + "px, " + t / 50 + "px)");
-        $(this).find(".--text").css("transform","translate(" + l / 20 + "px, " + t / 20 + "px)");
+        $(this).find("img").css("transform", "translate(" + l / 50 + "px, " + t / 50 + "px)");
+        $(this).find(".--text").css("transform", "translate(" + l / 20 + "px, " + t / 20 + "px)");
       });
     });
   </script>
