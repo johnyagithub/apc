@@ -1072,6 +1072,22 @@ li.list-group-item {
     background: linear-gradient(to right, #ffffff 50%, transparent 50%);
   }
 
+ul.box-list-icon {
+  list-style: none;
+  padding: 0px;
+}
+  ul.box-list-icon li {
+    position: relative;
+    padding-left: 50px;
+    margin-bottom: 40px;
+  }
+    ul.box-list-icon li img.list-icon {
+      width: 22px;
+      position: absolute;
+      left: 0px;
+      top: 4px;
+    }
+
 .box-List .item {
   padding: 20px;
   background: #fff;
