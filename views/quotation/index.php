@@ -41,7 +41,7 @@
 		<section class="box-quotation bg-page py-5">
 			<div class="container">
 
-				<form action="../quotation/succeed.php" class="mx-auto mt-5 mb-2 pt-5" style="max-width: 500px;">
+				<form action="../quotation/succeed.php" class="mx-auto mt-xl-5 mb-2 pt-xl-5" style="max-width: 500px;">
 					<div class="form-group">
 						<label for="">First name - Last name</label>
 						<input type="text" class="form-control" id="" placeholder="name">

@@ -1193,8 +1193,12 @@ section.box-services {
     }
     @media only screen and (min-width: 320px) and (max-width: 767px) {
       .box-services .head-services {
-        font-size: 3rem !important;
-        height: 46px;
+        font-size: 30px !important;
+        height: auto;
+        color: #000;
+        width: auto;
+        z-index: 1;
+        position: relative;
       }
       .box-services .list-services:nth-child(4n+2)::before {
         top: auto;
