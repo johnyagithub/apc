@@ -26,18 +26,18 @@
         <div class="text-center text-md-left mt-4">
           <div class="row">
             <div class="col-6 mb-3">
-              <a href="../product/" class="d-block fs-18 text-white fw-500 border-gray-900">Product</a>
-              <a href="../product/" class="d-block hov-opacity-70 text-reset">Architectural Lightings</a>
-              <a href="../product/" class="d-block hov-opacity-70 text-reset">Façade Lightings</a>
-              <a href="../product/" class="d-block hov-opacity-70 text-reset">Decorative Lightings</a>
-              <a href="../product/" class="d-block hov-opacity-70 text-reset">Furniture</a>
+              <a href="#" class="d-block fs-18 text-white fw-500 border-gray-900">Product</a>
+              <a href="../services/detail.php" class="d-block hov-opacity-70 text-reset">Architectural Lightings</a>
+              <a href="../services/detail.php" class="d-block hov-opacity-70 text-reset">Façade Lightings</a>
+              <a href="../services/detail.php" class="d-block hov-opacity-70 text-reset">Decorative Lightings</a>
+              <a href="../services/detail.php" class="d-block hov-opacity-70 text-reset">Furniture</a>
             </div>
             <div class="col-6 mb-3">
-              <a href="../catalog/" class="d-block fs-18 text-white fw-500 border-gray-900">Catalog</a>
-              <a href="../catalog/" class="d-block hov-opacity-70 text-reset">LED light</a>
-              <a href="../catalog/" class="d-block hov-opacity-70 text-reset">Fluorescent light</a>
-              <a href="../catalog/" class="d-block hov-opacity-70 text-reset">Halo light</a>
-              <a href="../catalog/" class="d-block hov-opacity-70 text-reset">Table + Floor lamb</a>
+              <a href="#" class="d-block fs-18 text-white fw-500 border-gray-900">Catalog</a>
+              <a href="../product/" class="d-block hov-opacity-70 text-reset">LED light</a>
+              <a href="../product/" class="d-block hov-opacity-70 text-reset">Fluorescent light</a>
+              <a href="../product/" class="d-block hov-opacity-70 text-reset">Halo light</a>
+              <a href="../product/" class="d-block hov-opacity-70 text-reset">Table + Floor lamb</a>
             </div>
             <div class="col-6 mb-3">
               <a href="../portfolio/" class="d-block fs-18 text-white fw-500 border-gray-900">Portfolio</a>
@@ -49,7 +49,7 @@
               <a href="../aboutus/" class="d-block fs-18 text-white fw-500 border-gray-900">About us</a>
             </div>
             <div class="col-6 mb-3">
-              <a href="../contact/" class="d-block fs-18 text-white fw-500 border-gray-900">Contact us</a>
+              <a href="../contactus/" class="d-block fs-18 text-white fw-500 border-gray-900">Contact us</a>
             </div>
           </div>
         </div>
