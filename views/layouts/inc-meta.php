@@ -1,4 +1,4 @@
-<title>lighting</title>
+<title>apc</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="keywords" content="">
@@ -7,10 +7,10 @@
 
 <meta name="format-detection" content="telephone=no">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1 ,minimal-ui">
-<link rel="icon" href="../../public/images/favicon.png" type="image/gif" sizes="16x16">
+<link rel="icon" href="../../public/images/logo.png" type="image/gif" sizes="16x16">
 
 <!-- begin content share -->
-<meta property="og:title" content="lighting">
+<meta property="og:title" content="apc">
 <meta property="og:type" content="website">
 <meta property="og:url" content="">
 <meta property="og:image" content="">
@@ -18,7 +18,7 @@
 <meta name="twitter:card" content="">
 <meta name="twitter:site" content="">
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="lighting">
+<meta name="twitter:title" content="apc">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="">
 <!-- end content share -->
