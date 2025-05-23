@@ -24,7 +24,7 @@
 						<div class="col-lg-6 p-sm-0 order-lg-1">
 							<img src="../../public/images/img-quotation.jpg" class="rounded img-container2 mb-0" alt="">
 						</div>
-						<div class="col-lg-6 pt-4 py-md-5">
+						<div class="col-lg-6 pt-4 py-md-5" data-aos="fade-left">
 							<h1 class="head-services">Architecture lighting</h1>
 							<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
 							<p class="m-0">Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space. Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.Enhance architecture with the perfect balance of light and shadow.</p>
@@ -39,7 +39,7 @@
 						<div class="col-lg-6 p-sm-0 order-lg-1">
 							<img src="../../public/images/img-quotation.jpg" class="rounded img-container2 mb-0" alt="">
 						</div>
-						<div class="col-lg-6 pt-4 py-md-5">
+						<div class="col-lg-6 pt-4 py-md-5" data-aos="fade-left">
 							<h1 class="head-services">Facade Lighting</h1>
 							<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
 							<p class="m-0">Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space. Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.Enhance architecture with the perfect balance of light and shadow.</p>
@@ -54,7 +54,7 @@
 						<div class="col-lg-6 p-sm-0 order-lg-1">
 							<img src="../../public/images/img-quotation.jpg" class="rounded img-container2 mb-0" alt="">
 						</div>
-						<div class="col-lg-6 pt-4 py-md-5">
+						<div class="col-lg-6 pt-4 py-md-5" data-aos="fade-left">
 							<h1 class="head-services">Decorate Lighting </h1>
 							<h6>Transform spaces with innovative architectural lighting. Elevate design with precision, ambiance, and functionality.</h6>
 							<p class="m-0">Enhance architecture with the perfect balance of light and shadow. Our innovative lighting solutions bring aesthetics, functionality, and energy efficiency to every space.</p>
@@ -69,7 +69,7 @@
 						<div class="col-lg-6 p-sm-0 order-lg-1">
 							<img src="../../public/images/img-quotation.jpg" class="rounded img-container2 mb-0" alt="">
 						</div>
-						<div class="col-lg-6 pt-4 py-md-5">
+						<div class="col-lg-6 pt-4 py-md-5" data-aos="fade-left">
 							<h1 class="head-services">Furniture</h1>
 							<h6>Transform Your Building’s Façade with Stunning Lighting</h6>
 							<p class="m-0">Façade lighting enhances architectural beauty, improves visibility, and creates a lasting impression. Elevate your building’s exterior with cutting-edge lighting solutions designed for aesthetics, functionality, and energy efficiency.</p>

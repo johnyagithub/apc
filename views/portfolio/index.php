@@ -37,7 +37,7 @@
 			<div class="container">
 				<div class="box-List row py-3">
 
-					<div class="col-md-6 card">
+					<div class="col-md-6 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">
@@ -50,7 +50,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 card">
+					<div class="col-md-6 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">
@@ -63,7 +63,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 card">
+					<div class="col-md-6 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">
@@ -76,7 +76,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 card">
+					<div class="col-md-6 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">
@@ -89,7 +89,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 card">
+					<div class="col-md-6 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">
@@ -102,7 +102,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 card">
+					<div class="col-md-6 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">

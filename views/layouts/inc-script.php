@@ -10,6 +10,8 @@
 <script type="text/javascript" src="../../plugins/owlcarousel/owl.carousel.js"></script>
 <!-- fancybox3 -->
 <script src="../../plugins/fancyBox3/dist/jquery.fancybox.min.js"></script>
+<!-- Animate on scroll -->
+<script type="text/javascript" src="../../plugins/aos/aos.js"></script>
 <!-- datepicker -->
 <script type="text/javascript">
   var datefield = document.createElement("input")

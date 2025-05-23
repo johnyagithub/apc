@@ -26,7 +26,7 @@
 			<div class="container">
 				<div class="box-List row py-3">
 
-					<div class="col-sm-6 col-lg-4 card">
+					<div class="col-sm-6 col-lg-4 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../news/detail.php">
 								<div class="img">
@@ -40,7 +40,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-4 card">
+					<div class="col-sm-6 col-lg-4 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../news/detail.php">
 								<div class="img">
@@ -54,7 +54,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-4 card">
+					<div class="col-sm-6 col-lg-4 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../news/detail.php">
 								<div class="img">
@@ -68,7 +68,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-4 card">
+					<div class="col-sm-6 col-lg-4 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../news/detail.php">
 								<div class="img">
@@ -82,7 +82,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-4 card">
+					<div class="col-sm-6 col-lg-4 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../news/detail.php">
 								<div class="img">
@@ -96,7 +96,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-sm-6 col-lg-4 card">
+					<div class="col-sm-6 col-lg-4 card"  data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../news/detail.php">
 								<div class="img">

@@ -5,6 +5,7 @@ $(function () {
 	sliderBanner();
 	sliderWhatwedo();
 	sliderRecommend();
+	myNumber();
 
 	if (localStorage.getItem('cookie') != 'allow') {
 		setTimeout(function () { $('#cookie-con-head').addClass('show'); }, 5000);
@@ -19,6 +20,12 @@ $(function () {
 
 	$('header .navbar-collapse+.box-shadow').click(function () {
 		$('header button.navbar-toggler').click();
+	});
+
+	AOS.init({
+		duration: 500,
+		easing: 'ease-in-sine',
+		once: true
 	});
 
 });
@@ -49,6 +56,10 @@ let sliderItem = () => {
 			margin: 20,
 			nav: false,
 			dots: false,
+			loop: true,
+			autoplay:true,
+			autoplayTimeout:3000,
+			autoplayHoverPause:true,
 			lazyLoad: true,
 			responsiveClass: true,
 			responsive: {
@@ -163,4 +174,34 @@ let myDeleteItem = (i) => {
 		$("#cart_items2").remove();
 	}
 	$('#cart_items .badge,#cart_items2 span').text($(".box-cart tbody tr").length);
+}
+
+let myNumber = () => {
+	let counted = false;
+
+  function isScrolledIntoView(elem) {
+    const docViewTop = $(window).scrollTop();
+    const docViewBottom = docViewTop + $(window).height();
+    const elemTop = $(elem).offset().top;
+    return elemTop <= docViewBottom;
+  }
+
+  $(window).on('scroll', function() {
+    const $b = $('section.box-Whatwedo .number-outline');
+
+    if (!counted && isScrolledIntoView($b)) {
+      counted = true;
+      const target = parseInt($b.attr('data-target')) || 0;
+      $b.prop('Counter', 0).animate({
+        Counter: target
+      }, {
+        duration: 1500,
+        easing: 'swing',
+        step: function(now) {
+          $b.text(Math.ceil(now));
+        }
+      });
+    }
+  });
+
 }

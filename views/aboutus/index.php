@@ -17,14 +17,14 @@
 	<div id="content" class="content">
 
 		<section class="box-detail">
-			<div class="float-md-right d-block pl-md-5 pb-md-5 w-100 w-md-50">
+			<div class="float-md-right d-block pl-md-5 pb-md-5 w-100 w-md-50"  data-aos="fade-up">
 				<a href="https://placehold.co/700x450.jpg" data-fancybox="aboutus_banner" class="m-0 rounded-0">
 					<img src="https://placehold.co/700x450.jpg">
 				</a>
 			</div>
 
 			<div class="pt-5 pb-3">
-				<div class="container">
+				<div class="container"  data-aos="fade">
 
 					<h2 class="text-uppercase mb-0">Discover More</h2>
 					<h2 class="text-uppercase text-primary">About us</h2>

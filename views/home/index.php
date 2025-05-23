@@ -186,7 +186,7 @@
 							<div class="o-prev btn btn-outline-light"><i class="fa fa-angle-left"></i></div>
 							<div class="o-next btn btn-primary"><i class="fa fa-angle-right"></i></div>
 						</div>
-						<div class="number-outline">100</div>
+						<div class="number-outline" data-target="100">0</div>
 						<p class="text-muted">Guarantee our experiencedStaff ready to help you</p>
 					</div>
 					<div class="col-sm-6 col-lg-9">
@@ -333,7 +333,7 @@
 
 				<div class="box-List row py-3">
 
-					<div class="col-md-6 card">
+					<div class="col-md-6 card" data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">
@@ -346,7 +346,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 card">
+					<div class="col-md-6 card" data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">
@@ -359,7 +359,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 card">
+					<div class="col-md-6 card" data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">
@@ -372,7 +372,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 card">
+					<div class="col-md-6 card" data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">
@@ -385,7 +385,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 card">
+					<div class="col-md-6 card" data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">
@@ -398,7 +398,7 @@
 							</a>
 						</div>
 					</div>
-					<div class="col-md-6 card">
+					<div class="col-md-6 card" data-aos="fade-up" data-aos-duration="300">
 						<div class="item">
 							<a href="../portfolio/detail.php">
 								<div class="img">

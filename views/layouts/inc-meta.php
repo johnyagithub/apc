@@ -39,4 +39,6 @@
 <link rel="stylesheet" type="text/css" href="../../plugins/owlcarousel/owl.carousel.min.css">
 <!-- fancybox3 -->
 <link rel="stylesheet" href="../../plugins/fancyBox3/dist/jquery.fancybox.css">
+<!-- Animate on scroll -->
+<link rel="stylesheet" type="text/css" href="../../plugins/aos/aos.css" />
 <!-- ================== END PAGE LEVEL STYLE ================== -->

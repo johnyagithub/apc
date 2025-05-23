@@ -1134,7 +1134,22 @@ ul.box-list-icon {
   .box-List .item .img {
     border-radius: var(--border_radius);
     margin-bottom: 15px;
+    position: relative;
   }
+  .box-List .item .img::after {
+    content: "";
+    background-color: var(--primary);
+    inset: 0;
+    position: absolute;
+    opacity: 0;
+    transition: all .2s;
+    transform: scale(0.9);
+    border-radius: var(--border_radius);
+  }
+    .box-List .item:hover .img::after {
+      opacity: .8;
+      transform: scale(1);
+    }
 
 section.box-services {
   background-color: #E3E3E3;
@@ -1170,6 +1185,12 @@ section.box-services {
     background-size: auto calc(100% - 11px);
     top: auto;
   }
+    .box-services .list-services:nth-child(even) [data-aos=fade-left] {
+      transform: translate3d(-100px, 0, 0);
+    }
+    .box-services .list-services:nth-child(even) [data-aos^=fade][data-aos^=fade].aos-animate {
+      transform: translateZ(0);
+    }
     .box-services .head-services {
       color: #fff;
       font-size: 6rem !important;
@@ -1633,7 +1654,53 @@ div#content section.box-grid {
       position: relative;
       overflow: hidden;
       border-radius: var(--border_radius);
-   }
+      position: relative;
+    }
+    .box-grid .grid-item::before {
+      content: "";
+      position: absolute;
+      width: 20px;
+      top: 30px;
+      right: 30px;
+      aspect-ratio: 1;
+      background: url(../images/icon-more.png) no-repeat center;
+      background-size: contain;
+      -webkit-transform: scale(0);
+      -moz-transform: scale(0);
+      -ms-transform: scale(0);
+      -o-transform: scale(0);
+      transform: scale(0);
+      z-index: 1;
+      -webkit-transition : all 0.3s ease-out 0s;
+      -moz-transition: all 0.3s ease-out 0s;
+      -ms-transition: all 0.3s ease-out 0s;
+      -o-transition: all 0.3s ease-out 0s;
+      transition: all 0.3s ease-out 0s;
+    }
+      .box-grid .grid-item:hover::before {
+        opacity: .8;
+        -webkit-transform: scale(1) rotate(0);
+        -moz-transform: scale(1) rotate(0);
+        -ms-transform: scale(1) rotate(0);
+        -o-transform: scale(1) rotate(0);
+        transform: scale(1) rotate(0)
+      }
+
+    .box-grid .grid-item::after {
+      content: "";
+      background-color: var(--primary);
+      inset: 0;
+      position: absolute;
+      opacity: 0;
+      transition: all .2s;
+      transform: scale(0.9);
+      border-radius: var(--border_radius);
+    }
+      .box-grid .grid-item:hover::after {
+        opacity: .8;
+        transform: scale(1);
+      }
+
    .box-grid .grid-item:not(:nth-child(-n+4)) {
       display: none;
    }
